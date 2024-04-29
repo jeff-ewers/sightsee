@@ -7,7 +7,7 @@ import { TripsList } from "./TripsList"
 import { getTripsWithPlaces } from "../../services/tripService"
 import { UpdateTripsContext } from "../../providers/UpdateTripsProvider"
 import './TripsList.css'
-import { getNearbyPlaces, pingProxy } from "../../services/tripadvisorService"
+import { getNearbyPlaces} from "../../services/tripadvisorService"
 // import { Map } from "../map/Map"
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
