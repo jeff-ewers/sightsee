@@ -1,0 +1,283 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "jeff",
+      "email": "jeff@sightsee.ing"
+    },
+    {
+      "id": 2,
+      "name": "vika",
+      "email": "vika@sightsee.ing"
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "name": "Eiffel Tower",
+      "desc": "A wrought-iron lattice tower on the Champ de Mars.",
+      "categoryId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Louvre Museum",
+      "desc": "One of the world's largest museums and a historic monument.",
+      "categoryId": 2,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "name": "Parc de la Villette",
+      "desc": "A public park in the 19th arrondissement.",
+      "categoryId": 3,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "name": "Le Marais",
+      "desc": "A neighborhood in the 3rd and 4th arrondissements.",
+      "categoryId": 4,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Notre-Dame Cathedral",
+      "desc": "A historic Roman Catholic cathedral on an island in the Seine.",
+      "categoryId": 1,
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "name": "Montmartre",
+      "desc": "A district in the 18th arrondissement of Paris, France.",
+      "categoryId": 2,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "name": "Champs-Élysées",
+      "desc": "A famous avenue in Paris, France.",
+      "categoryId": 1,
+      "userId": 1
+    },
+    {
+      "id": 8,
+      "name": "Le Bon Marché",
+      "desc": "A department store in Paris, France.",
+      "categoryId": 5,
+      "userId": 2
+    },
+    {
+      "id": 9,
+      "name": "Café de Flore",
+      "desc": "A famous café in Paris, France.",
+      "categoryId": 4,
+      "userId": 1
+    },
+    {
+      "id": 10,
+      "name": "Le Dôme",
+      "desc": "A historic café in Paris, France.",
+      "categoryId": 4,
+      "userId": 1
+    },
+    {
+      "id": 11,
+      "name": "Cinéma Pathé",
+      "desc": "A historic cinema in Paris, France.",
+      "categoryId": 2,
+      "userId": 2
+    },
+    {
+      "id": 12,
+      "name": "Le Zoo de Paris",
+      "desc": "A zoo in Paris, France.",
+      "categoryId": 3,
+      "userId": 2
+    },
+    {
+      "id": 13,
+      "name": "Le Jardin des Tuileries",
+      "desc": "A royal garden in Paris, France.",
+      "categoryId": 3,
+      "userId": 1
+    },
+    {
+      "id": 14,
+      "name": "Le Stade de France",
+      "desc": "A football stadium in Paris, France.",
+      "categoryId": 6,
+      "userId": 2
+    },
+    {
+      "id": 15,
+      "name": "Le Parc des Princes",
+      "desc": "A multi-purpose stadium in Paris, France.",
+      "categoryId": 6,
+      "userId": 1
+    },
+    {
+      "name": "Cafe",
+      "desc": "sfsfsf",
+      "categoryId": 4,
+      "userId": 1,
+      "id": 16
+    }
+  ],
+  "trips": [
+    {
+      "name": "Historical Paris Tour",
+      "desc": "A tour focusing on historical sites in Paris.",
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "name": "Art and Culture Adventure",
+      "desc": "A trip exploring art, culture, and museums in Paris.",
+      "id": 2,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "Foodie's Dream",
+      "desc": "A culinary adventure through Paris's best restaurants.",
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "name": "Walking Tours of Paris",
+      "desc": "A walking tour exploring Parisian neighborhoods.",
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "name": "Nature and Outdoors",
+      "desc": "A trip exploring Paris's parks and outdoor activities.",
+      "userId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "historical"
+    },
+    {
+      "id": 2,
+      "category": "cultural"
+    },
+    {
+      "id": 3,
+      "category": "natural"
+    },
+    {
+      "id": 4,
+      "category": "dining"
+    },
+    {
+      "id": 5,
+      "category": "shopping"
+    },
+    {
+      "id": 6,
+      "category": "athletic"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "tripId": 1,
+      "placeId": 1
+    },
+    {
+      "id": 2,
+      "tripId": 1,
+      "placeId": 2
+    },
+    {
+      "id": 3,
+      "tripId": 1,
+      "placeId": 6
+    },
+    {
+      "id": 4,
+      "tripId": 2,
+      "placeId": 2
+    },
+    {
+      "id": 5,
+      "tripId": 2,
+      "placeId": 5
+    },
+    {
+      "id": 6,
+      "tripId": 2,
+      "placeId": 6
+    },
+    {
+      "id": 8,
+      "tripId": 3,
+      "placeId": 9
+    },
+    {
+      "id": 9,
+      "tripId": 3,
+      "placeId": 10
+    },
+    {
+      "id": 8,
+      "tripId": 3,
+      "placeId": 9
+    },
+    {
+      "id": 9,
+      "tripId": 3,
+      "placeId": 7
+    },
+    {
+      "id": 10,
+      "tripId": 4,
+      "placeId": 1
+    },
+    {
+      "id": 11,
+      "tripId": 4,
+      "placeId": 2
+    },
+    {
+      "id": 12,
+      "tripId": 4,
+      "placeId": 3
+    },
+    {
+      "id": 13,
+      "tripId": 4,
+      "placeId": 7
+    },
+    {
+      "id": 14,
+      "tripId": 4,
+      "placeId": 13
+    },
+    {
+      "id": 15,
+      "tripId": 5,
+      "placeId": 1
+    },
+    {
+      "id": 16,
+      "tripId": 5,
+      "placeId": 3
+    },
+    {
+      "id": 17,
+      "tripId": 5,
+      "placeId": 12
+    },
+    {
+      "id": 18,
+      "tripId": 5,
+      "placeId": 15
+    }
+  ]
+}
