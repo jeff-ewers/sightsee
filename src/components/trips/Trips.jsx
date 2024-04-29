@@ -1,13 +1,14 @@
 import "mapbox-gl/dist/mapbox-gl.css"
 import { useEffect, useState, useContext, useMemo } from "react"
-import ReactMapGL from 'react-map-gl'
+import Map from 'react-map-gl'
 import { Marker } from "react-map-gl"
 import mapboxgl from "mapbox-gl"
 import { TripsList } from "./TripsList"
 import { getTripsWithPlaces } from "../../services/tripService"
 import { UpdateTripsContext } from "../../providers/UpdateTripsProvider"
 import './TripsList.css'
-import { Map } from "../map/Map"
+import { getNearbyPlaces, pingProxy } from "../../services/tripadvisorService"
+// import { Map } from "../map/Map"
 
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 
@@ -29,6 +30,8 @@ export const Trips = ({currentUser}) => {
     const [trips, setTrips] = useState([])
     const { updateTrips, setUpdateTrips } = useContext(UpdateTripsContext);
     
+
+
     useEffect(() => {
         getTripsWithPlaces(currentUser.id).then(userTrips => {setTrips(userTrips)})
     }, [currentUser.id])
@@ -41,27 +44,34 @@ export const Trips = ({currentUser}) => {
     }, [updateTrips, setUpdateTrips])
 
 
-    const handleDblClick = (e) => {
-      setNewPlace({
-        lat: e.lngLat.lat,
-        lng: e.lngLat.lng
-      });
+    const handleDblClick = async (e) => {
+      // setNewPlace([
+      //   e.lngLat.lat,
+      //   e.lngLat.lng
+      // ]);
+
+      //tripadvisor api fetch
+      let nearbyPlaces = await getNearbyPlaces(e.lngLat.lat, e.lngLat.lng);
+      console.log(nearbyPlaces)
     }
     document.body.style = 'background: #004F32;';
-    const popup = useMemo(() => {
-      return new mapboxgl.Popup().setText('Location found');
-    }, [])
+    // const popup = useMemo(() => {
+    //   return new mapboxgl.Popup().setText('Location found');
+    // }, [])
+
+
   
 return (
     <div className="trips">
         <div style={{ width: "100vw", height: "450px", zIndex: 10}}>
           {/* <Map>
-
+          //Map.jsx (mapbox-gl implementation)
           </Map> */}
-      <ReactMapGL 
-      {...viewport}
+      <Map 
+      initialViewState={viewport}
       mapboxAccessToken={TOKEN}
       mapStyle="mapbox://styles/sightsee-admin/clv65kdd702s401pk1yu1dsi8/draft"
+      transitionDuration='200'
       onViewportChange={(viewport) => setViewport(viewport)}
       onDblClick={handleDblClick}
       >
@@ -69,10 +79,12 @@ return (
           <Marker>
             latitude={newPlace?.lat}
             longitude={newPlace?.lng}
-            popup={popup}
+            offsetLeft={-3.5*viewport.zoom}
+            offsetTop={-3.5*viewport.zoom}
+            {/* popup={popup} */}
           </Marker>
        ) : null}
-      </ReactMapGL>
+      </Map>
       </div>
       <div className="trips-list__container">
         <TripsList 
