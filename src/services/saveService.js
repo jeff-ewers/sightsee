@@ -85,3 +85,14 @@ export const saveTripAndPlaces = async (transientTrip, transientPlaces) => {
         console.error("Error saving trip and places:", error);
     });
 };
+
+export const savePlaceDetails = (placeDetails) => {
+    return fetch('http://localhost:8088/placeDetails', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(placeDetails),
+    })
+    .then(response => response.json());
+}
