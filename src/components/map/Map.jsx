@@ -95,7 +95,7 @@ export const Map = () => {
             selectedPlace.description}</p>
           )}
           {selectedPlace.rating_image_url && (
-            <img src={selectedPlace.rating_image_url} alt="Rating" style={{ width: '100%', marginTop: '10px' }} />
+            <img src={selectedPlace.rating_image_url} alt="Rating" style={{ width: '100%', marginTop: '10px', marginLeft: '-13px' }} />
           )}
         </div>
         </Popup>
