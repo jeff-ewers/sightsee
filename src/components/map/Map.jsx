@@ -10,12 +10,12 @@ const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 export const Map = () => {
  const [viewport, setViewport] = useState({
-    latitude: 48.858093,
-    longitude: 2.299694,
+    latitude: 48.85447,
+    longitude: 2.302967,
     width: "100vw",
     height: "100vh",
     pitch: 67,
-    zoom: 15
+    zoom: 16
  });
  const [newPlace, setNewPlace] = useState(null);
  const [nearbyPlaceDetails, setNearbyPlaceDetails] = useState([]);
@@ -24,16 +24,27 @@ export const Map = () => {
 
  const handleDblClick = useCallback(
     async (e) => {
+      console.time("nearby places")
       setNewPlace([e.lngLat.lat, e.lngLat.lng]);
+      console.log("clearing place details")
       const deleteRes = await deleteAllPlaceDetails();
+      console.timeLog("nearby places")
+      console.log("fetching nearby places")
       const nearbyPlaces = await getNearbyPlacesByCategory(e.lngLat.lat, e.lngLat.lng, placeCategory);
+      console.timeLog("nearby places")
       const nearbyDetails = [];
       for (const nearbyPlace of nearbyPlaces.data) {
+        console.log("fetching nearby place details")
         let details = await getLocationDetails(nearbyPlace.location_id);
+        console.timeLog("nearby places")
         nearbyDetails.push(details);
+        console.log("caching place details")
         savePlaceDetails(details);
+        console.timeLog("nearby places")
       }
+      console.log("setting state")
       setNearbyPlaceDetails(nearbyDetails);
+      console.timeLog("nearby places")
     },
     []
  );
@@ -59,6 +70,7 @@ export const Map = () => {
       doubleClickZoom={false}
     >
       {nearbyPlaceDetails.map((place, index) => (
+        
         <Marker
           key={index}
           latitude={place.latitude}
