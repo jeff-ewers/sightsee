@@ -43,28 +43,32 @@ export const getNearbyPlaces = (lat, long) => {
       .catch(err => console.error(err));
   };
 
-  export const getNearbyPlacesByCategory = (lat, long, categoryId) => {
-    let categoryString = `&category=`
-    switch (categoryId) {
-      case '1':
-        categoryString += `hotels`;
-        break;
-      case '2':
-        categoryString += `attractions`;
-        break;
-      case '3':
-        categoryString += `restaurants`;
-        break;
-      case '4':
-        categoryString += `geos`;
-        break;
-      default:
-        categoryString = '';
+  export const getNearbyPlacesByCategory = (lat, long, category) => {
+    let categoryString = ``
+    if(category) {
+      categoryString += `&category=${category}`
     }
+  
+    
+    // switch (categoryId) {
+    //   case '1':
+    //     categoryString += `hotels`;
+    //     break;
+    //   case '2':
+    //     categoryString += `attractions`;
+    //     break;
+    //   case '3':
+    //     categoryString += `restaurants`;
+    //     break;
+    //   case '4':
+    //     categoryString += `geos`;
+    //     break;
+    //   default:
+    //     categoryString = '';
+    // }
     const proxyUrl = 'http://localhost:3000/api';
     const apiUrl = `/location/nearby_search?latLong=${lat}%2C%20${long}&key=${TOKEN}${categoryString}&language=en`;
     const url = `${proxyUrl}${apiUrl}`;
-
     const options = {
       method: 'GET',
       headers: {

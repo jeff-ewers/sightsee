@@ -282,15 +282,16 @@
   ],
   "placeDetails": [
     {
-      "location_id": "25930082",
-      "name": "Gusto Italia",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d25930082-Reviews-Gusto_Italia-Paris_Ile_de_France.html?m=66827",
+      "location_id": "265476",
+      "name": "Hotel de Londres Eiffel",
+      "description": "Independent charming hotel, L'Hotel de Londres Eiffel offers you 30 rooms all equipped with air conditioning with bathroom wc, or shower wc. High speed (optic-fiber) free and secured Wifi.We are situated at 2 minutes by walk from the Eiffel tower, near rue Cler, near Invalides. Some of our rooms have a view on the Eiffel tower.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d265476-Reviews-Hotel_de_Londres_Eiffel-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "11 Rue Amelie",
+        "street1": "1 rue Augereau",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "11 Rue Amelie, 75007 Paris France"
+        "address_string": "1 rue Augereau, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -309,194 +310,242 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.85899",
-      "longitude": "2.307749",
+      "latitude": "48.857964",
+      "longitude": "2.301617",
       "timezone": "Europe/Paris",
-      "email": "gustoitaliaparis7@gmail.com",
-      "phone": "+33 1 53 86 87 10",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d25930082-Gusto_Italia-Paris_Ile_de_France.html?m=66827",
-      "num_reviews": "0",
-      "subratings": {},
-      "photo_count": "3",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d25930082-m66827-Reviews-Gusto_Italia-Paris_Ile_de_France.html#photos",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "1100"
-            },
-            "close": {
-              "day": 1,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1100"
-            },
-            "close": {
-              "day": 2,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1100"
-            },
-            "close": {
-              "day": 3,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1100"
-            },
-            "close": {
-              "day": 4,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1100"
-            },
-            "close": {
-              "day": 5,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "1100"
-            },
-            "close": {
-              "day": 6,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 7,
-              "time": "1100"
-            },
-            "close": {
-              "day": 7,
-              "time": "2300"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 11:00 - 23:00",
-          "Tuesday: 11:00 - 23:00",
-          "Wednesday: 11:00 - 23:00",
-          "Thursday: 11:00 - 23:00",
-          "Friday: 11:00 - 23:00",
-          "Saturday: 11:00 - 23:00",
-          "Sunday: 11:00 - 23:00"
-        ]
+      "phone": "01133186766902",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d265476-Hotel_de_Londres_Eiffel-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#7 of 1,896 hotels in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1896",
+        "ranking": "7"
       },
-      "features": [
-        "Accepts American Express",
-        "Accepts Credit Cards",
-        "Accepts Mastercard",
-        "Accepts Visa",
-        "Delivery",
-        "Digital Payments",
-        "Free Wifi",
-        "Gift Cards Available",
-        "Non-smoking restaurants",
-        "Parking Available",
-        "Private Dining",
-        "Reservations",
-        "Seating",
-        "Serves Alcohol",
-        "Street Parking",
-        "Wheelchair Accessible",
-        "Wine and Beer"
-      ],
-      "cuisine": [
-        {
-          "name": "italian",
-          "localized_name": "Italian"
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "2176",
+      "review_rating_count": {
+        "1": "8",
+        "2": "11",
+        "3": "67",
+        "4": "331",
+        "5": "1759"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         },
-        {
-          "name": "pizza",
-          "localized_name": "Pizza"
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
         },
-        {
-          "name": "seafood",
-          "localized_name": "Seafood"
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
         },
-        {
-          "name": "european",
-          "localized_name": "European"
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         },
-        {
-          "name": "romana",
-          "localized_name": "Romana"
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
         },
-        {
-          "name": "lazio",
-          "localized_name": "Lazio"
-        },
-        {
-          "name": "centralitalian",
-          "localized_name": "Central-Italian"
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         }
+      },
+      "photo_count": "949",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d265476-m66827-Reviews-Hotel_de_Londres_Eiffel-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Pets Allowed",
+        "Public Wifi",
+        "Non-smoking rooms",
+        "Concierge",
+        "Air conditioning",
+        "Family Rooms",
+        "Multilingual Staff",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Breakfast Available",
+        "Housekeeping",
+        "Baggage Storage",
+        "Blackout Curtains",
+        "Board Games / Puzzles",
+        "24-Hour Check-in",
+        "Desk",
+        "English",
+        "Complimentary Toiletries",
+        "French",
+        "24-Hour Front Desk",
+        "Hair Dryer",
+        "Ironing Service",
+        "Private Check-in / Check-out",
+        "24-Hour Security",
+        "Shared Lounge / TV Area",
+        "Special Diet Menus",
+        "Taxi Service",
+        "Telephone",
+        "Wake Up Service / Alarm Clock",
+        "Bottled Water",
+        "Cable / Satellite TV",
+        "Express Check-in / Check-out",
+        "Clothes Rack",
+        "Coffee / Tea Maker",
+        "Electric Kettle",
+        "German",
+        "Highchairs Available",
+        "Interconnected room(s) available",
+        "Iron",
+        "Landmark View",
+        "Newspaper",
+        "Paid Public Parking Nearby",
+        "Radio",
+        "Spanish",
+        "Walk-in Shower",
+        "Wardrobe / Closet"
       ],
       "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
-      "subcategory": [],
-      "neighborhood_info": [],
+      "subcategory": [
+        {
+          "name": "hotel",
+          "localized_name": "Hotel"
+        }
+      ],
+      "styles": [
+        "Value",
+        "Charming"
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
       "trip_types": [
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "0"
+          "value": "73"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "0"
+          "value": "971"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "0"
+          "value": "135"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "0"
+          "value": "542"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "0"
+          "value": "151"
         }
       ],
-      "awards": [],
+      "awards": [
+        {
+          "award_type": "Travelers Choice Best of the Best",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2024_L.png"
+          },
+          "categories": [
+            "Top"
+          ],
+          "display_name": "Travelers Choice Best of the Best"
+        },
+        {
+          "award_type": "Travelers Choice Best of the Best",
+          "year": "2023",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2023_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2023_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2023_L.png"
+          },
+          "categories": [
+            "Top"
+          ],
+          "display_name": "Travelers Choice Best of the Best"
+        },
+        {
+          "award_type": "Travelers Choice",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        },
+        {
+          "award_type": "Travelers Choice",
+          "year": "2023",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        }
+      ],
       "id": 1
     },
     {
-      "location_id": "27202095",
-      "name": "Reed",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d27202095-Reviews-Reed-Paris_Ile_de_France.html?m=66827",
+      "location_id": "499907",
+      "name": "Hotel De La Tour Eiffel",
+      "description": "Hotel de la Tour Eiffel is an excellent choice for travelers visiting Paris, offering many helpful amenities designed to enhance your stay.\nClose to some of Paris' most popular landmarks, such as Louvre Museum (1.5 mi) and The Catacombs of Paris (2.1 mi), Hotel de la Tour Eiffel is a great destination for tourists.\nHotel de la Tour Eiffel offers guests an array of room amenities including a flat screen TV, air conditioning, and a desk, and getting online is possible, as free wifi is available.\nThe hotel offers a 24 hour front desk, baggage storage, and express check-in and check-out, to make your visit even more pleasant. Guests arriving by vehicle have access to parking.\nWhile in Paris, you may want to check out some of the restaurants that are a short walk away from Hotel de la Tour Eiffel, including 58 Tour Eiffel (0.4 mi), Le Jules Verne (0.4 mi), and L'Avenue (0.7 mi).\nIf you’re looking for something to do, Eiffel Tower (0.4 mi), Musée d'Orsay (1.1 mi), and Arc de Triomphe (1.2 mi) are a nice way to spend some time, and they are all within walking distance of Hotel Tour Eiffel.\nEnjoy your stay in Paris!\n",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d499907-Reviews-Hotel_De_La_Tour_Eiffel-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "11bis Rue Amelie",
+        "street1": "17 rue de l Exposition",
+        "street2": "",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "11bis Rue Amelie, 75007 Paris France"
+        "address_string": "17 rue de l Exposition, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -515,71 +564,168 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.858826",
-      "longitude": "2.307663",
+      "latitude": "48.857655",
+      "longitude": "2.303054",
       "timezone": "Europe/Paris",
-      "phone": "+33 1 45 55 88 40",
-      "website": "https://www.facebook.com/387272098010206",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d27202095-Reed-Paris_Ile_de_France.html?m=66827",
-      "num_reviews": "0",
-      "subratings": {},
-      "photo_count": "0",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d27202095-m66827-Reviews-Reed-Paris_Ile_de_France.html#photos",
-      "features": [],
-      "cuisine": [
-        {
-          "name": "french",
-          "localized_name": "French"
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d499907-Hotel_De_La_Tour_Eiffel-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#1,315 of 1,896 hotels in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1896",
+        "ranking": "1315"
+      },
+      "rating": "3.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-66827-5.svg",
+      "num_reviews": "317",
+      "review_rating_count": {
+        "1": "32",
+        "2": "27",
+        "3": "84",
+        "4": "106",
+        "5": "68"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
         }
+      },
+      "photo_count": "104",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d499907-m66827-Reviews-Hotel_De_La_Tour_Eiffel-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Air conditioning",
+        "Multilingual Staff",
+        "Flatscreen TV",
+        "Bath / Shower",
+        "English",
+        "French",
+        "24-Hour Front Desk",
+        "Hair Dryer",
+        "Public Wifi",
+        "Laundry Service",
+        "Non-smoking hotel",
+        "Safe",
+        "Parking",
+        "Baggage Storage",
+        "Blackout Curtains",
+        "Express Check-in / Check-out",
+        "Complimentary Toiletries",
+        "Italian",
+        "Paid Public Parking Nearby",
+        "Salon",
+        "Soundproof Rooms",
+        "Street Parking",
+        "Telephone",
+        "Wake Up Service / Alarm Clock"
       ],
       "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
-      "subcategory": [],
-      "neighborhood_info": [],
+      "subcategory": [
+        {
+          "name": "hotel",
+          "localized_name": "Hotel"
+        }
+      ],
+      "styles": [
+        "Residential Neighborhood",
+        "Centrally Located"
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
       "trip_types": [
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "0"
+          "value": "15"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "0"
+          "value": "107"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "0"
+          "value": "13"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "0"
+          "value": "103"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "0"
+          "value": "39"
         }
       ],
       "awards": [],
       "id": 2
     },
     {
-      "location_id": "2199543",
-      "name": "Gusto Italia Amelie",
-      "description": "Gusto Italia, c’est petite trattoria située au cœur du 7e arrondissement de Paris, où la passion pour la cuisine italienne prend vie. Pizzas croustillantes, antipasti savoureux, burrata crémeuse, pâtes fraiches et risottos à l’odeur envoutante, le chef nous invite à un voyage au coeur de la péninsule. Ici chaque région est célébrée, pour le plaisir des plus gourmands. Chacun des plats est préparé avec le plus grand soin, avec des ingrédients de première qualité, afin de garantir à tous une expérience culinaire inoubliable, dans un cadre agréable et décontracté. Une équipe chaleureuse et attentionnée veillera à ce que vous vous sentiez comme chez vous, que ce soit pour un déjeuner rapide ou un dîner relaxant.",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d2199543-Reviews-Gusto_Italia_Amelie-Paris_Ile_de_France.html?m=66827",
+      "location_id": "266280",
+      "name": "Cler Hotel",
+      "description": "Le Cler Hotel est un hotel de 26 chambres, il se situe dans une très belle rue pietonne, à quelques pas seulement de la Tour Eiffel et des Invalides. A la fois delicieusement classique et resolument contemporaine, cette adresse accueillante de la rive gauche fait la part-belle au design sans renoncer a la simplicite.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d266280-Reviews-Cler_Hotel-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "11 Rue Amelie",
-        "street2": "",
+        "street1": "24 B rue Cler",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "11 Rue Amelie, 75007 Paris France"
+        "address_string": "24 B rue Cler, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -598,177 +744,509 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.858963",
-      "longitude": "2.307612",
+      "latitude": "48.85747",
+      "longitude": "2.305967",
       "timezone": "Europe/Paris",
-      "email": "gustoitaliaparis7@gmail.com",
-      "phone": "+33 1 53 86 87 10",
-      "website": "https://www.gustoitalia-amelie.fr/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d2199543-Gusto_Italia_Amelie-Paris_Ile_de_France.html?m=66827",
+      "phone": "01133186760806",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d266280-Cler_Hotel-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#3,619 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#42 of 1,896 hotels in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "20521",
-        "ranking": "3619"
+        "ranking_out_of": "1896",
+        "ranking": "42"
       },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "273",
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "1124",
       "review_rating_count": {
-        "1": "28",
-        "2": "15",
-        "3": "23",
-        "4": "80",
-        "5": "127"
+        "1": "9",
+        "2": "4",
+        "3": "19",
+        "4": "161",
+        "5": "931"
       },
       "subratings": {
         "0": {
-          "name": "rate_food",
-          "localized_name": "Food",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         },
         "1": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         },
         "2": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
         },
         "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        },
+        "4": {
           "name": "rate_value",
           "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         }
       },
-      "photo_count": "126",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d2199543-m66827-Reviews-Gusto_Italia_Amelie-Paris_Ile_de_France.html#photos",
-      "price_level": "$$ - $$$",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "1100"
-            },
-            "close": {
-              "day": 1,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1100"
-            },
-            "close": {
-              "day": 2,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1100"
-            },
-            "close": {
-              "day": 3,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1100"
-            },
-            "close": {
-              "day": 4,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1100"
-            },
-            "close": {
-              "day": 5,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "1100"
-            },
-            "close": {
-              "day": 6,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 7,
-              "time": "1100"
-            },
-            "close": {
-              "day": 7,
-              "time": "2300"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 11:00 - 23:00",
-          "Tuesday: 11:00 - 23:00",
-          "Wednesday: 11:00 - 23:00",
-          "Thursday: 11:00 - 23:00",
-          "Friday: 11:00 - 23:00",
-          "Saturday: 11:00 - 23:00",
-          "Sunday: 11:00 - 23:00"
-        ]
-      },
-      "features": [
-        "Accepts American Express",
-        "Accepts Credit Cards",
-        "Accepts Mastercard",
-        "Accepts Visa",
-        "Delivery",
-        "Reservations",
-        "Seating",
-        "Serves Alcohol",
-        "Table Service",
-        "Takeout"
-      ],
-      "cuisine": [
-        {
-          "name": "italian",
-          "localized_name": "Italian"
-        },
-        {
-          "name": "pizza",
-          "localized_name": "Pizza"
-        },
-        {
-          "name": "european",
-          "localized_name": "European"
-        }
+      "photo_count": "430",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d266280-m66827-Reviews-Cler_Hotel-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Public Wifi",
+        "Concierge",
+        "Air conditioning",
+        "Multilingual Staff",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Baggage Storage",
+        "Blackout Curtains",
+        "24-Hour Check-in",
+        "Complimentary Tea",
+        "Desk",
+        "English",
+        "Complimentary Instant Cofffee",
+        "Complimentary Toiletries",
+        "French",
+        "24-Hour Front Desk",
+        "Hair Dryer",
+        "24-Hour Security",
+        "Soundproof Rooms",
+        "Spanish",
+        "Taxi Service",
+        "Telephone",
+        "Wake Up Service / Alarm Clock",
+        "Express Check-in / Check-out",
+        "Italian",
+        "Landmark View",
+        "Private Bathrooms",
+        "Paid Public Parking Nearby",
+        "Wardrobe / Closet"
       ],
       "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
       "subcategory": [
         {
-          "name": "sit_down",
-          "localized_name": "Sit down"
+          "name": "hotel",
+          "localized_name": "Hotel"
         }
+      ],
+      "styles": [
+        "Value",
+        "Modern"
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "60"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "459"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "53"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "360"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "100"
+        }
+      ],
+      "awards": [
+        {
+          "award_type": "Travelers Choice",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        },
+        {
+          "award_type": "Travelers Choice",
+          "year": "2023",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "location_id": "233731",
+      "name": "Eiffel Rive Gauche",
+      "description": "The Eiffel Rive gauche hotel welcomes you in one of the most prestigious districts of Paris, at the heart of the triangle Eiffel Tower, Invalids, Champs-Elysees ... Near the Trocadero, near the Champs de Mars, the Arc of Triumph, of Concorde, of the museum of the Quai Branly, Unesco ... Tourism, shopping, affairs, entertainment ... You will be just a few steps away from the high places of the heritage, the most beautiful places of interest, the shops selling luxury goods, the theaters, and the business area. In a quiet street of this restless left riverside, nested in a former convent, our hotel is an island of peace in the cosy and elegant atmosphere. Let charm by his sober and sophisticated atypical frame, its unique atmosphere, take time to stroll in our patio ... And savor the pleasure to relax you in this harbor of peace in the middle of the city lights.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d233731-Reviews-Eiffel_Rive_Gauche-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "6 rue du Gros Caillou",
+        "street2": "07 Arr.",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "6 rue du Gros Caillou 07 Arr., 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.857243",
+      "longitude": "2.302574",
+      "timezone": "Europe/Paris",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d233731-Eiffel_Rive_Gauche-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#1,375 of 1,896 hotels in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1896",
+        "ranking": "1375"
+      },
+      "rating": "3.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-66827-5.svg",
+      "num_reviews": "637",
+      "review_rating_count": {
+        "1": "73",
+        "2": "83",
+        "3": "146",
+        "4": "214",
+        "5": "121"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        }
+      },
+      "photo_count": "334",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d233731-m66827-Reviews-Eiffel_Rive_Gauche-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Free Wifi",
+        "Airport transportation",
+        "Non-smoking rooms",
+        "Multilingual Staff",
+        "Non-smoking hotel",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Housekeeping",
+        "Baggage Storage",
+        "English",
+        "Complimentary Toiletries",
+        "French",
+        "24-Hour Front Desk",
+        "Telephone",
+        "Wifi",
+        "Public Wifi",
+        "Safe",
+        "Breakfast Available",
+        "Express Check-in / Check-out",
+        "German",
+        "Italian",
+        "Spanish"
+      ],
+      "category": {
+        "name": "hotel",
+        "localized_name": "Hotel"
+      },
+      "subcategory": [
+        {
+          "name": "hotel",
+          "localized_name": "Hotel"
+        }
+      ],
+      "styles": [
+        "Residential Neighborhood",
+        "Mid-range"
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "36"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "244"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "36"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "182"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "81"
+        }
+      ],
+      "awards": [],
+      "id": 4
+    },
+    {
+      "location_id": "220006",
+      "name": "Grand Hotel Leveque",
+      "description": "Bienvenue au Grand Hotel Leveque, votre second chez vous à Paris. Le Grand Hotel Leveque met tout en œuvre pour rendre votre séjour aussi agréable et relaxant que possible. C'est la raison pour laquelle autant de clients reviennent chaque année. Situé à proximité des monuments les plus célèbres de Paris, comme la Arc de Triomphe (2,0 km) et Musée du Louvre (2,2 km), le Grand Hotel Leveque est une destination idéale pour les touristes. Vous profiterez de chambres relaxantes équipées d'une télévision à écran plat, d'une climatisation et d'un bureau, et pourrez rester connecté pendant votre séjour car le Grand Leveque propose un wi-fi gratuit. L'hôtel dispose d'une réception ouverte 24 heures sur 24, d'une conciergerie et d'un journal. Le Grand Hotel Leveque est doté d'un buffet petit déjeuner, offrant un endroit plaisant pour se reposer après une journée bien remplie. Le Grand Hotel Leveque vous offre le meilleur de Paris à votre portée, pour un séjour parfait en tous points.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d220006-Reviews-Grand_Hotel_Leveque-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "29 Rue Cler",
+        "street2": "7th ARR",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "29 Rue Cler 7th ARR, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85743",
+      "longitude": "2.306207",
+      "timezone": "Europe/Paris",
+      "phone": "01133147054915",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d220006-Grand_Hotel_Leveque-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#467 of 1,896 hotels in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1896",
+        "ranking": "467"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "161",
+      "review_rating_count": {
+        "1": "3",
+        "2": "4",
+        "3": "17",
+        "4": "32",
+        "5": "105"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        },
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        }
+      },
+      "photo_count": "110",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d220006-m66827-Reviews-Grand_Hotel_Leveque-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$",
+      "amenities": [
+        "Free Internet",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Internet",
+        "Wheelchair access",
+        "Bar/Lounge",
+        "Airport transportation",
+        "Wifi",
+        "Air conditioning",
+        "Multilingual Staff",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Breakfast Available",
+        "Facilities for Disabled Guests",
+        "Blackout Curtains",
+        "24-Hour Check-in",
+        "English",
+        "French",
+        "24-Hour Front Desk",
+        "24-Hour Security",
+        "Taxi Service",
+        "Telephone",
+        "Public Wifi",
+        "Baggage Storage",
+        "Bath / Shower",
+        "Coffee / Tea Maker",
+        "Desk",
+        "Electric Kettle",
+        "Complimentary Toiletries",
+        "German",
+        "Hair Dryer",
+        "Ironing Service",
+        "Paid Public Parking Nearby",
+        "Spanish",
+        "Wake Up Service / Alarm Clock"
+      ],
+      "category": {
+        "name": "hotel",
+        "localized_name": "Hotel"
+      },
+      "subcategory": [
+        {
+          "name": "hotel",
+          "localized_name": "Hotel"
+        }
+      ],
+      "styles": [
+        "Quaint",
+        "Classic"
       ],
       "neighborhood_info": [
         {
@@ -793,298 +1271,36 @@
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "101"
+          "value": "43"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "12"
+          "value": "10"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "65"
+          "value": "28"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "34"
-        }
-      ],
-      "awards": [],
-      "id": 3
-    },
-    {
-      "location_id": "8039395",
-      "name": "Bistrot Chez France",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d8039395-Reviews-Bistrot_Chez_France-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "9 rue Amelie",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "9 rue Amelie, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85907",
-      "longitude": "2.307571",
-      "timezone": "Europe/Paris",
-      "email": "bistrotchezfrance@free.fr",
-      "phone": "+33 1 40 67 96 54",
-      "website": "http://www.chezfrancebistrot.fr/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d8039395-Bistrot_Chez_France-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#362 of 20,521 Places to Eat in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "20521",
-        "ranking": "362"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "976",
-      "review_rating_count": {
-        "1": "7",
-        "2": "19",
-        "3": "34",
-        "4": "220",
-        "5": "696"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_food",
-          "localized_name": "Food",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "1": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
-          "value": "3.0"
-        },
-        "2": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "3": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        }
-      },
-      "photo_count": "557",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d8039395-m66827-Reviews-Bistrot_Chez_France-Paris_Ile_de_France.html#photos",
-      "price_level": "$$ - $$$",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "1200"
-            },
-            "close": {
-              "day": 1,
-              "time": "1400"
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "time": "1900"
-            },
-            "close": {
-              "day": 1,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1200"
-            },
-            "close": {
-              "day": 2,
-              "time": "1400"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1900"
-            },
-            "close": {
-              "day": 2,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1200"
-            },
-            "close": {
-              "day": 3,
-              "time": "1400"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1900"
-            },
-            "close": {
-              "day": 3,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1200"
-            },
-            "close": {
-              "day": 4,
-              "time": "1400"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1900"
-            },
-            "close": {
-              "day": 4,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1200"
-            },
-            "close": {
-              "day": 5,
-              "time": "1400"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1900"
-            },
-            "close": {
-              "day": 5,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "1900"
-            },
-            "close": {
-              "day": 6,
-              "time": "2200"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 12:00 - 14:00,  19:00 - 22:00",
-          "Tuesday: 12:00 - 14:00,  19:00 - 22:00",
-          "Wednesday: 12:00 - 14:00,  19:00 - 22:00",
-          "Thursday: 12:00 - 14:00,  19:00 - 22:00",
-          "Friday: 12:00 - 14:00,  19:00 - 22:00",
-          "Saturday: 19:00 - 22:00",
-          "Sunday: Closed"
-        ]
-      },
-      "features": [
-        "Accepts Credit Cards",
-        "Accepts Mastercard",
-        "Accepts Visa",
-        "Reservations",
-        "Seating",
-        "Serves Alcohol",
-        "Table Service"
-      ],
-      "cuisine": [
-        {
-          "name": "french",
-          "localized_name": "French"
-        }
-      ],
-      "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
-      },
-      "subcategory": [
-        {
-          "name": "sit_down",
-          "localized_name": "Sit down"
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "42"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "422"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "42"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "186"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "143"
+          "value": "7"
         }
       ],
       "awards": [
+        {
+          "award_type": "Travelers Choice",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        },
         {
           "award_type": "Travelers Choice",
           "year": "2023",
@@ -1097,214 +1313,19 @@
           "display_name": "Travelers Choice"
         }
       ],
-      "id": 4
-    },
-    {
-      "location_id": "6103882",
-      "name": "Corpsline",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d6103882-Reviews-Corpsline-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "17 rue de la Comete",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "17 rue de la Comete, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85875",
-      "longitude": "2.30923",
-      "timezone": "Europe/Paris",
-      "phone": "+33 1 45 56 00 72",
-      "website": "http://www.corpsline.com",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d6103882-Corpsline-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#349 of 936 Spas &amp; Wellness in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "936",
-        "ranking": "349"
-      },
-      "rating": "3.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
-      "num_reviews": "1",
-      "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "1",
-        "4": "0",
-        "5": "0"
-      },
-      "photo_count": "1",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d6103882-m66827-Reviews-Corpsline-Paris_Ile_de_France.html#photos",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "0900"
-            },
-            "close": {
-              "day": 1,
-              "time": "2000"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "0900"
-            },
-            "close": {
-              "day": 2,
-              "time": "2000"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "0900"
-            },
-            "close": {
-              "day": 3,
-              "time": "1900"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "0900"
-            },
-            "close": {
-              "day": 4,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "0900"
-            },
-            "close": {
-              "day": 5,
-              "time": "2000"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "0900"
-            },
-            "close": {
-              "day": 6,
-              "time": "1700"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 09:00 - 20:00",
-          "Tuesday: 09:00 - 20:00",
-          "Wednesday: 09:00 - 19:00",
-          "Thursday: 09:00 - 22:00",
-          "Friday: 09:00 - 20:00",
-          "Saturday: 09:00 - 17:00",
-          "Sunday: Closed"
-        ]
-      },
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "wellness_spas",
-          "localized_name": "Spas & Wellness"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Spas & Wellness",
-          "localized_name": "Spas & Wellness",
-          "categories": [
-            {
-              "name": "Spas",
-              "localized_name": "Spas"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "0"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "0"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "0"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
-        }
-      ],
-      "awards": [],
       "id": 5
     },
     {
-      "location_id": "20103811",
-      "name": "Duvelleroy",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d20103811-Reviews-Duvelleroy-Paris_Ile_de_France.html?m=66827",
+      "location_id": "501903",
+      "name": "Hotel de l'Alma",
+      "description": "Vous cherchez un hôtel calme à Paris ? Bienvenue à l'Hotel de l'Alma by Malone, un établissement de choix pour les voyageurs comme vous. L'Hotel de l'Alma vous propose une foule de commodités, dont une télévision à écran plat, un minibar et un bureau. Il est également possible de rester connecté via un wi-fi gratuit. L'hôtel dispose d'une réception ouverte 24 heures sur 24, d'un enregistrement / départ express et d'un mobilier d'extérieur pour rendre votre séjour encore plus plaisant. L'établissement propose également un buffet petit déjeuner. Situé à proximité des monuments les plus célèbres de Paris, comme Musée du Louvre (2,4 km) et Les Catacombes De Paris (3,3 km), L'alma Hotel est une destination idéale pour les touristes. L'Hotel de l'Alma vous offre le meilleur de Paris à votre portée, pour un séjour parfait en tous points.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d501903-Reviews-Hotel_de_l_Alma-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "17 rue Amelie",
+        "street1": "32 rue de l Exposition",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "17 rue Amelie, 75007 Paris France"
+        "address_string": "32 rue de l Exposition, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -1323,53 +1344,108 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.85849",
-      "longitude": "2.30773",
+      "latitude": "48.85692",
+      "longitude": "2.303273",
       "timezone": "Europe/Paris",
-      "email": "contact@duvelleroy.fr",
-      "phone": "+33 1 42 84 07 52",
-      "website": "http://eventail-duvelleroy.fr",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d20103811-Duvelleroy-Paris_Ile_de_France.html?m=66827",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d501903-Hotel_de_l_Alma-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#538 of 1,163 Shopping in Paris",
+        "ranking_string": "#1,397 of 1,896 hotels in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "1163",
-        "ranking": "538"
+        "ranking_out_of": "1896",
+        "ranking": "1397"
       },
-      "rating": "5.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
-      "num_reviews": "1",
+      "rating": "3.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-66827-5.svg",
+      "num_reviews": "470",
       "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "0",
-        "5": "1"
+        "1": "52",
+        "2": "57",
+        "3": "131",
+        "4": "156",
+        "5": "74"
       },
-      "photo_count": "0",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d20103811-m66827-Reviews-Duvelleroy-Paris_Ile_de_France.html#photos",
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        }
+      },
+      "photo_count": "178",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d501903-m66827-Reviews-Hotel_de_l_Alma-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Concierge",
+        "Multilingual Staff",
+        "Minibar",
+        "Non-smoking hotel",
+        "Safe",
+        "Breakfast Buffet",
+        "Bath / Shower",
+        "English",
+        "French",
+        "24-Hour Front Desk",
+        "Laundry Service",
+        "Flatscreen TV",
+        "Express Check-in / Check-out",
+        "Desk",
+        "Hair Dryer",
+        "Newspaper",
+        "Outdoor Furniture",
+        "Spanish",
+        "Telephone",
+        "Wake Up Service / Alarm Clock"
+      ],
       "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
       "subcategory": [
         {
-          "name": "shopping",
-          "localized_name": "Shopping"
+          "name": "hotel",
+          "localized_name": "Hotel"
         }
       ],
-      "groups": [
-        {
-          "name": "Shopping",
-          "localized_name": "Shopping",
-          "categories": [
-            {
-              "name": "Gift & Specialty Shops",
-              "localized_name": "Gift & Specialty Shops"
-            }
-          ]
-        }
+      "styles": [
+        "Residential Neighborhood",
+        "Centrally Located"
       ],
       "neighborhood_info": [
         {
@@ -1389,43 +1465,44 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "0"
+          "value": "40"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "0"
+          "value": "215"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "0"
+          "value": "33"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "0"
+          "value": "66"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "0"
+          "value": "65"
         }
       ],
       "awards": [],
       "id": 6
     },
     {
-      "location_id": "4467359",
-      "name": "Le Crepuscule",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d4467359-Reviews-Le_Crepuscule-Paris_Ile_de_France.html?m=66827",
+      "location_id": "268017",
+      "name": "Hotel de la Paix Tour Eiffel",
+      "description": "WELCOME TO THE HÔTEL DE LA PAIX TOUR EIFFEL The Hotel de la Paix Tour Eiffel welcomes you at the foot of the Eiffel Tower, in the 7th arrondissement of Paris. You will discover in a few steps the cultural wealth of Paris: The Trocadero, the Invalides, the Champs Elysees. Our fully refurbished three-star hotel, with a sober and contemporary design, with a warm and calm atmosphere, is a haven for both business and leisure travelers. Our inviting reception has a lounge with a comfortable sofa and armchairs, a library corner with a coffee and tea machine.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d268017-Reviews-Hotel_de_la_Paix_Tour_Eiffel-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "18 rue Amelie",
-        "street2": "Metro la Tour-Maubourg Line 8",
+        "street1": "19 rue du Gros Caillou",
+        "street2": "07 Arr.",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "18 rue Amelie Metro la Tour-Maubourg Line 8, 75007 Paris France"
+        "address_string": "19 rue du Gros Caillou 07 Arr., 75007 Paris France"
       },
       "ancestors": [
         {
@@ -1444,195 +1521,129 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.858444",
-      "longitude": "2.30766",
+      "latitude": "48.8568",
+      "longitude": "2.303075",
       "timezone": "Europe/Paris",
-      "phone": "+33 1 80 06 14 32",
-      "website": "http://redsea-laciotat.com/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d4467359-Le_Crepuscule-Paris_Ile_de_France.html?m=66827",
+      "phone": "01133145518617",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d268017-Hotel_de_la_Paix_Tour_Eiffel-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#201 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#336 of 1,896 hotels in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "20521",
-        "ranking": "201"
+        "ranking_out_of": "1896",
+        "ranking": "336"
       },
       "rating": "4.5",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "630",
+      "num_reviews": "609",
       "review_rating_count": {
-        "1": "8",
-        "2": "6",
-        "3": "19",
-        "4": "122",
-        "5": "475"
+        "1": "14",
+        "2": "16",
+        "3": "52",
+        "4": "189",
+        "5": "339"
       },
       "subratings": {
         "0": {
-          "name": "rate_food",
-          "localized_name": "Food",
+          "name": "rate_location",
+          "localized_name": "Location",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
         "1": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
         },
         "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
+        },
+        "3": {
           "name": "rate_service",
           "localized_name": "Service",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
-        "3": {
+        "4": {
           "name": "rate_value",
           "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
         }
       },
-      "photo_count": "291",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d4467359-m66827-Reviews-Le_Crepuscule-Paris_Ile_de_France.html#photos",
-      "price_level": "$",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 2,
-              "time": "1200"
-            },
-            "close": {
-              "day": 2,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1900"
-            },
-            "close": {
-              "day": 2,
-              "time": "2100"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1200"
-            },
-            "close": {
-              "day": 3,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1900"
-            },
-            "close": {
-              "day": 3,
-              "time": "2100"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1200"
-            },
-            "close": {
-              "day": 4,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1900"
-            },
-            "close": {
-              "day": 4,
-              "time": "2100"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1200"
-            },
-            "close": {
-              "day": 5,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1900"
-            },
-            "close": {
-              "day": 5,
-              "time": "2100"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "1200"
-            },
-            "close": {
-              "day": 6,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "1900"
-            },
-            "close": {
-              "day": 6,
-              "time": "2100"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: Closed",
-          "Tuesday: 12:00 - 14:30,  19:00 - 21:00",
-          "Wednesday: 12:00 - 14:30,  19:00 - 21:00",
-          "Thursday: 12:00 - 14:30,  19:00 - 21:00",
-          "Friday: 12:00 - 14:30,  19:00 - 21:00",
-          "Saturday: 12:00 - 14:30,  19:00 - 21:00",
-          "Sunday: Closed"
-        ]
-      },
-      "features": [
-        "Accepts Credit Cards",
-        "Accepts Mastercard",
-        "Accepts Visa",
-        "Reservations",
-        "Seating",
-        "Serves Alcohol",
-        "Table Service"
-      ],
-      "cuisine": [
-        {
-          "name": "french",
-          "localized_name": "French"
-        }
+      "photo_count": "155",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d268017-m66827-Reviews-Hotel_de_la_Paix_Tour_Eiffel-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Air conditioning",
+        "Multilingual Staff",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Bath / Shower",
+        "24-Hour Check-in",
+        "English",
+        "French",
+        "24-Hour Front Desk",
+        "Hair Dryer",
+        "24-Hour Security",
+        "Taxi Service",
+        "Family Rooms",
+        "Arabic",
+        "Baggage Storage",
+        "Blackout Curtains",
+        "Cable / Satellite TV",
+        "Children's Television Networks",
+        "Clothes Rack",
+        "Coffee Shop",
+        "Desk",
+        "Electric Kettle",
+        "First Aid Kit",
+        "Complimentary Toiletries",
+        "German",
+        "Highchairs Available",
+        "Iron",
+        "Italian",
+        "Laptop Safe",
+        "Private Bathrooms",
+        "Paid Private Parking Nearby",
+        "Radio",
+        "Russian",
+        "Soundproof Rooms",
+        "Spanish",
+        "Telephone",
+        "Wake Up Service / Alarm Clock",
+        "Wardrobe / Closet"
       ],
       "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
       "subcategory": [
         {
-          "name": "sit_down",
-          "localized_name": "Sit down"
+          "name": "hotel",
+          "localized_name": "Hotel"
         }
+      ],
+      "styles": [
+        "Mid-range",
+        "Quiet"
       ],
       "neighborhood_info": [
         {
@@ -1652,272 +1663,41 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "17"
+          "value": "68"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "284"
+          "value": "200"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "19"
+          "value": "66"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "147"
+          "value": "156"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "86"
-        }
-      ],
-      "awards": [],
-      "id": 7
-    },
-    {
-      "location_id": "3208071",
-      "name": "Le Campanella",
-      "description": "Le Campanella is a Typical French Brasserie nearby the Eiffel Tower Area. You will discover and enjoy to start with our Onion Soup, French duck foie gras or our typical frog legs or amazing Snails... You will continue your Odissey with our Beef Stew \"Bourguignon\", our Royal Cassoulet, our French duck confit or many others good dishes. And for gourmets you will be able to taste our \"Tarte Tatin\" (upside-down apple pie and fresh cream, or our \"Crème Brulée\" (caramelised custard cream), or our \"Eclair Géant Très Chocolat\" (giant eclair so chocolate)...And because this is France and this is Paris, good food always comes with good wines. You will discover treasures in our cave such as Château Lynch-Bages, Château Léoville Barton, Châteauneuf-du-Pape, Côte-Rôtie, Clos des Mouches, Meursault...and so many others (be aware stocks are not unlimited and may varie...). Please remember that we would be more than happy to welcome you at Le Campanella.",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3208071-Reviews-Le_Campanella-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "18 avenue Bosquet",
-        "street2": "Angle Avenue Bosquet et Rue Saint-Dominique",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "18 avenue Bosquet Angle Avenue Bosquet et Rue Saint-Dominique, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.8587",
-      "longitude": "2.303344",
-      "timezone": "Europe/Paris",
-      "email": "contact@lecampanella.com",
-      "phone": "+33 1 45 55 73 15",
-      "website": "http://lecampanella.com/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d3208071-Le_Campanella-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#1,031 of 20,521 Places to Eat in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "20521",
-        "ranking": "1031"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "769",
-      "review_rating_count": {
-        "1": "63",
-        "2": "29",
-        "3": "68",
-        "4": "240",
-        "5": "369"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_food",
-          "localized_name": "Food",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "1": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "2": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "3": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        }
-      },
-      "photo_count": "384",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3208071-m66827-Reviews-Le_Campanella-Paris_Ile_de_France.html#photos",
-      "price_level": "$$ - $$$",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "0700"
-            },
-            "close": {
-              "day": 1,
-              "time": "0200"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "0700"
-            },
-            "close": {
-              "day": 2,
-              "time": "0200"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "0700"
-            },
-            "close": {
-              "day": 3,
-              "time": "0200"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "0700"
-            },
-            "close": {
-              "day": 4,
-              "time": "0200"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "0700"
-            },
-            "close": {
-              "day": 5,
-              "time": "0200"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "0700"
-            },
-            "close": {
-              "day": 6,
-              "time": "0200"
-            }
-          },
-          {
-            "open": {
-              "day": 7,
-              "time": "0700"
-            },
-            "close": {
-              "day": 7,
-              "time": "0200"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 07:00 - 02:00",
-          "Tuesday: 07:00 - 02:00",
-          "Wednesday: 07:00 - 02:00",
-          "Thursday: 07:00 - 02:00",
-          "Friday: 07:00 - 02:00",
-          "Saturday: 07:00 - 02:00",
-          "Sunday: 07:00 - 02:00"
-        ]
-      },
-      "features": [
-        "Accepts Credit Cards",
-        "Accepts Mastercard",
-        "Accepts Visa",
-        "Full Bar",
-        "Outdoor Seating",
-        "Reservations",
-        "Seating",
-        "Serves Alcohol",
-        "Table Service",
-        "Wheelchair Accessible"
-      ],
-      "cuisine": [
-        {
-          "name": "french",
-          "localized_name": "French"
-        },
-        {
-          "name": "european",
-          "localized_name": "European"
-        }
-      ],
-      "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
-      },
-      "subcategory": [
-        {
-          "name": "sit_down",
-          "localized_name": "Sit down"
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "23"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "279"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "32"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "196"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "142"
+          "value": "48"
         }
       ],
       "awards": [
+        {
+          "award_type": "Travelers Choice",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        },
         {
           "award_type": "Travelers Choice",
           "year": "2023",
@@ -1930,18 +1710,19 @@
           "display_name": "Travelers Choice"
         }
       ],
-      "id": 8
+      "id": 7
     },
     {
-      "location_id": "4166947",
-      "name": "Catherine Reed Cooking Classes",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d4166947-Reviews-Catherine_Reed_Cooking_Classes-Paris_Ile_de_France.html?m=66827",
+      "location_id": "518469",
+      "name": "Hotel Eiffel Kensington",
+      "description": "Finding an ideal budget friendly hotel in Paris does not have to be difficult. Welcome to Hotel Eiffel Kensington, a nice option for travelers like you.\nGiven the close proximity of popular landmarks, such as The Catacombs of Paris (2.1 mi) and Cathédrale Notre-Dame de Paris (2.2 mi), guests of Hotel Eiffel Kensington can easily experience some of Paris' most well known attractions.\nRooms at Hotel Eiffel Kensington offer a flat screen TV providing exceptional comfort and convenience, and guests can go online with free wifi.\nA 24 hour front desk and baggage storage are some of the conveniences offered at this hotel. A snack bar will also help to make your stay even more special.\nIf you’re looking for a Chinese restaurant, consider a visit to Buddha-Bar, Ducky's, or Shang Palace, which are all conveniently located a short distance from Hotel Eiffel Kensington.\nThere is no shortage of things to do in the area: explore popular museums such as Louvre Museum.\nHotel Eiffel Kensington looks forward to welcoming you on your visit to Paris.\n",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d518469-Reviews-Hotel_Eiffel_Kensington-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "11 B rue Amelie",
+        "street1": "79 avenue de la Bourdonnais",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "11 B rue Amelie, 75007 Paris France"
+        "address_string": "79 avenue de la Bourdonnais, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -1960,70 +1741,98 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.858917",
-      "longitude": "2.307556",
+      "latitude": "48.856483",
+      "longitude": "2.302121",
       "timezone": "Europe/Paris",
-      "phone": "+33 1 45 55 88 40",
-      "website": "http://www.reedrestaurant.com/Reed/Welcome.html",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d4166947-Catherine_Reed_Cooking_Classes-Paris_Ile_de_France.html?m=66827",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d518469-Hotel_Eiffel_Kensington-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#27 of 452 Classes &amp; Workshops in Paris",
+        "ranking_string": "#1,690 of 1,896 hotels in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "452",
-        "ranking": "27"
+        "ranking_out_of": "1896",
+        "ranking": "1690"
       },
-      "rating": "5.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
-      "num_reviews": "137",
+      "rating": "3.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
+      "num_reviews": "263",
       "review_rating_count": {
-        "1": "0",
-        "2": "4",
-        "3": "0",
-        "4": "0",
-        "5": "133"
+        "1": "48",
+        "2": "39",
+        "3": "73",
+        "4": "79",
+        "5": "24"
       },
-      "photo_count": "105",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d4166947-m66827-Reviews-Catherine_Reed_Cooking_Classes-Paris_Ile_de_France.html#photos",
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        }
+      },
+      "photo_count": "141",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d518469-m66827-Reviews-Hotel_Eiffel_Kensington-Paris_Ile_de_France.html#photos",
+      "price_level": "$$",
+      "amenities": [
+        "Internet",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Multilingual Staff",
+        "English",
+        "French",
+        "24-Hour Front Desk",
+        "Free Internet",
+        "Wifi",
+        "Public Wifi",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Baggage Storage",
+        "Electric Kettle"
+      ],
       "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
       "subcategory": [
         {
-          "name": "food_drink",
-          "localized_name": "Food & Drink"
-        },
-        {
-          "name": "classes",
-          "localized_name": "Classes & Workshops"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
+          "name": "hotel",
+          "localized_name": "Hotel"
         }
       ],
-      "groups": [
-        {
-          "name": "Food & Drink",
-          "localized_name": "Food & Drink",
-          "categories": [
-            {
-              "name": "Cooking Classes",
-              "localized_name": "Cooking Classes"
-            }
-          ]
-        },
-        {
-          "name": "Classes & Workshops",
-          "localized_name": "Classes & Workshops",
-          "categories": [
-            {
-              "name": "Cooking Classes",
-              "localized_name": "Cooking Classes"
-            }
-          ]
-        }
+      "styles": [
+        "Budget",
+        "Residential Neighborhood"
       ],
       "neighborhood_info": [
         {
@@ -2043,42 +1852,44 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "0"
+          "value": "22"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "56"
+          "value": "105"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "18"
+          "value": "26"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "17"
+          "value": "44"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "35"
+          "value": "29"
         }
       ],
       "awards": [],
-      "id": 9
+      "id": 8
     },
     {
-      "location_id": "11948973",
-      "name": "Notre Patisserie",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d11948973-Reviews-Notre_Patisserie-Paris_Ile_de_France.html?m=66827",
+      "location_id": "229602",
+      "name": "Hotel Relais Bosquet By Malone",
+      "description": "Découvrez pourquoi l'Hotel Relais Bosquet est l'hôtel préféré des voyageurs visitant Paris. Mélange idéal entre rapport qualité/prix et confort, il offre un cadre romantique avec une gamme de services conçus pour les voyageurs comme vous. Le Relais Bosquet est un hôtel romantique proposant des chambres équipées d'une télévision à écran plat, d'une climatisation et d'un minibar. Vous pouvez également compter sur un wi-fi gratuit pour rester connecté tout au long de votre séjour. L'hôtel dispose d'une réception ouverte 24 heures sur 24, d'une conciergerie. Le petit déjeuner n'est pas étranger à sa grande popularité auprès des voyageurs visitant Paris. Situé à proximité des monuments les plus célèbres de Paris, comme Arc de Triomphe (2,1 km) et Musée du Louvre (2,3 km), l'Hotel Relais Bosquet est une destination idéale pour les touristes. Nous sommes sûrs que vous apprécierez votre séjour à l'Hotel Relais Bosquet Paris et que vous pourrez profiter de tout ce que Paris a à offrir.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d229602-Reviews-Hotel_Relais_Bosquet_By_Malone-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "7 rue Amelie",
+        "street1": "19 rue du Champ de Mars",
+        "street2": "",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "7 rue Amelie, 75007 Paris France"
+        "address_string": "19 rue du Champ de Mars, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -2097,150 +1908,133 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.859135",
-      "longitude": "2.307478",
+      "latitude": "48.856224",
+      "longitude": "2.305177",
       "timezone": "Europe/Paris",
-      "email": "info@notrepatisserie.com",
-      "phone": "+33 9 52 99 86 78",
-      "website": "http://www.notrepatisserie.com/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d11948973-Notre_Patisserie-Paris_Ile_de_France.html?m=66827",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d229602-Hotel_Relais_Bosquet_By_Malone-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#5,195 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#131 of 1,896 hotels in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "20521",
-        "ranking": "5195"
+        "ranking_out_of": "1896",
+        "ranking": "131"
       },
       "rating": "4.5",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "26",
+      "num_reviews": "3590",
       "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "2",
-        "4": "3",
-        "5": "21"
+        "1": "16",
+        "2": "26",
+        "3": "125",
+        "4": "795",
+        "5": "2629"
       },
       "subratings": {
         "0": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
+          "name": "rate_location",
+          "localized_name": "Location",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
           "value": "5.0"
         },
         "1": {
-          "name": "rate_food",
-          "localized_name": "Food",
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
         "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "3": {
           "name": "rate_service",
           "localized_name": "Service",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
-        "3": {
+        "4": {
           "name": "rate_value",
           "localized_name": "Value",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         }
       },
-      "photo_count": "27",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d11948973-m66827-Reviews-Notre_Patisserie-Paris_Ile_de_France.html#photos",
-      "price_level": "$$ - $$$",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 2,
-              "time": "0900"
-            },
-            "close": {
-              "day": 2,
-              "time": "1900"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "0900"
-            },
-            "close": {
-              "day": 3,
-              "time": "1900"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "0900"
-            },
-            "close": {
-              "day": 4,
-              "time": "1900"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "0900"
-            },
-            "close": {
-              "day": 5,
-              "time": "1900"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "0900"
-            },
-            "close": {
-              "day": 6,
-              "time": "1900"
-            }
-          },
-          {
-            "open": {
-              "day": 7,
-              "time": "0900"
-            },
-            "close": {
-              "day": 7,
-              "time": "1300"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: Closed",
-          "Tuesday: 09:00 - 19:00",
-          "Wednesday: 09:00 - 19:00",
-          "Thursday: 09:00 - 19:00",
-          "Friday: 09:00 - 19:00",
-          "Saturday: 09:00 - 19:00",
-          "Sunday: 09:00 - 13:00"
-        ]
-      },
-      "features": [
-        "Takeout"
-      ],
-      "cuisine": [
-        {
-          "name": "french",
-          "localized_name": "French"
-        }
+      "photo_count": "1051",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d229602-m66827-Reviews-Hotel_Relais_Bosquet_By_Malone-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$",
+      "amenities": [
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Wheelchair access",
+        "Non-smoking rooms",
+        "Internet",
+        "Airport transportation",
+        "Dry Cleaning",
+        "Laundry Service",
+        "Concierge",
+        "Air conditioning",
+        "Multilingual Staff",
+        "Accessible rooms",
+        "Minibar",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Facilities for Disabled Guests",
+        "Bath / Shower",
+        "Blackout Curtains",
+        "24-Hour Check-in",
+        "Complimentary Tea",
+        "Desk",
+        "English",
+        "Complimentary Instant Cofffee",
+        "Complimentary Toiletries",
+        "French",
+        "Ironing Service",
+        "Spanish",
+        "Special Diet Menus",
+        "Taxi Service",
+        "Telephone",
+        "Wake Up Service / Alarm Clock",
+        "Public Wifi",
+        "Breakfast Available",
+        "Baggage Storage",
+        "Breakfast in the Room",
+        "Express Check-in / Check-out",
+        "Clothes Rack",
+        "Electric Kettle",
+        "24-Hour Front Desk",
+        "Hair Dryer",
+        "Italian",
+        "Newspaper",
+        "Polish",
+        "Private Bathrooms",
+        "Paid Public Parking Nearby",
+        "Radio",
+        "Wardrobe / Closet"
       ],
       "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
+        "name": "hotel",
+        "localized_name": "Hotel"
       },
       "subcategory": [
         {
-          "name": "sit_down",
-          "localized_name": "Sit down"
+          "name": "hotel",
+          "localized_name": "Hotel"
         }
+      ],
+      "styles": [
+        "Boutique",
+        "Mid-range"
       ],
       "neighborhood_info": [
         {
@@ -2260,30 +2054,292 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "0"
+          "value": "217"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "9"
+          "value": "1623"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "5"
+          "value": "139"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "5"
+          "value": "639"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "4"
+          "value": "258"
         }
       ],
-      "awards": [],
+      "awards": [
+        {
+          "award_type": "Travelers Choice",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        },
+        {
+          "award_type": "Travelers Choice",
+          "year": "2023",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "location_id": "233571",
+      "name": "Hotel du Cadran",
+      "description": "Set half way between the Eiffel Tower and the Invalides Museum in a charming pedestrian street, the Hotel du Cadran, recently renovated on 2018, is superbly located for exploring numerous tourist attractions, including the Champs Elysees, the Alma Bridge, or the superb Rodin Museum. The UNESCO building is only a 5-minute walk away. There are Metro stations near the hotel, including Ecole Militaire and the area offers a warm Parisian atmosphere. Explore the charming Rue Cler and its quality food shops, enjoy a drink, a coffee or a meal at one of numerous cafes and restaurants around our hotel and watch the world go by.",
+      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d233571-Reviews-Hotel_du_Cadran-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "10, Rue du Champs de Mars",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "10, Rue du Champs de Mars, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.856533",
+      "longitude": "2.305963",
+      "timezone": "Europe/Paris",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d233571-Hotel_du_Cadran-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#134 of 1,896 hotels in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1896",
+        "ranking": "134"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "560",
+      "review_rating_count": {
+        "1": "10",
+        "2": "6",
+        "3": "26",
+        "4": "70",
+        "5": "448"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_location",
+          "localized_name": "Location",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        },
+        "1": {
+          "name": "rate_sleep",
+          "localized_name": "Sleep Quality",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "2": {
+          "name": "rate_room",
+          "localized_name": "Rooms",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "3": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "4": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "5": {
+          "name": "rate_cleanliness",
+          "localized_name": "Cleanliness",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        }
+      },
+      "photo_count": "262",
+      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d233571-m66827-Reviews-Hotel_du_Cadran-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$$",
+      "amenities": [
+        "Internet",
+        "Free Internet",
+        "Wifi",
+        "Free Wifi",
+        "Non-smoking rooms",
+        "Wheelchair access",
+        "Airport transportation",
+        "Public Wifi",
+        "Dry Cleaning",
+        "Laundry Service",
+        "Concierge",
+        "Air conditioning",
+        "Multilingual Staff",
+        "Accessible rooms",
+        "Minibar",
+        "Non-smoking hotel",
+        "Safe",
+        "Flatscreen TV",
+        "Breakfast Buffet",
+        "Breakfast Available",
+        "Housekeeping",
+        "Allergy-free Room",
+        "Baggage Storage",
+        "Bath / Shower",
+        "24-Hour Check-in",
+        "Coffee / Tea Maker",
+        "English",
+        "Complimentary Instant Cofffee",
+        "Complimentary Toiletries",
+        "French",
+        "24-Hour Front Desk",
+        "Hair Dryer",
+        "Iron",
+        "Ironing Service",
+        "Italian",
+        "Newspaper",
+        "24-Hour Security",
+        "Taxi Service",
+        "Telephone",
+        "Wake Up Service / Alarm Clock",
+        "Wine / Champagne",
+        "Facilities for Disabled Guests",
+        "Blackout Curtains",
+        "Books, DVDs, Music for Children",
+        "Bottled Water",
+        "Breakfast in the Room",
+        "Cable / Satellite TV",
+        "Express Check-in / Check-out",
+        "Clothes Rack",
+        "Coffee Shop",
+        "Complimentary Tea",
+        "Desk",
+        "Complimentary Welcome Drink",
+        "Free Wifi in the Business Center",
+        "Highchairs Available",
+        "Interconnected room(s) available",
+        "Private Bathrooms",
+        "Radio",
+        "Shoeshine",
+        "Snack Bar",
+        "Soundproof Rooms",
+        "Spanish",
+        "Vending Machine",
+        "Wardrobe / Closet",
+        "Photo Copier / Fax In Business Center"
+      ],
+      "category": {
+        "name": "hotel",
+        "localized_name": "Hotel"
+      },
+      "subcategory": [
+        {
+          "name": "hotel",
+          "localized_name": "Hotel"
+        }
+      ],
+      "styles": [
+        "Green",
+        "City View"
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "28"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "157"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "20"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "109"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "37"
+        }
+      ],
+      "awards": [
+        {
+          "award_type": "Travelers Choice",
+          "year": "2024",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        },
+        {
+          "award_type": "Travelers Choice",
+          "year": "2023",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        }
+      ],
       "id": 10
     }
   ]
