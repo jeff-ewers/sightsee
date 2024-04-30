@@ -1,37 +1,54 @@
-// Map.jsx
 import React, { useState, useEffect, useCallback } from 'react';
 import "mapbox-gl/dist/mapbox-gl.css";
-import MapGL, { Marker } from 'react-map-gl';
-import { getNearbyPlaces } from "../../services/tripadvisorService.js";
-
+import MapGL, { Marker, Popup } from 'react-map-gl';
+import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory, pingProxy } from "../../services/tripadvisorService.js";
+import { savePlaceDetails } from '../../services/saveService.js';
+import { deleteAllPlaceDetails } from '../../services/placeService.js';
+import poi_marker from '../../assets/poi-marker.png'
+import { CategorySelect } from './CategorySelect.jsx';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 export const Map = () => {
-  const [viewport, setViewport] = useState({
+ const [viewport, setViewport] = useState({
     latitude: 48.858093,
     longitude: 2.299694,
     width: "100vw",
     height: "100vh",
     pitch: 67,
     zoom: 15
-  });
-  const [newPlace, setNewPlace] = useState(null);
+ });
+ const [newPlace, setNewPlace] = useState(null);
+ const [nearbyPlaceDetails, setNearbyPlaceDetails] = useState([]);
+ const [selectedPlace, setSelectedPlace] = useState(null);
+ const [placeCategory, setPlaceCategory] = useState('hotels');
 
-  const handleViewportChange = useCallback(
-    (newViewport) => setViewport(newViewport),
-    []
-  );
-
-  const handleDblClick = useCallback(
+ const handleDblClick = useCallback(
     async (e) => {
       setNewPlace([e.lngLat.lat, e.lngLat.lng]);
-      const nearbyPlaces = await getNearbyPlaces(e.lngLat.lat, e.lngLat.lng);
-      console.log(nearbyPlaces);
+      const deleteRes = await deleteAllPlaceDetails();
+      const nearbyPlaces = await getNearbyPlacesByCategory(e.lngLat.lat, e.lngLat.lng, placeCategory);
+      const nearbyDetails = [];
+      for (const nearbyPlace of nearbyPlaces.data) {
+        let details = await getLocationDetails(nearbyPlace.location_id);
+        nearbyDetails.push(details);
+        savePlaceDetails(details);
+      }
+      setNearbyPlaceDetails(nearbyDetails);
     },
     []
-  );
+ );
 
-  return (
+ const handleViewportChange = useCallback((newViewport) => {
+    setViewport(newViewport);
+    return newViewport;
+ }, []);
+
+ const handleMarkerClick = (place) => {
+    setSelectedPlace(place);
+ };
+
+ return (
+  <>
     <MapGL
       initialViewState={viewport}
       mapboxAccessToken={TOKEN}
@@ -39,60 +56,52 @@ export const Map = () => {
       transitionDuration="200"
       onViewportChange={handleViewportChange}
       onDblClick={handleDblClick}
+      doubleClickZoom={false}
     >
-      {newPlace ? (
+      {nearbyPlaceDetails.map((place, index) => (
         <Marker
-          latitude={newPlace[0]}
-          longitude={newPlace[1]}
-          offsetLeft={-3.5 * viewport.zoom}
-          offsetTop={-3.5 * viewport.zoom}
-        />
-      ) : null}
+          key={index}
+          latitude={place.latitude}
+          longitude={place.longitude}
+          offsetLeft={-20}
+          offsetTop={-10}
+          onClick={() => handleMarkerClick(place)}
+        >
+          <div style={{ 
+            width: '40px', 
+            height: '60px', 
+            backgroundImage: `url(${poi_marker})`, 
+            backgroundSize: 'cover', 
+            backgroundRepeat: 'no-repeat',
+          }} />
+        </Marker>
+      ))}
+      {selectedPlace && (
+        <Popup
+        latitude={selectedPlace.latitude}
+        longitude={selectedPlace.longitude}
+        closeButton={true}
+        closeOnClick={false}
+        onClose={() => setSelectedPlace(null)}
+        anchor="top"
+        style={{ maxWidth: '200px' }} // Set the maximum width of the popup
+     >
+        <div style={{ padding: '10px' }}>
+          <h3 style={{ color: 'var(--primary)' }}>{selectedPlace.name}</h3>
+          {selectedPlace.description && (
+            <p style={{ fontSize: '0.8em', marginTop: '5px', color: 'var(--dark)' }}>
+              {selectedPlace.description.length > 100 ? 
+            `${selectedPlace.description.substring(0, 100)}...` : 
+            selectedPlace.description}</p>
+          )}
+          {selectedPlace.rating_image_url && (
+            <img src={selectedPlace.rating_image_url} alt="Rating" style={{ width: '100%', marginTop: '10px', marginLeft: '-13px' }} />
+          )}
+        </div>
+        </Popup>
+      )}
     </MapGL>
-  );
+    <CategorySelect placeCategory={placeCategory} setPlaceCategory={setPlaceCategory} />
+    </>
+ );
 };
-
-
-
-// import "mapbox-gl/dist/mapbox-gl.css"
-// import { useState, useRef, useEffect } from 'react'
-// import mapboxgl from "mapbox-gl"
-// import './Map.css'
-// import Map from 'react-map-gl'
-// import { Marker } from "react-map-gl"
-
-// export const Map = () => {
-    
-
-//       const mapContainer = useRef(null);
-//       const map = useRef(null);
-//       const [lng, setLng] = useState(-70.9);
-//       const [lat, setLat] = useState(42.35);
-//       const [zoom, setZoom] = useState(9);
-      
-    
-//       useEffect(() => {
-//         if (map.current) return; // initialize map only once
-//         map.current = new mapboxgl.Map({
-//           container: mapContainer.current,
-//           style: 'mapbox://styles/mapbox/streets-v12',
-//           center: [lng, lat],
-//           zoom: zoom
-//         });
-    
-//         map.current.on('move', () => {
-//           setLng(map.current.getCenter().lng.toFixed(4));
-//           setLat(map.current.getCenter().lat.toFixed(4));
-//           setZoom(map.current.getZoom().toFixed(2));
-//         });
-//       });
-    
-//       return (
-//         <div>
-//           <div className="sidebar">
-//             Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-//           </div>
-//           <div ref={mapContainer} className="map-container" />
-//         </div>
-//       );
-//     }

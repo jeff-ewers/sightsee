@@ -28,7 +28,7 @@ export const Trips = ({currentUser}) => {
   
 return (
     <div className="trips">
-        <div style={{ width: "100vw", height: "450px", zIndex: 10}}>
+        <div style={{ width: "100vw", height: "650px", zIndex: 10}}>
           <Map>
           </Map>
         </div>

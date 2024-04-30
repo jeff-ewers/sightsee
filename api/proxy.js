@@ -28,17 +28,18 @@ app.use(cors(corsOptions));
 
 // proxy middleware for the TripAdvisor API
 app.use('/api', createProxyMiddleware({
-  target: 'https://api.content.tripadvisor.com/api/v1/location/nearby_search',
+  target: 'https://api.content.tripadvisor.com/api/v1',
   changeOrigin: true,
-  pathRewrite: {
-    '^/api': 'https://api.content.tripadvisor.com/api/v1/location/nearby_search', 
-  },
+  logLevel: 'debug',
+  // pathRewrite: {
+  //   '^/api': '', 
+  // },
 
   onProxyReq: (proxyReq, req, res) => {
     // authentication headers
-    proxyReq.setHeader('Referer', 'http://136.58.121.1:3000');
-    proxyReq.setHeader('Origin', 'http://136.58.121.1:3000');
-    proxyReq.setHeader('Authorization', `Bearer ${TOKEN}`);
+    // proxyReq.setHeader('Referer', 'http://136.58.121.1:3000');
+    // proxyReq.setHeader('Origin', 'http://136.58.121.1:3000');
+    // proxyReq.setHeader('Authorization', `Bearer ${TOKEN}`);
     console.log('Proxy Request:', proxyReq.method, proxyReq.path);
     console.log('Request Headers:', proxyReq.getHeaders());
   },
