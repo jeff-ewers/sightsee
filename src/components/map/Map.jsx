@@ -1,31 +1,28 @@
-// Map.jsx
 import React, { useState, useEffect, useCallback } from 'react';
 import "mapbox-gl/dist/mapbox-gl.css";
-import MapGL, { Marker } from 'react-map-gl';
+import MapGL, { Marker, Popup } from 'react-map-gl';
 import { getLocationDetails, getNearbyPlaces, pingProxy } from "../../services/tripadvisorService.js";
 import { savePlaceDetails } from '../../services/saveService.js';
 import { deleteAllPlaceDetails } from '../../services/placeService.js';
-
+import poi_marker from '../../assets/poi-marker.png'
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 export const Map = () => {
-  const [viewport, setViewport] = useState({
+ const [viewport, setViewport] = useState({
     latitude: 48.858093,
     longitude: 2.299694,
     width: "100vw",
     height: "100vh",
     pitch: 67,
     zoom: 15
-  });
-  const [newPlace, setNewPlace] = useState(null);
-  const [nearbyPlaceDetails, setNearbyPlaceDetails] = useState({});
+ });
+ const [newPlace, setNewPlace] = useState(null);
+ const [nearbyPlaceDetails, setNearbyPlaceDetails] = useState([]);
+ const [selectedPlace, setSelectedPlace] = useState(null);
 
-
-
-  const handleDblClick = useCallback(
+ const handleDblClick = useCallback(
     async (e) => {
       setNewPlace([e.lngLat.lat, e.lngLat.lng]);
-      // pingProxy();
       const deleteRes = await deleteAllPlaceDetails();
       const nearbyPlaces = await getNearbyPlaces(e.lngLat.lat, e.lngLat.lng);
       const nearbyDetails = [];
@@ -35,32 +32,20 @@ export const Map = () => {
         savePlaceDetails(details);
       }
       setNearbyPlaceDetails(nearbyDetails);
-
-
-      
     },
     []
-  );
+ );
 
-  const handleViewportChange = useCallback((newViewport) => {
+ const handleViewportChange = useCallback((newViewport) => {
     setViewport(newViewport);
     return newViewport;
-  }, []);
-  
-  // useEffect(() => {
-  //   const { latitude, longitude } = viewport;
-  //   const fetchNearbyPlaces = async () => {
-  //     const nearbyPlaces = await getNearbyPlaces(latitude, longitude);
-  //     for (const nearbyPlace of nearbyPlaces.data) {
-  //       console.log(nearbyPlace.location_id);
-  //     }
-  //   };
-  //   fetchNearbyPlaces();
-  // }, [viewport]);
-  
-  // ...
-  
-  return (
+ }, []);
+
+ const handleMarkerClick = (place) => {
+    setSelectedPlace(place);
+ };
+
+ return (
     <MapGL
       initialViewState={viewport}
       mapboxAccessToken={TOKEN}
@@ -70,9 +55,41 @@ export const Map = () => {
       onDblClick={handleDblClick}
       doubleClickZoom={false}
     >
-      {/* ... */}
+      {nearbyPlaceDetails.map((place, index) => (
+        <Marker
+          key={index}
+          latitude={place.latitude}
+          longitude={place.longitude}
+          offsetLeft={-20}
+          offsetTop={-10}
+          onClick={() => handleMarkerClick(place)}
+        >
+          <div style={{ 
+            width: '40px', 
+            height: '60px', 
+            backgroundImage: `url(${poi_marker})`, 
+            backgroundSize: 'cover', 
+            backgroundRepeat: 'no-repeat',
+          }} />
+        </Marker>
+      ))}
+      {selectedPlace && (
+        <Popup
+          latitude={selectedPlace.latitude}
+          longitude={selectedPlace.longitude}
+          closeButton={true}
+          closeOnClick={false}
+          onClose={() => setSelectedPlace(null)}
+          anchor="top"
+        >
+          <div>
+            <h3>{selectedPlace.name}</h3>
+            {selectedPlace.rating_image_url && (
+              <img src={selectedPlace.rating_image_url} alt="Rating" />
+            )}
+          </div>
+        </Popup>
+      )}
     </MapGL>
-  );
+ );
 };
-
-

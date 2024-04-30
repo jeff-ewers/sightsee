@@ -282,15 +282,15 @@
   ],
   "placeDetails": [
     {
-      "location_id": "9792256",
-      "name": "Chocolaterie de Puyricard Rapp",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d9792256-Reviews-Chocolaterie_de_Puyricard_Rapp-Paris_Ile_de_France.html?m=66827",
+      "location_id": "25930082",
+      "name": "Gusto Italia",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d25930082-Reviews-Gusto_Italia-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "27 avenue Rapp",
+        "street1": "11 Rue Amelie",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "27 avenue Rapp, 75007 Paris France"
+        "address_string": "11 Rue Amelie, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -309,68 +309,154 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.85928",
-      "longitude": "2.30094",
+      "latitude": "48.85899",
+      "longitude": "2.307749",
       "timezone": "Europe/Paris",
-      "email": "communication@puyricard.fr",
-      "phone": "+33 1 47 05 59 47",
-      "website": "http://www.puyricard.fr",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d9792256-Chocolaterie_de_Puyricard_Rapp-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#466 of 1,163 Shopping in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1163",
-        "ranking": "466"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "6",
-      "review_rating_count": {
-        "1": "1",
-        "2": "0",
-        "3": "1",
-        "4": "0",
-        "5": "4"
-      },
+      "email": "gustoitaliaparis7@gmail.com",
+      "phone": "+33 1 53 86 87 10",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d25930082-Gusto_Italia-Paris_Ile_de_France.html?m=66827",
+      "num_reviews": "0",
+      "subratings": {},
       "photo_count": "3",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d9792256-m66827-Reviews-Chocolaterie_de_Puyricard_Rapp-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "shopping",
-          "localized_name": "Shopping"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Shopping",
-          "localized_name": "Shopping",
-          "categories": [
-            {
-              "name": "Gift & Specialty Shops",
-              "localized_name": "Gift & Specialty Shops"
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d25930082-m66827-Reviews-Gusto_Italia-Paris_Ile_de_France.html#photos",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "1100"
+            },
+            "close": {
+              "day": 1,
+              "time": "2300"
             }
-          ]
-        }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "1100"
+            },
+            "close": {
+              "day": 2,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "1100"
+            },
+            "close": {
+              "day": 3,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "1100"
+            },
+            "close": {
+              "day": 4,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "1100"
+            },
+            "close": {
+              "day": 5,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "1100"
+            },
+            "close": {
+              "day": 6,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 7,
+              "time": "1100"
+            },
+            "close": {
+              "day": 7,
+              "time": "2300"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 11:00 - 23:00",
+          "Tuesday: 11:00 - 23:00",
+          "Wednesday: 11:00 - 23:00",
+          "Thursday: 11:00 - 23:00",
+          "Friday: 11:00 - 23:00",
+          "Saturday: 11:00 - 23:00",
+          "Sunday: 11:00 - 23:00"
+        ]
+      },
+      "features": [
+        "Accepts American Express",
+        "Accepts Credit Cards",
+        "Accepts Mastercard",
+        "Accepts Visa",
+        "Delivery",
+        "Digital Payments",
+        "Free Wifi",
+        "Gift Cards Available",
+        "Non-smoking restaurants",
+        "Parking Available",
+        "Private Dining",
+        "Reservations",
+        "Seating",
+        "Serves Alcohol",
+        "Street Parking",
+        "Wheelchair Accessible",
+        "Wine and Beer"
       ],
-      "neighborhood_info": [
+      "cuisine": [
         {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
+          "name": "italian",
+          "localized_name": "Italian"
         },
         {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
+          "name": "pizza",
+          "localized_name": "Pizza"
         },
         {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
+          "name": "seafood",
+          "localized_name": "Seafood"
+        },
+        {
+          "name": "european",
+          "localized_name": "European"
+        },
+        {
+          "name": "romana",
+          "localized_name": "Romana"
+        },
+        {
+          "name": "lazio",
+          "localized_name": "Lazio"
+        },
+        {
+          "name": "centralitalian",
+          "localized_name": "Central-Italian"
         }
       ],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [],
+      "neighborhood_info": [],
       "trip_types": [
         {
           "name": "business",
@@ -380,12 +466,12 @@
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "1"
+          "value": "0"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "3"
+          "value": "0"
         },
         {
           "name": "family",
@@ -395,23 +481,22 @@
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "1"
+          "value": "0"
         }
       ],
       "awards": [],
       "id": 1
     },
     {
-      "location_id": "780313",
-      "name": "Veramente",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d780313-Reviews-Veramente-Paris_Ile_de_France.html?m=66827",
+      "location_id": "27202095",
+      "name": "Reed",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d27202095-Reviews-Reed-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "2 rue Sedillot",
-        "street2": "",
+        "street1": "11bis Rue Amelie",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "2 rue Sedillot, 75007 Paris France"
+        "address_string": "11bis Rue Amelie, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -430,48 +515,131 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.859394",
-      "longitude": "2.301456",
+      "latitude": "48.858826",
+      "longitude": "2.307663",
       "timezone": "Europe/Paris",
-      "email": "veramente@orange.fr",
-      "phone": "+33 1 45 51 95 82",
-      "website": "http://www.veramente.fr/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d780313-Veramente-Paris_Ile_de_France.html?m=66827",
+      "phone": "+33 1 45 55 88 40",
+      "website": "https://www.facebook.com/387272098010206",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d27202095-Reed-Paris_Ile_de_France.html?m=66827",
+      "num_reviews": "0",
+      "subratings": {},
+      "photo_count": "0",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d27202095-m66827-Reviews-Reed-Paris_Ile_de_France.html#photos",
+      "features": [],
+      "cuisine": [
+        {
+          "name": "french",
+          "localized_name": "French"
+        }
+      ],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "0"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 2
+    },
+    {
+      "location_id": "2199543",
+      "name": "Gusto Italia Amelie",
+      "description": "Gusto Italia, c’est petite trattoria située au cœur du 7e arrondissement de Paris, où la passion pour la cuisine italienne prend vie. Pizzas croustillantes, antipasti savoureux, burrata crémeuse, pâtes fraiches et risottos à l’odeur envoutante, le chef nous invite à un voyage au coeur de la péninsule. Ici chaque région est célébrée, pour le plaisir des plus gourmands. Chacun des plats est préparé avec le plus grand soin, avec des ingrédients de première qualité, afin de garantir à tous une expérience culinaire inoubliable, dans un cadre agréable et décontracté. Une équipe chaleureuse et attentionnée veillera à ce que vous vous sentiez comme chez vous, que ce soit pour un déjeuner rapide ou un dîner relaxant.",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d2199543-Reviews-Gusto_Italia_Amelie-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "11 Rue Amelie",
+        "street2": "",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "11 Rue Amelie, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.858963",
+      "longitude": "2.307612",
+      "timezone": "Europe/Paris",
+      "email": "gustoitaliaparis7@gmail.com",
+      "phone": "+33 1 53 86 87 10",
+      "website": "https://www.gustoitalia-amelie.fr/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d2199543-Gusto_Italia_Amelie-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#2,017 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#3,619 of 20,521 Places to Eat in Paris",
         "geo_location_name": "Paris",
         "ranking_out_of": "20521",
-        "ranking": "2017"
+        "ranking": "3619"
       },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "161",
+      "rating": "4.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+      "num_reviews": "273",
       "review_rating_count": {
-        "1": "3",
-        "2": "3",
-        "3": "16",
-        "4": "41",
-        "5": "98"
+        "1": "28",
+        "2": "15",
+        "3": "23",
+        "4": "80",
+        "5": "127"
       },
       "subratings": {
         "0": {
           "name": "rate_food",
           "localized_name": "Food",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
         },
         "1": {
           "name": "rate_atmosphere",
           "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
         },
         "2": {
           "name": "rate_service",
           "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
         },
         "3": {
           "name": "rate_value",
@@ -480,150 +648,103 @@
           "value": "4.0"
         }
       },
-      "photo_count": "55",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d780313-m66827-Reviews-Veramente-Paris_Ile_de_France.html#photos",
+      "photo_count": "126",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d2199543-m66827-Reviews-Gusto_Italia_Amelie-Paris_Ile_de_France.html#photos",
       "price_level": "$$ - $$$",
       "hours": {
         "periods": [
           {
             "open": {
               "day": 1,
-              "time": "1200"
+              "time": "1100"
             },
             "close": {
               "day": 1,
-              "time": "1415"
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "time": "1930"
-            },
-            "close": {
-              "day": 1,
-              "time": "2215"
+              "time": "2300"
             }
           },
           {
             "open": {
               "day": 2,
-              "time": "1200"
+              "time": "1100"
             },
             "close": {
               "day": 2,
-              "time": "1415"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1930"
-            },
-            "close": {
-              "day": 2,
-              "time": "2215"
+              "time": "2300"
             }
           },
           {
             "open": {
               "day": 3,
-              "time": "1200"
+              "time": "1100"
             },
             "close": {
               "day": 3,
-              "time": "1415"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1930"
-            },
-            "close": {
-              "day": 3,
-              "time": "2215"
+              "time": "2300"
             }
           },
           {
             "open": {
               "day": 4,
-              "time": "1200"
+              "time": "1100"
             },
             "close": {
               "day": 4,
-              "time": "1415"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1930"
-            },
-            "close": {
-              "day": 4,
-              "time": "2215"
+              "time": "2300"
             }
           },
           {
             "open": {
               "day": 5,
-              "time": "1200"
+              "time": "1100"
             },
             "close": {
               "day": 5,
-              "time": "1415"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1930"
-            },
-            "close": {
-              "day": 5,
-              "time": "2215"
+              "time": "2300"
             }
           },
           {
             "open": {
               "day": 6,
-              "time": "1200"
+              "time": "1100"
             },
             "close": {
               "day": 6,
-              "time": "1415"
+              "time": "2300"
             }
           },
           {
             "open": {
-              "day": 6,
-              "time": "1930"
+              "day": 7,
+              "time": "1100"
             },
             "close": {
-              "day": 6,
-              "time": "2215"
+              "day": 7,
+              "time": "2300"
             }
           }
         ],
         "weekday_text": [
-          "Monday: 12:00 - 14:15,  19:30 - 22:15",
-          "Tuesday: 12:00 - 14:15,  19:30 - 22:15",
-          "Wednesday: 12:00 - 14:15,  19:30 - 22:15",
-          "Thursday: 12:00 - 14:15,  19:30 - 22:15",
-          "Friday: 12:00 - 14:15,  19:30 - 22:15",
-          "Saturday: 12:00 - 14:15,  19:30 - 22:15",
-          "Sunday: Closed"
+          "Monday: 11:00 - 23:00",
+          "Tuesday: 11:00 - 23:00",
+          "Wednesday: 11:00 - 23:00",
+          "Thursday: 11:00 - 23:00",
+          "Friday: 11:00 - 23:00",
+          "Saturday: 11:00 - 23:00",
+          "Sunday: 11:00 - 23:00"
         ]
       },
       "features": [
+        "Accepts American Express",
         "Accepts Credit Cards",
-        "Outdoor Seating",
+        "Accepts Mastercard",
+        "Accepts Visa",
+        "Delivery",
         "Reservations",
         "Seating",
         "Serves Alcohol",
         "Table Service",
-        "Wheelchair Accessible"
+        "Takeout"
       ],
       "cuisine": [
         {
@@ -631,8 +752,8 @@
           "localized_name": "Italian"
         },
         {
-          "name": "mediterranean",
-          "localized_name": "Mediterranean"
+          "name": "pizza",
+          "localized_name": "Pizza"
         },
         {
           "name": "european",
@@ -667,226 +788,42 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "16"
+          "value": "10"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "35"
+          "value": "101"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "0"
+          "value": "12"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "32"
+          "value": "65"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "53"
-        }
-      ],
-      "awards": [],
-      "id": 2
-    },
-    {
-      "location_id": "3888885",
-      "name": "By Matao",
-      "description": "Shop specializing in personnalized gift. Our custom embroidery embodies French elegance. Candles, bags, beach towel, pillow, robe, birth gift... All our gift items are customizable according to your wishes. A way to bring a unique gift and sure to please.",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d3888885-Reviews-By_Matao-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "70 rue Lauriston",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75116",
-        "address_string": "70 rue Lauriston, 75116 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85941",
-      "longitude": "2.30187",
-      "timezone": "Europe/Paris",
-      "email": "charlotte@bymatao.com",
-      "phone": "+33 1 45 50 32 28",
-      "website": "https://www.facebook.com/byMatao/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d3888885-By_Matao-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#618 of 1,163 Shopping in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1163",
-        "ranking": "618"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "4",
-      "review_rating_count": {
-        "1": "1",
-        "2": "0",
-        "3": "0",
-        "4": "0",
-        "5": "3"
-      },
-      "photo_count": "1",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d3888885-m66827-Reviews-By_Matao-Paris_Ile_de_France.html#photos",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "1000"
-            },
-            "close": {
-              "day": 1,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1000"
-            },
-            "close": {
-              "day": 2,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1000"
-            },
-            "close": {
-              "day": 3,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1000"
-            },
-            "close": {
-              "day": 4,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1000"
-            },
-            "close": {
-              "day": 5,
-              "time": "1800"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 10:00 - 18:00",
-          "Tuesday: 10:00 - 18:00",
-          "Wednesday: 10:00 - 18:00",
-          "Thursday: 10:00 - 18:00",
-          "Friday: 10:00 - 18:00",
-          "Saturday: Closed",
-          "Sunday: Closed"
-        ]
-      },
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "shopping",
-          "localized_name": "Shopping"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Shopping",
-          "localized_name": "Shopping",
-          "categories": [
-            {
-              "name": "Gift & Specialty Shops",
-              "localized_name": "Gift & Specialty Shops"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "2"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "1"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "0"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "1"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
+          "value": "34"
         }
       ],
       "awards": [],
       "id": 3
     },
     {
-      "location_id": "8434993",
-      "name": "Le Cairn",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d8434993-Reviews-Le_Cairn-Paris_Ile_de_France.html?m=66827",
+      "location_id": "8039395",
+      "name": "Bistrot Chez France",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d8039395-Reviews-Bistrot_Chez_France-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "3 rue Dupont des Loges",
+        "street1": "9 rue Amelie",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "3 rue Dupont des Loges, 75007 Paris France"
+        "address_string": "9 rue Amelie, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -905,42 +842,42 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.85938",
-      "longitude": "2.301775",
+      "latitude": "48.85907",
+      "longitude": "2.307571",
       "timezone": "Europe/Paris",
-      "email": "mathias-b@hotmail.fr",
-      "phone": "+33 6 83 87 39 63",
-      "website": "https://www.facebook.com/pages/LE-CAIRN-coffee-shop-Naturopathie/774041376025322",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d8434993-Le_Cairn-Paris_Ile_de_France.html?m=66827",
+      "email": "bistrotchezfrance@free.fr",
+      "phone": "+33 1 40 67 96 54",
+      "website": "http://www.chezfrancebistrot.fr/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d8039395-Bistrot_Chez_France-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#5,172 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#362 of 20,521 Places to Eat in Paris",
         "geo_location_name": "Paris",
         "ranking_out_of": "20521",
-        "ranking": "5172"
+        "ranking": "362"
       },
       "rating": "4.5",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "30",
+      "num_reviews": "976",
       "review_rating_count": {
-        "1": "0",
-        "2": "1",
-        "3": "0",
-        "4": "6",
-        "5": "23"
+        "1": "7",
+        "2": "19",
+        "3": "34",
+        "4": "220",
+        "5": "696"
       },
       "subratings": {
         "0": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        },
-        "1": {
           "name": "rate_food",
           "localized_name": "Food",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
+        },
+        "1": {
+          "name": "rate_atmosphere",
+          "localized_name": "Atmosphere",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
         },
         "2": {
           "name": "rate_service",
@@ -955,216 +892,8 @@
           "value": "4.5"
         }
       },
-      "photo_count": "26",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d8434993-m66827-Reviews-Le_Cairn-Paris_Ile_de_France.html#photos",
-      "price_level": "$$ - $$$",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "0800"
-            },
-            "close": {
-              "day": 1,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "0800"
-            },
-            "close": {
-              "day": 2,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "0800"
-            },
-            "close": {
-              "day": 3,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "0800"
-            },
-            "close": {
-              "day": 4,
-              "time": "1800"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "0800"
-            },
-            "close": {
-              "day": 5,
-              "time": "1800"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 08:00 - 18:00",
-          "Tuesday: 08:00 - 18:00",
-          "Wednesday: 08:00 - 18:00",
-          "Thursday: 08:00 - 18:00",
-          "Friday: 08:00 - 18:00",
-          "Saturday: Closed",
-          "Sunday: Closed"
-        ]
-      },
-      "features": [
-        "Seating",
-        "Takeout"
-      ],
-      "cuisine": [
-        {
-          "name": "cafe",
-          "localized_name": "Cafe"
-        }
-      ],
-      "category": {
-        "name": "restaurant",
-        "localized_name": "Restaurant"
-      },
-      "subcategory": [
-        {
-          "name": "cafe",
-          "localized_name": "Café"
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "8"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "8"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "5"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "4"
-        }
-      ],
-      "awards": [],
-      "id": 4
-    },
-    {
-      "location_id": "3833380",
-      "name": "Sancerre Rive Gauche",
-      "description": "Gastronomie abordable Cadre chaud et familial Bistronomie Repris par un couple mari en cuisine, épouse en salle. Carte qui change très régulièrement en fonction des produits d’arrivage et de saison.",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3833380-Reviews-Sancerre_Rive_Gauche-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "22 avenue Rapp",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "22 avenue Rapp, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85913",
-      "longitude": "2.300613",
-      "timezone": "Europe/Paris",
-      "phone": "+33 1 43 06 87 98",
-      "website": "http://lesancerreparis.com/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d3833380-Sancerre_Rive_Gauche-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#3,745 of 20,521 Places to Eat in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "20521",
-        "ranking": "3745"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "85",
-      "review_rating_count": {
-        "1": "4",
-        "2": "3",
-        "3": "9",
-        "4": "27",
-        "5": "42"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_food",
-          "localized_name": "Food",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "1": {
-          "name": "rate_atmosphere",
-          "localized_name": "Atmosphere",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "2": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "3": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        }
-      },
-      "photo_count": "47",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3833380-m66827-Reviews-Sancerre_Rive_Gauche-Paris_Ile_de_France.html#photos",
+      "photo_count": "557",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d8039395-m66827-Reviews-Bistrot_Chez_France-Paris_Ile_de_France.html#photos",
       "price_level": "$$ - $$$",
       "hours": {
         "periods": [
@@ -1181,7 +910,7 @@
           {
             "open": {
               "day": 1,
-              "time": "1930"
+              "time": "1900"
             },
             "close": {
               "day": 1,
@@ -1195,7 +924,7 @@
             },
             "close": {
               "day": 2,
-              "time": "1430"
+              "time": "1400"
             }
           },
           {
@@ -1205,7 +934,7 @@
             },
             "close": {
               "day": 2,
-              "time": "2230"
+              "time": "2200"
             }
           },
           {
@@ -1215,7 +944,7 @@
             },
             "close": {
               "day": 3,
-              "time": "1430"
+              "time": "1400"
             }
           },
           {
@@ -1225,7 +954,7 @@
             },
             "close": {
               "day": 3,
-              "time": "2230"
+              "time": "2200"
             }
           },
           {
@@ -1235,7 +964,7 @@
             },
             "close": {
               "day": 4,
-              "time": "1430"
+              "time": "1400"
             }
           },
           {
@@ -1245,7 +974,7 @@
             },
             "close": {
               "day": 4,
-              "time": "2230"
+              "time": "2200"
             }
           },
           {
@@ -1255,7 +984,7 @@
             },
             "close": {
               "day": 5,
-              "time": "1430"
+              "time": "1400"
             }
           },
           {
@@ -1265,27 +994,38 @@
             },
             "close": {
               "day": 5,
-              "time": "2230"
+              "time": "2200"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "1900"
+            },
+            "close": {
+              "day": 6,
+              "time": "2200"
             }
           }
         ],
         "weekday_text": [
-          "Monday: 12:00 - 14:00,  19:30 - 22:00",
-          "Tuesday: 12:00 - 14:30,  19:00 - 22:30",
-          "Wednesday: 12:00 - 14:30,  19:00 - 22:30",
-          "Thursday: 12:00 - 14:30,  19:00 - 22:30",
-          "Friday: 12:00 - 14:30,  19:00 - 22:30",
-          "Saturday: Closed",
+          "Monday: 12:00 - 14:00,  19:00 - 22:00",
+          "Tuesday: 12:00 - 14:00,  19:00 - 22:00",
+          "Wednesday: 12:00 - 14:00,  19:00 - 22:00",
+          "Thursday: 12:00 - 14:00,  19:00 - 22:00",
+          "Friday: 12:00 - 14:00,  19:00 - 22:00",
+          "Saturday: 19:00 - 22:00",
           "Sunday: Closed"
         ]
       },
       "features": [
-        "Outdoor Seating",
+        "Accepts Credit Cards",
+        "Accepts Mastercard",
+        "Accepts Visa",
         "Reservations",
         "Seating",
         "Serves Alcohol",
-        "Table Service",
-        "Wheelchair Accessible"
+        "Table Service"
       ],
       "cuisine": [
         {
@@ -1321,42 +1061,54 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "6"
+          "value": "42"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "27"
+          "value": "422"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "3"
+          "value": "42"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "15"
+          "value": "186"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "15"
+          "value": "143"
         }
       ],
-      "awards": [],
-      "id": 5
+      "awards": [
+        {
+          "award_type": "Travelers Choice",
+          "year": "2023",
+          "images": {
+            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
+            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
+          },
+          "categories": [],
+          "display_name": "Travelers Choice"
+        }
+      ],
+      "id": 4
     },
     {
-      "location_id": "25192685",
-      "name": "Immeuble Lavirotte",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d25192685-Reviews-Immeuble_Lavirotte-Paris_Ile_de_France.html?m=66827",
+      "location_id": "6103882",
+      "name": "Corpsline",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d6103882-Reviews-Corpsline-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "29 avenue Rapp",
+        "street1": "17 rue de la Comete",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "29 avenue Rapp, 75007 Paris France"
+        "address_string": "17 rue de la Comete, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -1375,40 +1127,264 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.85915",
-      "longitude": "2.300804",
+      "latitude": "48.85875",
+      "longitude": "2.30923",
       "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d25192685-Immeuble_Lavirotte-Paris_Ile_de_France.html?m=66827",
-      "num_reviews": "0",
-      "photo_count": "2",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d25192685-m66827-Reviews-Immeuble_Lavirotte-Paris_Ile_de_France.html#photos",
+      "phone": "+33 1 45 56 00 72",
+      "website": "http://www.corpsline.com",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d6103882-Corpsline-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#349 of 936 Spas &amp; Wellness in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "936",
+        "ranking": "349"
+      },
+      "rating": "3.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
+      "num_reviews": "1",
+      "review_rating_count": {
+        "1": "0",
+        "2": "0",
+        "3": "1",
+        "4": "0",
+        "5": "0"
+      },
+      "photo_count": "1",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d6103882-m66827-Reviews-Corpsline-Paris_Ile_de_France.html#photos",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "0900"
+            },
+            "close": {
+              "day": 1,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "0900"
+            },
+            "close": {
+              "day": 2,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "0900"
+            },
+            "close": {
+              "day": 3,
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "0900"
+            },
+            "close": {
+              "day": 4,
+              "time": "2200"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "0900"
+            },
+            "close": {
+              "day": 5,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "0900"
+            },
+            "close": {
+              "day": 6,
+              "time": "1700"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 09:00 - 20:00",
+          "Tuesday: 09:00 - 20:00",
+          "Wednesday: 09:00 - 19:00",
+          "Thursday: 09:00 - 22:00",
+          "Friday: 09:00 - 20:00",
+          "Saturday: 09:00 - 17:00",
+          "Sunday: Closed"
+        ]
+      },
       "category": {
         "name": "attraction",
         "localized_name": "Attraction"
       },
       "subcategory": [
         {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
+          "name": "wellness_spas",
+          "localized_name": "Spas & Wellness"
         },
         {
-          "name": "attractions",
-          "localized_name": "Attractions"
+          "name": "activities",
+          "localized_name": "Activities"
         }
       ],
       "groups": [
         {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
+          "name": "Spas & Wellness",
+          "localized_name": "Spas & Wellness",
           "categories": [
             {
-              "name": "Architectural Buildings",
-              "localized_name": "Architectural Buildings"
+              "name": "Spas",
+              "localized_name": "Spas"
             }
           ]
         }
       ],
-      "neighborhood_info": [],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "0"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 5
+    },
+    {
+      "location_id": "20103811",
+      "name": "Duvelleroy",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d20103811-Reviews-Duvelleroy-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "17 rue Amelie",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "17 rue Amelie, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85849",
+      "longitude": "2.30773",
+      "timezone": "Europe/Paris",
+      "email": "contact@duvelleroy.fr",
+      "phone": "+33 1 42 84 07 52",
+      "website": "http://eventail-duvelleroy.fr",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d20103811-Duvelleroy-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#538 of 1,163 Shopping in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1163",
+        "ranking": "538"
+      },
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "1",
+      "review_rating_count": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0",
+        "5": "1"
+      },
+      "photo_count": "0",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d20103811-m66827-Reviews-Duvelleroy-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "shopping",
+          "localized_name": "Shopping"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Shopping",
+          "localized_name": "Shopping",
+          "categories": [
+            {
+              "name": "Gift & Specialty Shops",
+              "localized_name": "Gift & Specialty Shops"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
       "trip_types": [
         {
           "name": "business",
@@ -1440,15 +1416,16 @@
       "id": 6
     },
     {
-      "location_id": "26246140",
-      "name": "Jules Lavirotte's",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d26246140-Reviews-Jules_Lavirotte_s-Paris_Ile_de_France.html?m=66827",
+      "location_id": "4467359",
+      "name": "Le Crepuscule",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d4467359-Reviews-Le_Crepuscule-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "29 Avenue Rapp",
+        "street1": "18 rue Amelie",
+        "street2": "Metro la Tour-Maubourg Line 8",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "29 Avenue Rapp, 75007 Paris France"
+        "address_string": "18 rue Amelie Metro la Tour-Maubourg Line 8, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -1467,243 +1444,28 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.859123",
-      "longitude": "2.300903",
+      "latitude": "48.858444",
+      "longitude": "2.30766",
       "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d26246140-Jules_Lavirotte_s-Paris_Ile_de_France.html?m=66827",
-      "num_reviews": "0",
-      "photo_count": "1",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d26246140-m66827-Reviews-Jules_Lavirotte_s-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Architectural Buildings",
-              "localized_name": "Architectural Buildings"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "0"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "0"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "0"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
-        }
-      ],
-      "awards": [],
-      "id": 7
-    },
-    {
-      "location_id": "188148",
-      "name": "29 Ave. Rapp",
-      "description": "This beautiful house, built in 1900 by architect Jules Lavirotte, is located in an area of the 7th Arrondissement famous for its elegant residences.",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d188148-Reviews-29_Ave_Rapp-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "29 avenue Rapp",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "29 avenue Rapp, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85912",
-      "longitude": "2.30089",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d188148-29_Ave_Rapp-Paris_Ile_de_France.html?m=66827",
+      "phone": "+33 1 80 06 14 32",
+      "website": "http://redsea-laciotat.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d4467359-Le_Crepuscule-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#422 of 3,558 things to do in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "3558",
-        "ranking": "422"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "50",
-      "review_rating_count": {
-        "1": "1",
-        "2": "1",
-        "3": "4",
-        "4": "16",
-        "5": "29"
-      },
-      "photo_count": "55",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d188148-m66827-Reviews-29_Ave_Rapp-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Architectural Buildings",
-              "localized_name": "Architectural Buildings"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "19"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "11"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "3"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "3"
-        }
-      ],
-      "awards": [],
-      "id": 8
-    },
-    {
-      "location_id": "1326434",
-      "name": "Il Sorrentino",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d1326434-Reviews-Il_Sorrentino-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "4 rue de Monttessuy",
-        "street2": "",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "4 rue de Monttessuy, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.859768",
-      "longitude": "2.300483",
-      "timezone": "Europe/Paris",
-      "phone": "+33 1 45 55 12 50",
-      "website": "http://www.ilsorrentino.fr/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d1326434-Il_Sorrentino-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#609 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#201 of 20,521 Places to Eat in Paris",
         "geo_location_name": "Paris",
         "ranking_out_of": "20521",
-        "ranking": "609"
+        "ranking": "201"
       },
       "rating": "4.5",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "707",
+      "num_reviews": "630",
       "review_rating_count": {
-        "1": "20",
-        "2": "23",
-        "3": "45",
-        "4": "191",
-        "5": "428"
+        "1": "8",
+        "2": "6",
+        "3": "19",
+        "4": "122",
+        "5": "475"
       },
       "subratings": {
         "0": {
@@ -1727,148 +1489,367 @@
         "3": {
           "name": "rate_value",
           "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        }
+      },
+      "photo_count": "291",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d4467359-m66827-Reviews-Le_Crepuscule-Paris_Ile_de_France.html#photos",
+      "price_level": "$",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 2,
+              "time": "1200"
+            },
+            "close": {
+              "day": 2,
+              "time": "1430"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "1900"
+            },
+            "close": {
+              "day": 2,
+              "time": "2100"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "1200"
+            },
+            "close": {
+              "day": 3,
+              "time": "1430"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "1900"
+            },
+            "close": {
+              "day": 3,
+              "time": "2100"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "1200"
+            },
+            "close": {
+              "day": 4,
+              "time": "1430"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "1900"
+            },
+            "close": {
+              "day": 4,
+              "time": "2100"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "1200"
+            },
+            "close": {
+              "day": 5,
+              "time": "1430"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "1900"
+            },
+            "close": {
+              "day": 5,
+              "time": "2100"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "1200"
+            },
+            "close": {
+              "day": 6,
+              "time": "1430"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "1900"
+            },
+            "close": {
+              "day": 6,
+              "time": "2100"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: Closed",
+          "Tuesday: 12:00 - 14:30,  19:00 - 21:00",
+          "Wednesday: 12:00 - 14:30,  19:00 - 21:00",
+          "Thursday: 12:00 - 14:30,  19:00 - 21:00",
+          "Friday: 12:00 - 14:30,  19:00 - 21:00",
+          "Saturday: 12:00 - 14:30,  19:00 - 21:00",
+          "Sunday: Closed"
+        ]
+      },
+      "features": [
+        "Accepts Credit Cards",
+        "Accepts Mastercard",
+        "Accepts Visa",
+        "Reservations",
+        "Seating",
+        "Serves Alcohol",
+        "Table Service"
+      ],
+      "cuisine": [
+        {
+          "name": "french",
+          "localized_name": "French"
+        }
+      ],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "name": "sit_down",
+          "localized_name": "Sit down"
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "17"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "284"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "19"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "147"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "86"
+        }
+      ],
+      "awards": [],
+      "id": 7
+    },
+    {
+      "location_id": "3208071",
+      "name": "Le Campanella",
+      "description": "Le Campanella is a Typical French Brasserie nearby the Eiffel Tower Area. You will discover and enjoy to start with our Onion Soup, French duck foie gras or our typical frog legs or amazing Snails... You will continue your Odissey with our Beef Stew \"Bourguignon\", our Royal Cassoulet, our French duck confit or many others good dishes. And for gourmets you will be able to taste our \"Tarte Tatin\" (upside-down apple pie and fresh cream, or our \"Crème Brulée\" (caramelised custard cream), or our \"Eclair Géant Très Chocolat\" (giant eclair so chocolate)...And because this is France and this is Paris, good food always comes with good wines. You will discover treasures in our cave such as Château Lynch-Bages, Château Léoville Barton, Châteauneuf-du-Pape, Côte-Rôtie, Clos des Mouches, Meursault...and so many others (be aware stocks are not unlimited and may varie...). Please remember that we would be more than happy to welcome you at Le Campanella.",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3208071-Reviews-Le_Campanella-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "18 avenue Bosquet",
+        "street2": "Angle Avenue Bosquet et Rue Saint-Dominique",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "18 avenue Bosquet Angle Avenue Bosquet et Rue Saint-Dominique, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.8587",
+      "longitude": "2.303344",
+      "timezone": "Europe/Paris",
+      "email": "contact@lecampanella.com",
+      "phone": "+33 1 45 55 73 15",
+      "website": "http://lecampanella.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d3208071-Le_Campanella-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#1,031 of 20,521 Places to Eat in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "20521",
+        "ranking": "1031"
+      },
+      "rating": "4.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+      "num_reviews": "769",
+      "review_rating_count": {
+        "1": "63",
+        "2": "29",
+        "3": "68",
+        "4": "240",
+        "5": "369"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_food",
+          "localized_name": "Food",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
+        },
+        "1": {
+          "name": "rate_atmosphere",
+          "localized_name": "Atmosphere",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
+        },
+        "2": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "3": {
+          "name": "rate_value",
+          "localized_name": "Value",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
           "value": "4.0"
         }
       },
-      "photo_count": "330",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d1326434-m66827-Reviews-Il_Sorrentino-Paris_Ile_de_France.html#photos",
+      "photo_count": "384",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3208071-m66827-Reviews-Le_Campanella-Paris_Ile_de_France.html#photos",
       "price_level": "$$ - $$$",
       "hours": {
         "periods": [
           {
             "open": {
               "day": 1,
-              "time": "1200"
+              "time": "0700"
             },
             "close": {
               "day": 1,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 1,
-              "time": "1900"
-            },
-            "close": {
-              "day": 1,
-              "time": "2300"
+              "time": "0200"
             }
           },
           {
             "open": {
               "day": 2,
-              "time": "1200"
+              "time": "0700"
             },
             "close": {
               "day": 2,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "1900"
-            },
-            "close": {
-              "day": 2,
-              "time": "2300"
+              "time": "0200"
             }
           },
           {
             "open": {
               "day": 3,
-              "time": "1200"
+              "time": "0700"
             },
             "close": {
               "day": 3,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "1900"
-            },
-            "close": {
-              "day": 3,
-              "time": "2300"
+              "time": "0200"
             }
           },
           {
             "open": {
               "day": 4,
-              "time": "1200"
+              "time": "0700"
             },
             "close": {
               "day": 4,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "1900"
-            },
-            "close": {
-              "day": 4,
-              "time": "2300"
+              "time": "0200"
             }
           },
           {
             "open": {
               "day": 5,
-              "time": "1200"
+              "time": "0700"
             },
             "close": {
               "day": 5,
-              "time": "1430"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "1900"
-            },
-            "close": {
-              "day": 5,
-              "time": "2300"
+              "time": "0200"
             }
           },
           {
             "open": {
               "day": 6,
-              "time": "1200"
+              "time": "0700"
             },
             "close": {
               "day": 6,
-              "time": "1430"
+              "time": "0200"
             }
           },
           {
             "open": {
-              "day": 6,
-              "time": "1900"
+              "day": 7,
+              "time": "0700"
             },
             "close": {
-              "day": 6,
-              "time": "2300"
+              "day": 7,
+              "time": "0200"
             }
           }
         ],
         "weekday_text": [
-          "Monday: 12:00 - 14:30,  19:00 - 23:00",
-          "Tuesday: 12:00 - 14:30,  19:00 - 23:00",
-          "Wednesday: 12:00 - 14:30,  19:00 - 23:00",
-          "Thursday: 12:00 - 14:30,  19:00 - 23:00",
-          "Friday: 12:00 - 14:30,  19:00 - 23:00",
-          "Saturday: 12:00 - 14:30,  19:00 - 23:00",
-          "Sunday: Closed"
+          "Monday: 07:00 - 02:00",
+          "Tuesday: 07:00 - 02:00",
+          "Wednesday: 07:00 - 02:00",
+          "Thursday: 07:00 - 02:00",
+          "Friday: 07:00 - 02:00",
+          "Saturday: 07:00 - 02:00",
+          "Sunday: 07:00 - 02:00"
         ]
       },
       "features": [
         "Accepts Credit Cards",
+        "Accepts Mastercard",
+        "Accepts Visa",
+        "Full Bar",
+        "Outdoor Seating",
         "Reservations",
         "Seating",
         "Serves Alcohol",
@@ -1877,12 +1858,8 @@
       ],
       "cuisine": [
         {
-          "name": "italian",
-          "localized_name": "Italian"
-        },
-        {
-          "name": "mediterranean",
-          "localized_name": "Mediterranean"
+          "name": "french",
+          "localized_name": "French"
         },
         {
           "name": "european",
@@ -1917,27 +1894,27 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "39"
+          "value": "23"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "269"
+          "value": "279"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "10"
+          "value": "32"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "152"
+          "value": "196"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "129"
+          "value": "142"
         }
       ],
       "awards": [
@@ -1953,18 +1930,18 @@
           "display_name": "Travelers Choice"
         }
       ],
-      "id": 9
+      "id": 8
     },
     {
-      "location_id": "4733401",
-      "name": "Chikara",
-      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d4733401-Reviews-Chikara-Paris_Ile_de_France.html?m=66827",
+      "location_id": "4166947",
+      "name": "Catherine Reed Cooking Classes",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d4166947-Reviews-Catherine_Reed_Cooking_Classes-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "13 rue de Monttessuy",
+        "street1": "11 B rue Amelie",
         "city": "Paris",
         "country": "France",
         "postalcode": "75007",
-        "address_string": "13 rue de Monttessuy, 75007 Paris France"
+        "address_string": "11 B rue Amelie, 75007 Paris France"
       },
       "ancestors": [
         {
@@ -1983,150 +1960,276 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.859364",
-      "longitude": "2.2984",
+      "latitude": "48.858917",
+      "longitude": "2.307556",
       "timezone": "Europe/Paris",
-      "phone": "+33 1 40 62 92 21",
-      "website": "http://restaurant-japonais-chikara.fr",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d4733401-Chikara-Paris_Ile_de_France.html?m=66827",
+      "phone": "+33 1 45 55 88 40",
+      "website": "http://www.reedrestaurant.com/Reed/Welcome.html",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d4166947-Catherine_Reed_Cooking_Classes-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#4,317 of 20,521 Places to Eat in Paris",
+        "ranking_string": "#27 of 452 Classes &amp; Workshops in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "452",
+        "ranking": "27"
+      },
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "137",
+      "review_rating_count": {
+        "1": "0",
+        "2": "4",
+        "3": "0",
+        "4": "0",
+        "5": "133"
+      },
+      "photo_count": "105",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d4166947-m66827-Reviews-Catherine_Reed_Cooking_Classes-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "food_drink",
+          "localized_name": "Food & Drink"
+        },
+        {
+          "name": "classes",
+          "localized_name": "Classes & Workshops"
+        },
+        {
+          "name": "activities",
+          "localized_name": "Activities"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Food & Drink",
+          "localized_name": "Food & Drink",
+          "categories": [
+            {
+              "name": "Cooking Classes",
+              "localized_name": "Cooking Classes"
+            }
+          ]
+        },
+        {
+          "name": "Classes & Workshops",
+          "localized_name": "Classes & Workshops",
+          "categories": [
+            {
+              "name": "Cooking Classes",
+              "localized_name": "Cooking Classes"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "56"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "18"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "17"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "35"
+        }
+      ],
+      "awards": [],
+      "id": 9
+    },
+    {
+      "location_id": "11948973",
+      "name": "Notre Patisserie",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d11948973-Reviews-Notre_Patisserie-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "7 rue Amelie",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "7 rue Amelie, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.859135",
+      "longitude": "2.307478",
+      "timezone": "Europe/Paris",
+      "email": "info@notrepatisserie.com",
+      "phone": "+33 9 52 99 86 78",
+      "website": "http://www.notrepatisserie.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d11948973-Notre_Patisserie-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#5,195 of 20,521 Places to Eat in Paris",
         "geo_location_name": "Paris",
         "ranking_out_of": "20521",
-        "ranking": "4317"
+        "ranking": "5195"
       },
       "rating": "4.5",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "65",
+      "num_reviews": "26",
       "review_rating_count": {
-        "1": "1",
-        "2": "2",
-        "3": "4",
-        "4": "23",
-        "5": "35"
+        "1": "0",
+        "2": "0",
+        "3": "2",
+        "4": "3",
+        "5": "21"
       },
       "subratings": {
         "0": {
+          "name": "rate_atmosphere",
+          "localized_name": "Atmosphere",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        },
+        "1": {
           "name": "rate_food",
           "localized_name": "Food",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
-        "1": {
+        "2": {
           "name": "rate_service",
           "localized_name": "Service",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
-        "2": {
+        "3": {
           "name": "rate_value",
           "localized_name": "Value",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         }
       },
-      "photo_count": "34",
-      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d4733401-m66827-Reviews-Chikara-Paris_Ile_de_France.html#photos",
+      "photo_count": "27",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d11948973-m66827-Reviews-Notre_Patisserie-Paris_Ile_de_France.html#photos",
       "price_level": "$$ - $$$",
       "hours": {
         "periods": [
           {
             "open": {
-              "day": 1,
-              "time": "1200"
-            },
-            "close": {
-              "day": 1,
-              "time": "2200"
-            }
-          },
-          {
-            "open": {
               "day": 2,
-              "time": "1200"
+              "time": "0900"
             },
             "close": {
               "day": 2,
-              "time": "2200"
+              "time": "1900"
             }
           },
           {
             "open": {
               "day": 3,
-              "time": "1200"
+              "time": "0900"
             },
             "close": {
               "day": 3,
-              "time": "2200"
+              "time": "1900"
             }
           },
           {
             "open": {
               "day": 4,
-              "time": "1200"
+              "time": "0900"
             },
             "close": {
               "day": 4,
-              "time": "2200"
+              "time": "1900"
             }
           },
           {
             "open": {
               "day": 5,
-              "time": "1200"
+              "time": "0900"
             },
             "close": {
               "day": 5,
-              "time": "2200"
+              "time": "1900"
             }
           },
           {
             "open": {
               "day": 6,
-              "time": "1200"
+              "time": "0900"
             },
             "close": {
               "day": 6,
-              "time": "2200"
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 7,
+              "time": "0900"
+            },
+            "close": {
+              "day": 7,
+              "time": "1300"
             }
           }
         ],
         "weekday_text": [
-          "Monday: 12:00 - 22:00",
-          "Tuesday: 12:00 - 22:00",
-          "Wednesday: 12:00 - 22:00",
-          "Thursday: 12:00 - 22:00",
-          "Friday: 12:00 - 22:00",
-          "Saturday: 12:00 - 22:00",
-          "Sunday: Closed"
+          "Monday: Closed",
+          "Tuesday: 09:00 - 19:00",
+          "Wednesday: 09:00 - 19:00",
+          "Thursday: 09:00 - 19:00",
+          "Friday: 09:00 - 19:00",
+          "Saturday: 09:00 - 19:00",
+          "Sunday: 09:00 - 13:00"
         ]
       },
       "features": [
-        "Delivery",
-        "Free Wifi",
-        "Highchairs Available",
-        "Outdoor Seating",
-        "Reservations",
-        "Seating",
-        "Serves Alcohol",
-        "Table Service",
-        "Takeout",
-        "Wheelchair Accessible",
-        "Wine and Beer"
+        "Takeout"
       ],
       "cuisine": [
         {
-          "name": "japanese",
-          "localized_name": "Japanese"
-        },
-        {
-          "name": "asian",
-          "localized_name": "Asian"
-        },
-        {
-          "name": "sushi",
-          "localized_name": "Sushi"
+          "name": "french",
+          "localized_name": "French"
         }
       ],
       "category": {
@@ -2157,27 +2260,27 @@
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "2"
+          "value": "0"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "16"
+          "value": "9"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "3"
+          "value": "5"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "23"
+          "value": "5"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "12"
+          "value": "4"
         }
       ],
       "awards": [],
