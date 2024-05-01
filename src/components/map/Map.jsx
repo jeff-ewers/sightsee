@@ -1,25 +1,23 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { useSize } from 'react-hook-size'
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapGL, { Marker, Popup } from 'react-map-gl';
-import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory, pingProxy } from "../../services/tripadvisorService.js";
+import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory } from "../../services/tripadvisorService.js";
 import { savePlaceDetails } from '../../services/saveService.js';
 import { deleteAllPlaceDetails } from '../../services/placeService.js';
 import poi_marker from '../../assets/poi-marker.png'
 import { CategorySelect } from './CategorySelect.jsx';
 import { maxBy, minBy } from 'lodash'
-import WebMercatorViewport from 'viewport-mercator-project'
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-export const Map = ({mapContainerRef}) => {
+export const Map = () => {
 
- const { width, height } = useSize(mapContainerRef)
+
  const mapRef = useRef();
  const [viewport, setViewport] = useState({
     latitude: 48.85447,
     longitude: 2.302967,
-    width: width || "100vw",
-    height: height || "100vh",
+    width: "100vw",
+    height: "100vh",
     pitch: 67,
     zoom: 16
  });
@@ -29,44 +27,38 @@ export const Map = ({mapContainerRef}) => {
  const [placeCategory, setPlaceCategory] = useState('hotels');
  const placeCategoryRef = useRef(placeCategory); 
  const [markerSpan, setMarkerSpan] = useState([])
+ const [updateViewport, setUpdateViewport] = useState(true);
 
 
  useEffect(() => {
 
-  if(markerSpan.length !== 0 && width && height) {  
-    setViewport(viewport => {
-      const currentPitch = viewport.pitch;
-      
-      const newport = new WebMercatorViewport({
-        // ...viewport, 
-        width,
-        height,
-        //pitch: currentPitch,
-      }).fitBounds(markerSpan, {padding: 100});
-      console.log(newport)
-      return newport;
-    });
-  }
-}, [markerSpan, width, height]);
+  if(markerSpan.length !== 0) {  
+    const markerCenter = [((markerSpan[0][0]+markerSpan[1][0])/2), ((markerSpan[0][1] + markerSpan[1][1])/2)]
+      flyTo(markerCenter[1], markerCenter[0])
 
-//  useEffect(() => {
-//   if(width && height){
-//     setViewport((viewport) => ({ 
-//       ...viewport, 
-//       width, 
-//       height 
-//     }));
-//   }
-// }, [width, height]);
+  }
+}, [markerSpan]);
+
+
 
  useEffect(() => {
     placeCategoryRef.current = placeCategory;
  }, [placeCategory]);
 
 
+ const flyTo = (newLat, newLong) => {
+  if(mapRef.current) {
+    mapRef.current.flyTo({
+      center: [newLong, newLat],
+      essential: true,
+    });
+    setUpdateViewport(false); // disable onViewportChange callback
+    setTimeout(() => setUpdateViewport(true), 200); // reenable after flyTo animation 
+  }
+};
+
  const getMinOrMax = (markers, minOrMax, latOrLng) => {
   if (minOrMax === "max") {
-    
      return maxBy(markers, location => location[latOrLng])[latOrLng];
   } else {
      return minBy(markers, location => location[latOrLng])[latOrLng];
@@ -75,46 +67,29 @@ export const Map = ({mapContainerRef}) => {
 
  const handleDblClick = useCallback(
     async (e) => {
-      console.time("nearby places")
-      console.log("clearing place details")
       const deleteRes = await deleteAllPlaceDetails();
       const currentPlaceCategory = placeCategoryRef.current;
-      console.timeLog("nearby places")
-      console.log("fetching nearby places")
       const nearbyPlaces = await getNearbyPlacesByCategory(e.lngLat.lat, e.lngLat.lng, currentPlaceCategory);
-      console.timeLog("nearby places")
       const fetchDetailsPromises = nearbyPlaces.data.map(nearbyPlace => 
         getLocationDetails(nearbyPlace.location_id)
            .then(details => {
-             console.log("caching place details");
              if(details.location_id) {
               savePlaceDetails(details);
              }
-             console.timeLog("nearby places")
              return details;
            })
        );
-      console.log("fetching nearby place details")
       const nearbyDetails = await Promise.all(fetchDetailsPromises);
-      console.log("setting state");
       const filteredNearbyDetails = nearbyDetails.filter(place => place.hasOwnProperty('location_id'))
       setNearbyPlaceDetails(filteredNearbyDetails);
-      console.timeLog("nearby places")
-      console.log("calling getbounds")
       setMarkerSpan(getBounds(filteredNearbyDetails))
-      console.timeLog("nearby places")
-      console.timeEnd("nearby places")
-      
     },
     []
  );
 
-
-
- const handleViewportChange = useCallback((newViewport) => {
-    setViewport(newViewport);
-    // return newViewport;
- }, []);
+ const handleViewportChange = (newViewport) => {
+  setViewport(newViewport);
+ };
 
  const handleMarkerClick = (place) => {
     setSelectedPlace(place);
@@ -131,7 +106,7 @@ export const Map = ({mapContainerRef}) => {
   const minLng = parseFloat(getMinOrMax(filteredMarkers, "min", "longitude"));
 
   if (maxLat === null || minLat === null || maxLng === null || minLng === null) {
-    return []; // return an empty array if any of the min/max values are null
+    return []; 
   }
  
   const southWest = [minLng, minLat];
@@ -143,6 +118,7 @@ export const Map = ({mapContainerRef}) => {
   <>
   
     <MapGL
+      ref={mapRef}
       initialViewState={viewport}
       mapboxAccessToken={TOKEN}
       mapStyle="mapbox://styles/sightsee-admin/clv65kdd702s401pk1yu1dsi8/draft"
@@ -150,6 +126,7 @@ export const Map = ({mapContainerRef}) => {
       onViewportChange={handleViewportChange}
       onDblClick={handleDblClick}
       doubleClickZoom={false}
+      // {...viewport}
     >
       {nearbyPlaceDetails.map((place, index) => (
         
@@ -178,7 +155,7 @@ export const Map = ({mapContainerRef}) => {
         closeOnClick={false}
         onClose={() => setSelectedPlace(null)}
         anchor="top"
-        style={{ maxWidth: '200px' }} // Set the maximum width of the popup
+        style={{ maxWidth: '200px' }} 
      >
         <div style={{ padding: '10px' }}>
           <h3 style={{ color: 'var(--primary)' }}>{selectedPlace.name}</h3>
