@@ -1,5 +1,5 @@
 import "mapbox-gl/dist/mapbox-gl.css"
-import { useEffect, useState, useContext } from "react"
+import { useEffect, useState, useContext, useRef } from "react"
 import { TripsList } from "./TripsList"
 import { getTripsWithPlaces } from "../../services/tripService"
 import { UpdateTripsContext } from "../../providers/UpdateTripsProvider"
@@ -12,7 +12,7 @@ const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN
 export const Trips = ({currentUser}) => {
     const [trips, setTrips] = useState([])
     const { updateTrips, setUpdateTrips } = useContext(UpdateTripsContext);
-    
+    const mapContainerRef = useRef(null);
 
     useEffect(() => {
         getTripsWithPlaces(currentUser.id).then(userTrips => {setTrips(userTrips)})
@@ -28,8 +28,8 @@ export const Trips = ({currentUser}) => {
   
 return (
     <div className="trips">
-        <div style={{ width: "100vw", height: "650px", zIndex: 10}}>
-          <Map>
+        <div ref={mapContainerRef} className="map" style={{ width: "100vw", height: "650px", zIndex: 10}}>
+          <Map mapContainerRef={mapContainerRef}>
           </Map>
         </div>
       <div className="trips-list__container">

@@ -15,3 +15,7 @@ margin: 37px;
 border-radius: 4px;
 }
   
+.map {
+  width: "100vw";
+  height: "650px";
+}
