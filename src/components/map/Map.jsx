@@ -1,55 +1,126 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapGL, { Marker, Popup } from 'react-map-gl';
-import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory, pingProxy } from "../../services/tripadvisorService.js";
+import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory } from "../../services/tripadvisorService.js";
 import { savePlaceDetails } from '../../services/saveService.js';
 import { deleteAllPlaceDetails } from '../../services/placeService.js';
 import poi_marker from '../../assets/poi-marker.png'
 import { CategorySelect } from './CategorySelect.jsx';
+import { maxBy, minBy } from 'lodash'
+import { TripSelector } from './TripSelector.jsx';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-export const Map = () => {
+export const Map = ({trips, currentUser}) => {
+
+
+ const mapRef = useRef();
  const [viewport, setViewport] = useState({
-    latitude: 48.858093,
-    longitude: 2.299694,
+    latitude: 48.85447,
+    longitude: 2.302967,
     width: "100vw",
     height: "100vh",
     pitch: 67,
-    zoom: 15
+    zoom: 16
  });
- const [newPlace, setNewPlace] = useState(null);
+
  const [nearbyPlaceDetails, setNearbyPlaceDetails] = useState([]);
  const [selectedPlace, setSelectedPlace] = useState(null);
  const [placeCategory, setPlaceCategory] = useState('hotels');
+ const placeCategoryRef = useRef(placeCategory); 
+ const [markerSpan, setMarkerSpan] = useState([])
+ const [updateViewport, setUpdateViewport] = useState(true);
+ const [selectedTrip, setSelectedTrip] = useState(0);
+
+
+ useEffect(() => {
+
+  if(markerSpan.length !== 0) {  
+    const markerCenter = [((markerSpan[0][0]+markerSpan[1][0])/2), ((markerSpan[0][1] + markerSpan[1][1])/2)]
+      flyTo(markerCenter[1], markerCenter[0])
+
+  }
+}, [markerSpan]);
+
+
+
+ useEffect(() => {
+    placeCategoryRef.current = placeCategory;
+ }, [placeCategory]);
+
+
+ const flyTo = (newLat, newLong) => {
+  if(mapRef.current) {
+    mapRef.current.flyTo({
+      center: [newLong, newLat],
+      essential: true,
+    });
+    setUpdateViewport(false); // disable onViewportChange callback
+    setTimeout(() => setUpdateViewport(true), 200); // reenable after flyTo animation 
+  }
+};
+
+ const getMinOrMax = (markers, minOrMax, latOrLng) => {
+  if (minOrMax === "max") {
+     return maxBy(markers, location => location[latOrLng])[latOrLng];
+  } else {
+     return minBy(markers, location => location[latOrLng])[latOrLng];
+  }
+ };
 
  const handleDblClick = useCallback(
     async (e) => {
-      setNewPlace([e.lngLat.lat, e.lngLat.lng]);
       const deleteRes = await deleteAllPlaceDetails();
-      const nearbyPlaces = await getNearbyPlacesByCategory(e.lngLat.lat, e.lngLat.lng, placeCategory);
-      const nearbyDetails = [];
-      for (const nearbyPlace of nearbyPlaces.data) {
-        let details = await getLocationDetails(nearbyPlace.location_id);
-        nearbyDetails.push(details);
-        savePlaceDetails(details);
-      }
-      setNearbyPlaceDetails(nearbyDetails);
+      const currentPlaceCategory = placeCategoryRef.current;
+      const nearbyPlaces = await getNearbyPlacesByCategory(e.lngLat.lat, e.lngLat.lng, currentPlaceCategory);
+      const fetchDetailsPromises = nearbyPlaces.data.map(nearbyPlace => 
+        getLocationDetails(nearbyPlace.location_id)
+           .then(details => {
+             if(details.location_id) {
+              savePlaceDetails(details);
+             }
+             return details;
+           })
+       );
+      const nearbyDetails = await Promise.all(fetchDetailsPromises);
+      const filteredNearbyDetails = nearbyDetails.filter(place => place.hasOwnProperty('location_id'))
+      setNearbyPlaceDetails(filteredNearbyDetails);
+      setMarkerSpan(getBounds(filteredNearbyDetails))
     },
     []
  );
 
- const handleViewportChange = useCallback((newViewport) => {
-    setViewport(newViewport);
-    return newViewport;
- }, []);
+ const handleViewportChange = (newViewport) => {
+  setViewport(newViewport);
+ };
 
  const handleMarkerClick = (place) => {
     setSelectedPlace(place);
  };
 
+ const getBounds = (markers) => {
+  let filteredMarkers = markers.filter(marker => marker.hasOwnProperty('latitude') && marker.hasOwnProperty("longitude"))
+  if (filteredMarkers.length === 0) {
+    return null;
+  }
+  const maxLat = parseFloat(getMinOrMax(filteredMarkers, "max", "latitude"));
+  const minLat = parseFloat(getMinOrMax(filteredMarkers, "min", "latitude"));
+  const maxLng = parseFloat(getMinOrMax(filteredMarkers, "max", "longitude"));
+  const minLng = parseFloat(getMinOrMax(filteredMarkers, "min", "longitude"));
+
+  if (maxLat === null || minLat === null || maxLng === null || minLng === null) {
+    return []; 
+  }
+ 
+  const southWest = [minLng, minLat];
+  const northEast = [maxLng, maxLat];
+  return [southWest, northEast];
+ };
+
  return (
   <>
+  
     <MapGL
+      ref={mapRef}
       initialViewState={viewport}
       mapboxAccessToken={TOKEN}
       mapStyle="mapbox://styles/sightsee-admin/clv65kdd702s401pk1yu1dsi8/draft"
@@ -57,8 +128,10 @@ export const Map = () => {
       onViewportChange={handleViewportChange}
       onDblClick={handleDblClick}
       doubleClickZoom={false}
+      // {...viewport}
     >
       {nearbyPlaceDetails.map((place, index) => (
+        
         <Marker
           key={index}
           latitude={place.latitude}
@@ -84,7 +157,7 @@ export const Map = () => {
         closeOnClick={false}
         onClose={() => setSelectedPlace(null)}
         anchor="top"
-        style={{ maxWidth: '200px' }} // Set the maximum width of the popup
+        style={{ maxWidth: '200px' }} 
      >
         <div style={{ padding: '10px' }}>
           <h3 style={{ color: 'var(--primary)' }}>{selectedPlace.name}</h3>
@@ -102,6 +175,8 @@ export const Map = () => {
       )}
     </MapGL>
     <CategorySelect placeCategory={placeCategory} setPlaceCategory={setPlaceCategory} />
+    <TripSelector selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} trips={trips} />
+
     </>
  );
 };
