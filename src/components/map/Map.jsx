@@ -7,9 +7,10 @@ import { deleteAllPlaceDetails } from '../../services/placeService.js';
 import poi_marker from '../../assets/poi-marker.png'
 import { CategorySelect } from './CategorySelect.jsx';
 import { maxBy, minBy } from 'lodash'
+import { TripSelector } from './TripSelector.jsx';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-export const Map = () => {
+export const Map = ({trips, currentUser}) => {
 
 
  const mapRef = useRef();
@@ -28,6 +29,7 @@ export const Map = () => {
  const placeCategoryRef = useRef(placeCategory); 
  const [markerSpan, setMarkerSpan] = useState([])
  const [updateViewport, setUpdateViewport] = useState(true);
+ const [selectedTrip, setSelectedTrip] = useState(0);
 
 
  useEffect(() => {
@@ -173,6 +175,7 @@ export const Map = () => {
       )}
     </MapGL>
     <CategorySelect placeCategory={placeCategory} setPlaceCategory={setPlaceCategory} />
+    <TripSelector selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} trips={trips} />
 
     </>
  );

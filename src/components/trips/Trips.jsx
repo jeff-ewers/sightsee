@@ -29,7 +29,7 @@ export const Trips = ({currentUser}) => {
 return (
     <div className="trips">
         <div ref={mapContainerRef} className="map" style={{ width: "100vw", height: "650px", zIndex: 10}}>
-          <Map mapContainerRef={mapContainerRef}>
+          <Map mapContainerRef={mapContainerRef} trips={trips} currentUser={currentUser}>
           </Map>
         </div>
       <div className="trips-list__container">
