@@ -14,9 +14,10 @@ export const TripEdit = ({currentUser}) => {
     const location = useLocation();
     const navigate = useNavigate()
     var trip = location.state?.trip;
+    var placeFromMap = location.state?.place ? location.state?.place : {};
     const [transientTrip, setTransientTrip] = useState({
         name: trip ? trip.name : "",
-        desc: trip ? trip.desc : "",
+        description: trip ? trip.description : "",
         id: trip ? trip.id : null,
         userId: currentUser.id,
     });
@@ -40,7 +41,7 @@ export const TripEdit = ({currentUser}) => {
     // handle form submission
     const handleSaveTrip = async (event) => {
         event.preventDefault(); // prevent default form submission and full page reload
-        if(transientTrip.name !== "" && transientTrip.desc !== "") {
+        if(transientTrip.name !== "" && transientTrip.description !== "") {
             setIsSaveEnabled(true);
         }
         await saveTripAndPlaces(transientTrip, transientPlaces);
@@ -54,7 +55,7 @@ export const TripEdit = ({currentUser}) => {
         //use computed property key in object literal to update state
         setTransientTrip(prevState => ({ ...prevState, [name]: value }));
         setIsSaveEnabled(
-            (transientTrip.name && transientTrip.desc)
+            (transientTrip.name && transientTrip.description)
             ); // enable save button if both name and desc are filled
     };
 
@@ -95,14 +96,18 @@ export const TripEdit = ({currentUser}) => {
                 <h2>{trip ? `Edit ${trip.name}` : `Edit new trip`}</h2>
             </div>
             <POIForm currentUser={currentUser}
+                    existingPOI={placeFromMap}
                     addPlaceToTransientTrip={addPlaceToTransientTrip}
+                    // placeFromMap={placeFromMap}
             />
             <div className="trip-edit__poi-list">
                 {transientPlaces?.length ? transientPlaces.map((place, index) => (
                     //generate unique key if place.id is undefined
                     <section key={place.id ? place.id : `new-${Date.now()}-${index}`} className="place">
                         <h2>{place.name}</h2>
-                        <h3>{place.desc}</h3>
+                        <h3>{place.description?.length > 100 ? 
+                            `${place.description.substring(0, 150)}...` : 
+                                place.description}</h3>
                         <button className='btn-delete' onClick={() => removePlace(trip?.id, place)}>
                                 <img src={trashIcon} alt='Delete'/>
                             </button>
@@ -125,8 +130,8 @@ export const TripEdit = ({currentUser}) => {
                     <div className="form-group">
                         <label>Description:</label>
                         <textarea
-                            name="desc"
-                            value={transientTrip.desc}
+                            name="description"
+                            value={transientTrip.description}
                             onChange={handleInputChange}
                         />
                     </div>

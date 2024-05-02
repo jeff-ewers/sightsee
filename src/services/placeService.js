@@ -6,6 +6,10 @@ export const getAllPlacesWithCategory = () => {
     return fetch(`http://localhost:8088/places?_expand=category`).then(res => res.json());
 }
 
+export const getAllPlaces = () => {
+    return fetch(`http://localhost:8088/places`).then(res => res.json());
+}
+
 export const deletePlaceFromTrip = (activityId) => {
     const deleteOptions = {
         method: "DELETE"

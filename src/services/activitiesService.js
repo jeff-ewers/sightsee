@@ -19,3 +19,4 @@ export const deleteTripActivities = async (tripId) => {
         console.error(`Error deleting activities`, error);
         }
 }
+

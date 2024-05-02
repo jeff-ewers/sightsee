@@ -17,9 +17,9 @@ export const CategorySelect = ({placeCategory, setPlaceCategory}) => {
       }}>
         <label htmlFor="placeCategory">Category: </label>
         <select id="placeCategory" value={placeCategory} onChange={handleCategoryChange}>
-          <option value="hotels">Hotels</option>
-          <option value="attractions">Attractions</option>
-          <option value="restaurants">Restaurants</option>
+          <option value="1">Hotels</option>
+          <option value="2">Attractions</option>
+          <option value="3">Restaurants</option>
         </select>
       </div>)
 }

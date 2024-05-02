@@ -53,7 +53,7 @@ return (
                             }>
                         <section key={trip.id} className="trip">
                             <h2>{trip.name}</h2>
-                            <h3>{trip.desc}</h3>
+                            <h3>{trip.description}</h3>
                             <button className='btn-delete' onClick={(event) => removeTrip(event, trip.id)}>
                                 <img src={trashIcon} alt='Delete'/>
                             </button>
