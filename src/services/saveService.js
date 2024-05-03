@@ -1,4 +1,5 @@
 import { getTripActivities } from "./activitiesService";
+import { getAllPlaces } from "./placeService";
 
 
 export const saveTripAndPlaces = async (transientTrip, transientPlaces) => {
@@ -48,8 +49,8 @@ export const saveTripAndPlaces = async (transientTrip, transientPlaces) => {
                                 'Content-Type': 'application/json',
                             },
                             body: JSON.stringify({
-                                tripId: savedTrip.id,
-                                placeId: savedPlace.id,
+                                tripId: parseInt(savedTrip.id),
+                                placeId: parseInt(savedPlace.id),
                         }),
                         })
                     }
@@ -95,4 +96,79 @@ export const savePlaceDetails = (placeDetails) => {
         body: JSON.stringify(placeDetails),
     })
     .then(response => response.json());
+}
+
+export const saveTripAdvisorPlaceToSelectedTrip = async (tripId, place, categoryId) => {
+    debugger
+    //get all places, check for existing entry by ?location_id
+    const allPlaces = await getAllPlaces();
+    let foundId = undefined;
+    let savedId = undefined;
+    
+    const isNewPlace = (place, allPlaces) => {
+        for (const savedPlace of allPlaces) {
+            if (savedPlace?.location_id === place.location_id) {
+                //get id if present
+                foundId = savedPlace.id;
+                return false;
+            }}
+                return true;
+        }
+    isNewPlace(place, allPlaces);
+    //if not found
+    if(foundId === undefined) {
+        place = {
+            ...place,
+            categoryId: parseInt(categoryId),
+        }
+        //save place if not already saved with categoryId
+        const savedPlace = await savePlace(place);
+        savedId = savedPlace?.id;
+    }
+    //if place already exists
+    if (foundId) {
+        //check if trip contains activity associated with selected place
+        const tripActivities = await getTripActivities(tripId);
+        const isNewActivity = (tripId, foundId) => {
+            for (const activity of tripActivities) {
+                if ( activity.placeId === foundId && activity.tripId === tripId ) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if(isNewActivity(tripId, foundId)) {
+            //if it's a new trip activity, create activity linking trip and place
+            saveActivity(tripId, foundId)
+        }
+    }
+    //if newly saved place, create activity linking trip to place
+    if (savedId) {
+        saveActivity(tripId, savedId)
+    }
+ 
+}
+
+export const savePlace = async (place) => {
+    return await fetch('http://localhost:8088/places', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(place),
+                })
+                .then(response => response.json())
+}
+
+export const saveActivity = (tripId, placeId) => {
+    return fetch('http://localhost:8088/activities', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                tripId: parseInt(tripId),
+                                placeId: parseInt(placeId),
+                        }),
+                    })
 }

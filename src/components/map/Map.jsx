@@ -1,16 +1,19 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapGL, { Marker, Popup } from 'react-map-gl';
 import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory } from "../../services/tripadvisorService.js";
-import { savePlaceDetails } from '../../services/saveService.js';
+import { savePlaceDetails, saveTripAdvisorPlaceToSelectedTrip } from '../../services/saveService.js';
 import { deleteAllPlaceDetails } from '../../services/placeService.js';
 import poi_marker from '../../assets/poi-marker.png'
 import { CategorySelect } from './CategorySelect.jsx';
 import { maxBy, minBy } from 'lodash'
 import { TripSelector } from './TripSelector.jsx';
+import plus_button from '../../assets/plus_button_box_round-512.png'
+import './Map.css'
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-export const Map = ({trips, currentUser}) => {
+export const Map = ({trips, currentUser, setUpdateTrips}) => {
 
 
  const mapRef = useRef();
@@ -22,10 +25,10 @@ export const Map = ({trips, currentUser}) => {
     pitch: 67,
     zoom: 16
  });
-
+ const navigate = useNavigate();
  const [nearbyPlaceDetails, setNearbyPlaceDetails] = useState([]);
  const [selectedPlace, setSelectedPlace] = useState(null);
- const [placeCategory, setPlaceCategory] = useState('hotels');
+ const [placeCategory, setPlaceCategory] = useState('1');
  const placeCategoryRef = useRef(placeCategory); 
  const [markerSpan, setMarkerSpan] = useState([])
  const [updateViewport, setUpdateViewport] = useState(true);
@@ -116,6 +119,20 @@ export const Map = ({trips, currentUser}) => {
   return [southWest, northEast];
  };
 
+ const addPlaceToTrip = (selectedTripId, selectedPlace) => {
+  if (selectedTripId === 0) {
+    selectedPlace.categoryId = placeCategory;
+    navigate('/trips/new',{state:{place:selectedPlace}});
+  }
+  else {
+    saveTripAdvisorPlaceToSelectedTrip(selectedTripId, selectedPlace, placeCategory);
+    debugger
+    setUpdateTrips(true);
+  }
+  
+
+ }
+
  return (
   <>
   
@@ -164,12 +181,15 @@ export const Map = ({trips, currentUser}) => {
           {selectedPlace.description && (
             <p style={{ fontSize: '0.8em', marginTop: '5px', color: 'var(--dark)' }}>
               {selectedPlace.description.length > 100 ? 
-            `${selectedPlace.description.substring(0, 100)}...` : 
+            `${selectedPlace.description.substring(0, 150)}...` : 
             selectedPlace.description}</p>
           )}
           {selectedPlace.rating_image_url && (
             <img src={selectedPlace.rating_image_url} alt="Rating" style={{ width: '100%', marginTop: '10px', marginLeft: '-13px' }} />
           )}
+          <button className='btn-add' style={{ marginLeft: '-5px', width: '155px', backgroundColor: 'var(--primary)', padding: '4px' }} onClick={() => addPlaceToTrip(selectedTrip, selectedPlace)}>
+                                <img src={plus_button} style={{ height: '20px', width: '20px'}} alt='Add trip'/>
+                            </button> 
         </div>
         </Popup>
       )}

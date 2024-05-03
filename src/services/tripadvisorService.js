@@ -43,8 +43,22 @@ export const getNearbyPlaces = (lat, long) => {
       .catch(err => console.error(err));
   };
 
-  export const getNearbyPlacesByCategory = (lat, long, category) => {
+  export const getNearbyPlacesByCategory = (lat, long, categoryId) => {
     let categoryString = ``
+    var category = ""
+    switch (categoryId) {
+      case "1":
+        category = "hotels";
+        break;
+      case "2":
+        category = "attractions";
+        break;
+      case "3": 
+        category = "restaurants";
+        break;
+      default:
+        break;
+    }
     if(category) {
       categoryString += `&category=${category}`
     }

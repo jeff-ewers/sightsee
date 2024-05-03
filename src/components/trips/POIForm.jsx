@@ -2,12 +2,27 @@ import { useEffect, useState } from 'react';
 import { getAllCategories } from '../../services/categoryService'; 
 export const POIForm = ({ currentUser, existingPOI, addPlaceToTransientTrip }) => {
  const [categories, setCategories] = useState([]);
- const [editedPOI, setEditedPOI] = useState({
-    name: existingPOI ? existingPOI.name : "",
-    desc: existingPOI ? existingPOI.desc : "",
-    categoryId: existingPOI ? existingPOI.categoryId : 0,
-    userId: currentUser.id,
- });
+ const [editedPOI, setEditedPOI] = useState(existingPOI
+  ? {
+      ...existingPOI,
+      userId: currentUser.id,
+    }
+  : {
+      name: "",
+      description: "",
+      categoryId: 0,
+      userId: currentUser.id,
+    }
+);
+  
+  
+  
+//   {
+//     name: existingPOI ? existingPOI.name : "",
+//     desc: existingPOI ? existingPOI.desc : "",
+//     categoryId: existingPOI ? existingPOI.categoryId : 0,
+//     userId: currentUser.id,
+//  });
 
  useEffect(() => {
     setEditedPOI(prevState => ({ ...prevState, userId: currentUser.id }));
@@ -22,6 +37,7 @@ export const POIForm = ({ currentUser, existingPOI, addPlaceToTransientTrip }) =
  const handleSave = () => {
     if (editedPOI.categoryId !== 0) {
         const poiToSave = {
+          
             ...editedPOI,
             // If editing a poi, keep the existing ID, otherwise set to null
             id: existingPOI ? existingPOI.id : null, 
@@ -55,10 +71,10 @@ export const POIForm = ({ currentUser, existingPOI, addPlaceToTransientTrip }) =
           <label>Description:</label>
           <textarea
             name="desc"
-            value={editedPOI.desc}
+            value={editedPOI.description}
             onChange={(event) => {
               const copy = { ...editedPOI };
-              copy.desc = event.target.value;
+              copy.description = event.target.value;
               setEditedPOI(copy);
             }}
           />
