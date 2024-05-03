@@ -106,7 +106,7 @@ export const TripEdit = ({currentUser}) => {
                     <section key={place.id ? place.id : `new-${Date.now()}-${index}`} className="place">
                         <h2>{place.name}</h2>
                         <h3>{place.description?.length > 100 ? 
-                            `${place.description.substring(0, 150)}...` : 
+                            `${place.description.substring(0, 100)}...` : 
                                 place.description}</h3>
                         <button className='btn-delete' onClick={() => removePlace(trip?.id, place)}>
                                 <img src={trashIcon} alt='Delete'/>

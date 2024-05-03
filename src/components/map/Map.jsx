@@ -126,11 +126,11 @@ export const Map = ({trips, currentUser, setUpdateTrips}) => {
   }
   else {
     saveTripAdvisorPlaceToSelectedTrip(selectedTripId, selectedPlace, placeCategory);
+    debugger
     setUpdateTrips(true);
   }
   
-  // TODO: If no trip selected, navigate to New Trip page
-  //if trip selected, add to trip
+
  }
 
  return (

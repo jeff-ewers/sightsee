@@ -128,7 +128,7 @@ export const saveTripAdvisorPlaceToSelectedTrip = async (tripId, place, category
     //if place already exists
     if (foundId) {
         //check if trip contains activity associated with selected place
-        const tripActivities = await getTripActivities(transientTrip?.id);
+        const tripActivities = await getTripActivities(tripId);
         const isNewActivity = (tripId, foundId) => {
             for (const activity of tripActivities) {
                 if ( activity.placeId === foundId && activity.tripId === tripId ) {
