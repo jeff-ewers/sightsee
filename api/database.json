@@ -300,338 +300,6 @@
       "awards": [],
       "categoryId": 1,
       "id": 19
-    },
-    {
-      "location_id": "197655",
-      "name": "Mercure Paris Tour Eiffel Grenelle Hotel",
-      "description": "This 4 star hotel offers a prestigious and traditional setting as well as the advantages you would expect from a top hotel located in the heart of Paris, steps away from the Eiffel Tower. Fitness & sauna. Private indoor car-park.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197655-Reviews-Mercure_Paris_Tour_Eiffel_Grenelle_Hotel-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "64 Boulevard de Grenelle",
-        "street2": "",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75015",
-        "address_string": "64 Boulevard de Grenelle, 75015 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.850483",
-      "longitude": "2.292728",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d197655-Mercure_Paris_Tour_Eiffel_Grenelle_Hotel-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#905 of 1,896 hotels in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "905"
-      },
-      "rating": "3.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.5-66827-5.svg",
-      "num_reviews": "1032",
-      "review_rating_count": {
-        "1": "45",
-        "2": "93",
-        "3": "226",
-        "4": "434",
-        "5": "234"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
-          "value": "3.5"
-        },
-        "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
-          "value": "3.5"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        }
-      },
-      "photo_count": "300",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d197655-m66827-Reviews-Mercure_Paris_Tour_Eiffel_Grenelle_Hotel-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$",
-      "amenities": [
-        "Internet",
-        "Free Internet",
-        "Wheelchair access",
-        "Wifi",
-        "Free Wifi",
-        "Suites",
-        "Bar/Lounge",
-        "Dry Cleaning",
-        "Non-smoking rooms",
-        "Laundry Service",
-        "Air conditioning",
-        "Multilingual Staff",
-        "Accessible rooms",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Parking",
-        "Housekeeping",
-        "Baggage Storage",
-        "Blackout Curtains",
-        "Breakfast in the Room",
-        "Desk",
-        "English",
-        "Complimentary Instant Cofffee",
-        "Complimentary Toiletries",
-        "French",
-        "Paid Public Parking Nearby",
-        "Room service",
-        "Spa",
-        "Public Wifi",
-        "Meeting rooms",
-        "Fitness center",
-        "Concierge",
-        "Family Rooms",
-        "Minibar",
-        "Babysitting",
-        "Non-smoking hotel",
-        "Facilities for Disabled Guests",
-        "Bath / Shower",
-        "Board Games / Puzzles",
-        "Coffee / Tea Maker",
-        "24-Hour Front Desk",
-        "German",
-        "Hair Dryer",
-        "Italian",
-        "Newspaper",
-        "Portuguese",
-        "Paid Private Parking On-site",
-        "Secured Parking",
-        "Shops",
-        "Soundproof Rooms",
-        "Spanish",
-        "Telephone",
-        "Wake Up Service / Alarm Clock"
-      ],
-      "parent_brand": "Accor",
-      "brand": "Mercure",
-      "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
-      },
-      "subcategory": [
-        {
-          "name": "hotel",
-          "localized_name": "Hotel"
-        }
-      ],
-      "styles": [
-        "Family",
-        "Green"
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621637",
-          "name": "15th Arr. - Vaugirard"
-        },
-        {
-          "location_id": "15621605",
-          "name": "Grenelle"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "223"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "469"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "49"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "133"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "86"
-        }
-      ],
-      "awards": [],
-      "categoryId": 1,
-      "id": 20
-    },
-    {
-      "location_id": "2476749",
-      "name": "Le Nid du Phenix",
-      "description": "« Le Nid du Phénix » is a refined and elegant cocoon that will make you discover two asian arts synonymous with wellness and relaxation : Tea & massages. The purpose of our concept is to rejuvenate body and soul.Our venues are open 7 days a week, from 11am to 9pm.Tarif: 45€/30mins, 75€/60mins, 100€/90mins",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d2476749-Reviews-Le_Nid_du_Phenix-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "1 Place de l Ecole Militaire",
-        "street2": "",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "1 Place de l Ecole Militaire, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85442",
-      "longitude": "2.30626",
-      "timezone": "Europe/Paris",
-      "email": "lenidduphenix@gmail.com",
-      "phone": "+33 1 45 55 93 39",
-      "website": "http://www.lenidduphenix.com/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d2476749-Le_Nid_du_Phenix-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#112 of 937 Spas &amp; Wellness in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "937",
-        "ranking": "112"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "14",
-      "review_rating_count": {
-        "1": "0",
-        "2": "1",
-        "3": "0",
-        "4": "2",
-        "5": "11"
-      },
-      "photo_count": "5",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d2476749-m66827-Reviews-Le_Nid_du_Phenix-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "wellness_spas",
-          "localized_name": "Spas & Wellness"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Spas & Wellness",
-          "localized_name": "Spas & Wellness",
-          "categories": [
-            {
-              "name": "Spas",
-              "localized_name": "Spas"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "10"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "2"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "0"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
-        }
-      ],
-      "awards": [],
-      "categoryId": 2,
-      "id": 21
     }
   ],
   "trips": [
@@ -780,19 +448,1190 @@
       "tripId": 1,
       "placeId": 19,
       "id": 19
-    },
-    {
-      "tripId": 2,
-      "placeId": 20,
-      "id": 20
-    },
-    {
-      "tripId": 2,
-      "placeId": 21,
-      "id": 21
     }
   ],
   "placeDetails": [
+    {
+      "location_id": "2476749",
+      "name": "Le Nid du Phenix",
+      "description": "« Le Nid du Phénix » is a refined and elegant cocoon that will make you discover two asian arts synonymous with wellness and relaxation : Tea & massages. The purpose of our concept is to rejuvenate body and soul.Our venues are open 7 days a week, from 11am to 9pm.Tarif: 45€/30mins, 75€/60mins, 100€/90mins",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d2476749-Reviews-Le_Nid_du_Phenix-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "1 Place de l Ecole Militaire",
+        "street2": "",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "1 Place de l Ecole Militaire, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85442",
+      "longitude": "2.30626",
+      "timezone": "Europe/Paris",
+      "email": "lenidduphenix@gmail.com",
+      "phone": "+33 1 45 55 93 39",
+      "website": "http://www.lenidduphenix.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d2476749-Le_Nid_du_Phenix-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#112 of 937 Spas &amp; Wellness in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "937",
+        "ranking": "112"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "14",
+      "review_rating_count": {
+        "1": "0",
+        "2": "1",
+        "3": "0",
+        "4": "2",
+        "5": "11"
+      },
+      "photo_count": "5",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d2476749-m66827-Reviews-Le_Nid_du_Phenix-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "wellness_spas",
+          "localized_name": "Spas & Wellness"
+        },
+        {
+          "name": "activities",
+          "localized_name": "Activities"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Spas & Wellness",
+          "localized_name": "Spas & Wellness",
+          "categories": [
+            {
+              "name": "Spas",
+              "localized_name": "Spas"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "10"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "2"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 1
+    },
+    {
+      "location_id": "26271031",
+      "name": "Paris Heritages",
+      "description": "Explore iconic landmarks, indulge in culinary delights, and immerse yourself in art and culture in enchanting Paris.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d26271031-Reviews-Paris_Heritages-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "Eiffel Tower, Champ de Mars, 5 Av. Anatole France, Paris",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "Eiffel Tower, Champ de Mars, 5 Av. Anatole France, Paris, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85478",
+      "longitude": "2.30038",
+      "timezone": "Europe/Paris",
+      "email": "siamashiqur@gmail.com",
+      "phone": "+880 1818-176989",
+      "website": "https://www.getyourguide.com",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d26271031-Paris_Heritages-Paris_Ile_de_France.html?m=66827",
+      "num_reviews": "0",
+      "photo_count": "1",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d26271031-m66827-Reviews-Paris_Heritages-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "attractions",
+          "localized_name": "Attractions"
+        },
+        {
+          "name": "outdoor_activities",
+          "localized_name": "Outdoor Activities"
+        },
+        {
+          "name": "sightseeing_tours",
+          "localized_name": "Tours"
+        },
+        {
+          "name": "activities",
+          "localized_name": "Activities"
+        },
+        {
+          "name": "other",
+          "localized_name": "Other"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Tours",
+          "localized_name": "Tours",
+          "categories": [
+            {
+              "name": "Hop-On Hop-Off Tours",
+              "localized_name": "Hop-On Hop-Off Tours"
+            },
+            {
+              "name": "4WD, ATV & Off-Road Tours",
+              "localized_name": "4WD, ATV & Off-Road Tours"
+            },
+            {
+              "name": "Walking Tours",
+              "localized_name": "Walking Tours"
+            },
+            {
+              "name": "Day Trips",
+              "localized_name": "Day Trips"
+            }
+          ]
+        },
+        {
+          "name": "Other",
+          "localized_name": "Other",
+          "categories": [
+            {
+              "name": "",
+              "localized_name": ""
+            }
+          ]
+        },
+        {
+          "name": "Outdoor Activities",
+          "localized_name": "Outdoor Activities",
+          "categories": [
+            {
+              "name": "4WD, ATV & Off-Road Tours",
+              "localized_name": "4WD, ATV & Off-Road Tours"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "0"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 2
+    },
+    {
+      "location_id": "12223190",
+      "name": "Monument des Droits de l'Homme",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d12223190-Reviews-Monument_des_Droits_de_l_Homme-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "avenue Charles Risler",
+        "street2": "Champs de Mars",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "avenue Charles Risler Champs de Mars, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85461",
+      "longitude": "2.30018",
+      "timezone": "Europe/Paris",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d12223190-Monument_des_Droits_de_l_Homme-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#700 of 3,558 things to do in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "3558",
+        "ranking": "700"
+      },
+      "rating": "4.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+      "num_reviews": "24",
+      "review_rating_count": {
+        "1": "1",
+        "2": "3",
+        "3": "1",
+        "4": "15",
+        "5": "4"
+      },
+      "photo_count": "93",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d12223190-m66827-Reviews-Monument_des_Droits_de_l_Homme-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "landmarks",
+          "localized_name": "Sights & Landmarks"
+        },
+        {
+          "name": "attractions",
+          "localized_name": "Attractions"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Sights & Landmarks",
+          "localized_name": "Sights & Landmarks",
+          "categories": [
+            {
+              "name": "Monuments & Statues",
+              "localized_name": "Monuments & Statues"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "4"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "3"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "4"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "4"
+        }
+      ],
+      "awards": [],
+      "id": 3
+    },
+    {
+      "location_id": "25577464",
+      "name": "Grand Palais Ephemere",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d25577464-Reviews-Grand_Palais_Ephemere-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "Place Joffre",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "Place Joffre, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85297",
+      "longitude": "2.30357",
+      "timezone": "Europe/Paris",
+      "website": "https://www.grandpalais.fr/en/lieu/grand-palais-ephemere",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d25577464-Grand_Palais_Ephemere-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#2,550 of 3,558 things to do in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "3558",
+        "ranking": "2550"
+      },
+      "rating": "3.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
+      "num_reviews": "1",
+      "review_rating_count": {
+        "1": "0",
+        "2": "0",
+        "3": "1",
+        "4": "0",
+        "5": "0"
+      },
+      "photo_count": "6",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d25577464-m66827-Reviews-Grand_Palais_Ephemere-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "landmarks",
+          "localized_name": "Sights & Landmarks"
+        },
+        {
+          "name": "attractions",
+          "localized_name": "Attractions"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Sights & Landmarks",
+          "localized_name": "Sights & Landmarks",
+          "categories": [
+            {
+              "name": "Architectural Buildings",
+              "localized_name": "Architectural Buildings"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "0"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "1"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 4
+    },
+    {
+      "location_id": "246224",
+      "name": "Ecole Militaire",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d246224-Reviews-Ecole_Militaire-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "1 Place Joffre",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "1 Place Joffre, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85398",
+      "longitude": "2.30553",
+      "timezone": "Europe/Paris",
+      "phone": "+33 1 80 50 14 00",
+      "website": "http://www.dems.defense.gouv.fr/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d246224-Ecole_Militaire-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#153 of 3,558 things to do in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "3558",
+        "ranking": "153"
+      },
+      "rating": "4.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+      "num_reviews": "205",
+      "review_rating_count": {
+        "1": "0",
+        "2": "1",
+        "3": "25",
+        "4": "117",
+        "5": "62"
+      },
+      "photo_count": "186",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d246224-m66827-Reviews-Ecole_Militaire-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "landmarks",
+          "localized_name": "Sights & Landmarks"
+        },
+        {
+          "name": "attractions",
+          "localized_name": "Attractions"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Sights & Landmarks",
+          "localized_name": "Sights & Landmarks",
+          "categories": [
+            {
+              "name": "Historic Sites",
+              "localized_name": "Historic Sites"
+            },
+            {
+              "name": "Points of Interest & Landmarks",
+              "localized_name": "Points of Interest & Landmarks"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621574",
+          "name": "Ecole-Militaire"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "10"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "92"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "21"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "28"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "19"
+        }
+      ],
+      "awards": [],
+      "id": 5
+    },
+    {
+      "location_id": "13961931",
+      "name": "Statue Marechal Joffre",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d13961931-Reviews-Statue_Marechal_Joffre-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "Place Joffre",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "Place Joffre, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85276",
+      "longitude": "2.302828",
+      "timezone": "Europe/Paris",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d13961931-Statue_Marechal_Joffre-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#710 of 3,558 things to do in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "3558",
+        "ranking": "710"
+      },
+      "rating": "4.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+      "num_reviews": "13",
+      "review_rating_count": {
+        "1": "0",
+        "2": "0",
+        "3": "3",
+        "4": "7",
+        "5": "3"
+      },
+      "photo_count": "39",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d13961931-m66827-Reviews-Statue_Marechal_Joffre-Paris_Ile_de_France.html#photos",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "0000"
+            },
+            "close": {
+              "day": 1,
+              "time": "2359"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "0000"
+            },
+            "close": {
+              "day": 2,
+              "time": "2359"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "0000"
+            },
+            "close": {
+              "day": 3,
+              "time": "2359"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "0000"
+            },
+            "close": {
+              "day": 4,
+              "time": "2359"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "0000"
+            },
+            "close": {
+              "day": 5,
+              "time": "2359"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "0000"
+            },
+            "close": {
+              "day": 6,
+              "time": "2359"
+            }
+          },
+          {
+            "open": {
+              "day": 7,
+              "time": "0000"
+            },
+            "close": {
+              "day": 7,
+              "time": "2359"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 00:00 - 23:59",
+          "Tuesday: 00:00 - 23:59",
+          "Wednesday: 00:00 - 23:59",
+          "Thursday: 00:00 - 23:59",
+          "Friday: 00:00 - 23:59",
+          "Saturday: 00:00 - 23:59",
+          "Sunday: 00:00 - 23:59"
+        ]
+      },
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "landmarks",
+          "localized_name": "Sights & Landmarks"
+        },
+        {
+          "name": "attractions",
+          "localized_name": "Attractions"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Sights & Landmarks",
+          "localized_name": "Sights & Landmarks",
+          "categories": [
+            {
+              "name": "Points of Interest & Landmarks",
+              "localized_name": "Points of Interest & Landmarks"
+            },
+            {
+              "name": "Monuments & Statues",
+              "localized_name": "Monuments & Statues"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "1"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "4"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "1"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "1"
+        }
+      ],
+      "awards": [],
+      "id": 6
+    },
+    {
+      "location_id": "7201350",
+      "name": "The Green Way",
+      "description": "The Green Way : Visit Paris on a Segway !!!",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d7201350-Reviews-The_Green_Way-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "Place Joffre",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "Place Joffre, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85274",
+      "longitude": "2.30319",
+      "timezone": "Europe/Paris",
+      "email": "contact@thegreenway.fr",
+      "phone": "+33 6 87 27 31 32",
+      "website": "http://www.thegreenway.fr",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d7201350-The_Green_Way-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#176 of 1,932 Tours in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1932",
+        "ranking": "176"
+      },
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "119",
+      "review_rating_count": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "2",
+        "5": "117"
+      },
+      "photo_count": "41",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d7201350-m66827-Reviews-The_Green_Way-Paris_Ile_de_France.html#photos",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "0900"
+            },
+            "close": {
+              "day": 1,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "0900"
+            },
+            "close": {
+              "day": 2,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "0900"
+            },
+            "close": {
+              "day": 3,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "0900"
+            },
+            "close": {
+              "day": 4,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "0900"
+            },
+            "close": {
+              "day": 5,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "0900"
+            },
+            "close": {
+              "day": 6,
+              "time": "2300"
+            }
+          },
+          {
+            "open": {
+              "day": 7,
+              "time": "0900"
+            },
+            "close": {
+              "day": 7,
+              "time": "2300"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 09:00 - 23:00",
+          "Tuesday: 09:00 - 23:00",
+          "Wednesday: 09:00 - 23:00",
+          "Thursday: 09:00 - 23:00",
+          "Friday: 09:00 - 23:00",
+          "Saturday: 09:00 - 23:00",
+          "Sunday: 09:00 - 23:00"
+        ]
+      },
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "sightseeing_tours",
+          "localized_name": "Tours"
+        },
+        {
+          "name": "activities",
+          "localized_name": "Activities"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Tours",
+          "localized_name": "Tours",
+          "categories": [
+            {
+              "name": "Segway Tours",
+              "localized_name": "Segway Tours"
+            },
+            {
+              "name": "Sightseeing Tours",
+              "localized_name": "Sightseeing Tours"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "15621574",
+          "name": "Ecole-Militaire"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "2"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "30"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "3"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "53"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "24"
+        }
+      ],
+      "awards": [],
+      "id": 7
+    },
+    {
+      "location_id": "6696313",
+      "name": "Ornicom",
+      "description": "Ornicom organizes Segway Tours in Paris for companies, private individuals and communities by proposing varied offers adapted to every profile.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d6696313-Reviews-Ornicom-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "Place Joffre",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "Place Joffre, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85274",
+      "longitude": "2.30319",
+      "timezone": "Europe/Paris",
+      "email": "contact@ornicom.fr",
+      "phone": "+33 6 20 15 92 31",
+      "website": "http://www.ornicom.fr/balade-location-segway/paris-tour-monument-parisien/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d6696313-Ornicom-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#230 of 1,932 Tours in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1932",
+        "ranking": "230"
+      },
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "84",
+      "review_rating_count": {
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "4",
+        "5": "80"
+      },
+      "photo_count": "22",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d6696313-m66827-Reviews-Ornicom-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "sightseeing_tours",
+          "localized_name": "Tours"
+        },
+        {
+          "name": "activities",
+          "localized_name": "Activities"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Tours",
+          "localized_name": "Tours",
+          "categories": [
+            {
+              "name": "Segway Tours",
+              "localized_name": "Segway Tours"
+            },
+            {
+              "name": "Sightseeing Tours",
+              "localized_name": "Sightseeing Tours"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621622",
+          "name": "Gros-Caillou"
+        },
+        {
+          "location_id": "15621574",
+          "name": "Ecole-Militaire"
+        },
+        {
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
+        },
+        {
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "8"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "16"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "24"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "26"
+        }
+      ],
+      "awards": [],
+      "id": 8
+    },
     {
       "location_id": "10607034",
       "name": "Guide in France Alexandr Lazorev",
@@ -1005,1309 +1844,7 @@
         }
       ],
       "awards": [],
-      "id": 1
-    },
-    {
-      "location_id": "25577464",
-      "name": "Grand Palais Ephemere",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d25577464-Reviews-Grand_Palais_Ephemere-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "Place Joffre",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "Place Joffre, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85297",
-      "longitude": "2.30357",
-      "timezone": "Europe/Paris",
-      "website": "https://www.grandpalais.fr/en/lieu/grand-palais-ephemere",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d25577464-Grand_Palais_Ephemere-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#2,550 of 3,558 things to do in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "3558",
-        "ranking": "2550"
-      },
-      "rating": "3.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
-      "num_reviews": "1",
-      "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "1",
-        "4": "0",
-        "5": "0"
-      },
-      "photo_count": "6",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d25577464-m66827-Reviews-Grand_Palais_Ephemere-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Architectural Buildings",
-              "localized_name": "Architectural Buildings"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "0"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "0"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "1"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
-        }
-      ],
-      "awards": [],
-      "id": 2
-    },
-    {
-      "location_id": "12223190",
-      "name": "Monument des Droits de l'Homme",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d12223190-Reviews-Monument_des_Droits_de_l_Homme-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "avenue Charles Risler",
-        "street2": "Champs de Mars",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "avenue Charles Risler Champs de Mars, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85461",
-      "longitude": "2.30018",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d12223190-Monument_des_Droits_de_l_Homme-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#700 of 3,558 things to do in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "3558",
-        "ranking": "700"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "24",
-      "review_rating_count": {
-        "1": "1",
-        "2": "3",
-        "3": "1",
-        "4": "15",
-        "5": "4"
-      },
-      "photo_count": "93",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d12223190-m66827-Reviews-Monument_des_Droits_de_l_Homme-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Monuments & Statues",
-              "localized_name": "Monuments & Statues"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "4"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "3"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "4"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "4"
-        }
-      ],
-      "awards": [],
-      "id": 3
-    },
-    {
-      "location_id": "246224",
-      "name": "Ecole Militaire",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d246224-Reviews-Ecole_Militaire-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "1 Place Joffre",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "1 Place Joffre, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85398",
-      "longitude": "2.30553",
-      "timezone": "Europe/Paris",
-      "phone": "+33 1 80 50 14 00",
-      "website": "http://www.dems.defense.gouv.fr/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d246224-Ecole_Militaire-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#153 of 3,558 things to do in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "3558",
-        "ranking": "153"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "205",
-      "review_rating_count": {
-        "1": "0",
-        "2": "1",
-        "3": "25",
-        "4": "117",
-        "5": "62"
-      },
-      "photo_count": "186",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d246224-m66827-Reviews-Ecole_Militaire-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Historic Sites",
-              "localized_name": "Historic Sites"
-            },
-            {
-              "name": "Points of Interest & Landmarks",
-              "localized_name": "Points of Interest & Landmarks"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621574",
-          "name": "Ecole-Militaire"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "10"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "92"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "21"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "28"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "19"
-        }
-      ],
-      "awards": [],
-      "id": 4
-    },
-    {
-      "location_id": "4545345",
-      "name": "The Wall for Peace",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d4545345-Reviews-The_Wall_for_Peace-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "Parc Champ de Mars",
-        "city": "Paris",
-        "country": "France",
-        "address_string": "Parc Champ de Mars, Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85336",
-      "longitude": "2.302065",
-      "timezone": "Europe/Paris",
-      "website": "http://www.wallforpeace.com/mur.html",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d4545345-The_Wall_for_Peace-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#766 of 3,558 things to do in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "3558",
-        "ranking": "766"
-      },
-      "rating": "3.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
-      "num_reviews": "91",
-      "review_rating_count": {
-        "1": "9",
-        "2": "16",
-        "3": "28",
-        "4": "27",
-        "5": "11"
-      },
-      "photo_count": "123",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d4545345-m66827-Reviews-The_Wall_for_Peace-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Points of Interest & Landmarks",
-              "localized_name": "Points of Interest & Landmarks"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "39"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "9"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "8"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "19"
-        }
-      ],
-      "awards": [],
-      "id": 5
-    },
-    {
-      "location_id": "26271031",
-      "name": "Paris Heritages",
-      "description": "Explore iconic landmarks, indulge in culinary delights, and immerse yourself in art and culture in enchanting Paris.",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d26271031-Reviews-Paris_Heritages-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "Eiffel Tower, Champ de Mars, 5 Av. Anatole France, Paris",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "Eiffel Tower, Champ de Mars, 5 Av. Anatole France, Paris, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85478",
-      "longitude": "2.30038",
-      "timezone": "Europe/Paris",
-      "email": "siamashiqur@gmail.com",
-      "phone": "+880 1818-176989",
-      "website": "https://www.getyourguide.com",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d26271031-Paris_Heritages-Paris_Ile_de_France.html?m=66827",
-      "num_reviews": "0",
-      "photo_count": "1",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d26271031-m66827-Reviews-Paris_Heritages-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        },
-        {
-          "name": "outdoor_activities",
-          "localized_name": "Outdoor Activities"
-        },
-        {
-          "name": "sightseeing_tours",
-          "localized_name": "Tours"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
-        },
-        {
-          "name": "other",
-          "localized_name": "Other"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Tours",
-          "localized_name": "Tours",
-          "categories": [
-            {
-              "name": "Day Trips",
-              "localized_name": "Day Trips"
-            },
-            {
-              "name": "4WD, ATV & Off-Road Tours",
-              "localized_name": "4WD, ATV & Off-Road Tours"
-            },
-            {
-              "name": "Hop-On Hop-Off Tours",
-              "localized_name": "Hop-On Hop-Off Tours"
-            },
-            {
-              "name": "Walking Tours",
-              "localized_name": "Walking Tours"
-            }
-          ]
-        },
-        {
-          "name": "Other",
-          "localized_name": "Other",
-          "categories": [
-            {
-              "name": "",
-              "localized_name": ""
-            }
-          ]
-        },
-        {
-          "name": "Outdoor Activities",
-          "localized_name": "Outdoor Activities",
-          "categories": [
-            {
-              "name": "4WD, ATV & Off-Road Tours",
-              "localized_name": "4WD, ATV & Off-Road Tours"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "0"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "0"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "0"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
-        }
-      ],
-      "awards": [],
-      "id": 6
-    },
-    {
-      "location_id": "2476749",
-      "name": "Le Nid du Phenix",
-      "description": "« Le Nid du Phénix » is a refined and elegant cocoon that will make you discover two asian arts synonymous with wellness and relaxation : Tea & massages. The purpose of our concept is to rejuvenate body and soul.Our venues are open 7 days a week, from 11am to 9pm.Tarif: 45€/30mins, 75€/60mins, 100€/90mins",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d2476749-Reviews-Le_Nid_du_Phenix-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "1 Place de l Ecole Militaire",
-        "street2": "",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "1 Place de l Ecole Militaire, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85442",
-      "longitude": "2.30626",
-      "timezone": "Europe/Paris",
-      "email": "lenidduphenix@gmail.com",
-      "phone": "+33 1 45 55 93 39",
-      "website": "http://www.lenidduphenix.com/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d2476749-Le_Nid_du_Phenix-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#112 of 937 Spas &amp; Wellness in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "937",
-        "ranking": "112"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "14",
-      "review_rating_count": {
-        "1": "0",
-        "2": "1",
-        "3": "0",
-        "4": "2",
-        "5": "11"
-      },
-      "photo_count": "5",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d2476749-m66827-Reviews-Le_Nid_du_Phenix-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "wellness_spas",
-          "localized_name": "Spas & Wellness"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Spas & Wellness",
-          "localized_name": "Spas & Wellness",
-          "categories": [
-            {
-              "name": "Spas",
-              "localized_name": "Spas"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "0"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "10"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "2"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "0"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "0"
-        }
-      ],
-      "awards": [],
-      "id": 7
-    },
-    {
-      "location_id": "13961931",
-      "name": "Statue Marechal Joffre",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d13961931-Reviews-Statue_Marechal_Joffre-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "Place Joffre",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "Place Joffre, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85276",
-      "longitude": "2.302828",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d13961931-Statue_Marechal_Joffre-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#710 of 3,558 things to do in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "3558",
-        "ranking": "710"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "13",
-      "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "3",
-        "4": "7",
-        "5": "3"
-      },
-      "photo_count": "39",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d13961931-m66827-Reviews-Statue_Marechal_Joffre-Paris_Ile_de_France.html#photos",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "0000"
-            },
-            "close": {
-              "day": 1,
-              "time": "2359"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "0000"
-            },
-            "close": {
-              "day": 2,
-              "time": "2359"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "0000"
-            },
-            "close": {
-              "day": 3,
-              "time": "2359"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "0000"
-            },
-            "close": {
-              "day": 4,
-              "time": "2359"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "0000"
-            },
-            "close": {
-              "day": 5,
-              "time": "2359"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "0000"
-            },
-            "close": {
-              "day": 6,
-              "time": "2359"
-            }
-          },
-          {
-            "open": {
-              "day": 7,
-              "time": "0000"
-            },
-            "close": {
-              "day": 7,
-              "time": "2359"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 00:00 - 23:59",
-          "Tuesday: 00:00 - 23:59",
-          "Wednesday: 00:00 - 23:59",
-          "Thursday: 00:00 - 23:59",
-          "Friday: 00:00 - 23:59",
-          "Saturday: 00:00 - 23:59",
-          "Sunday: 00:00 - 23:59"
-        ]
-      },
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "landmarks",
-          "localized_name": "Sights & Landmarks"
-        },
-        {
-          "name": "attractions",
-          "localized_name": "Attractions"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Sights & Landmarks",
-          "localized_name": "Sights & Landmarks",
-          "categories": [
-            {
-              "name": "Points of Interest & Landmarks",
-              "localized_name": "Points of Interest & Landmarks"
-            },
-            {
-              "name": "Monuments & Statues",
-              "localized_name": "Monuments & Statues"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "1"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "4"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "1"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "0"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "1"
-        }
-      ],
-      "awards": [],
-      "id": 8
-    },
-    {
-      "location_id": "7201350",
-      "name": "The Green Way",
-      "description": "The Green Way : Visit Paris on a Segway !!!",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d7201350-Reviews-The_Green_Way-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "Place Joffre",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "Place Joffre, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85274",
-      "longitude": "2.30319",
-      "timezone": "Europe/Paris",
-      "email": "contact@thegreenway.fr",
-      "phone": "+33 6 87 27 31 32",
-      "website": "http://www.thegreenway.fr",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d7201350-The_Green_Way-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#176 of 1,932 Tours in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1932",
-        "ranking": "176"
-      },
-      "rating": "5.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
-      "num_reviews": "119",
-      "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "2",
-        "5": "117"
-      },
-      "photo_count": "41",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d7201350-m66827-Reviews-The_Green_Way-Paris_Ile_de_France.html#photos",
-      "hours": {
-        "periods": [
-          {
-            "open": {
-              "day": 1,
-              "time": "0900"
-            },
-            "close": {
-              "day": 1,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 2,
-              "time": "0900"
-            },
-            "close": {
-              "day": 2,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 3,
-              "time": "0900"
-            },
-            "close": {
-              "day": 3,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 4,
-              "time": "0900"
-            },
-            "close": {
-              "day": 4,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 5,
-              "time": "0900"
-            },
-            "close": {
-              "day": 5,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 6,
-              "time": "0900"
-            },
-            "close": {
-              "day": 6,
-              "time": "2300"
-            }
-          },
-          {
-            "open": {
-              "day": 7,
-              "time": "0900"
-            },
-            "close": {
-              "day": 7,
-              "time": "2300"
-            }
-          }
-        ],
-        "weekday_text": [
-          "Monday: 09:00 - 23:00",
-          "Tuesday: 09:00 - 23:00",
-          "Wednesday: 09:00 - 23:00",
-          "Thursday: 09:00 - 23:00",
-          "Friday: 09:00 - 23:00",
-          "Saturday: 09:00 - 23:00",
-          "Sunday: 09:00 - 23:00"
-        ]
-      },
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "sightseeing_tours",
-          "localized_name": "Tours"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Tours",
-          "localized_name": "Tours",
-          "categories": [
-            {
-              "name": "Sightseeing Tours",
-              "localized_name": "Sightseeing Tours"
-            },
-            {
-              "name": "Segway Tours",
-              "localized_name": "Segway Tours"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "15621574",
-          "name": "Ecole-Militaire"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "2"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "30"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "3"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "53"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "24"
-        }
-      ],
-      "awards": [],
       "id": 9
-    },
-    {
-      "location_id": "6696313",
-      "name": "Ornicom",
-      "description": "Ornicom organizes Segway Tours in Paris for companies, private individuals and communities by proposing varied offers adapted to every profile.",
-      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d6696313-Reviews-Ornicom-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "Place Joffre",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75007",
-        "address_string": "Place Joffre, 75007 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.85274",
-      "longitude": "2.30319",
-      "timezone": "Europe/Paris",
-      "email": "contact@ornicom.fr",
-      "phone": "+33 6 20 15 92 31",
-      "website": "http://www.ornicom.fr/balade-location-segway/paris-tour-monument-parisien/",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d6696313-Ornicom-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#230 of 1,932 Tours in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1932",
-        "ranking": "230"
-      },
-      "rating": "5.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
-      "num_reviews": "84",
-      "review_rating_count": {
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "4",
-        "5": "80"
-      },
-      "photo_count": "22",
-      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d6696313-m66827-Reviews-Ornicom-Paris_Ile_de_France.html#photos",
-      "category": {
-        "name": "attraction",
-        "localized_name": "Attraction"
-      },
-      "subcategory": [
-        {
-          "name": "sightseeing_tours",
-          "localized_name": "Tours"
-        },
-        {
-          "name": "activities",
-          "localized_name": "Activities"
-        }
-      ],
-      "groups": [
-        {
-          "name": "Tours",
-          "localized_name": "Tours",
-          "categories": [
-            {
-              "name": "Segway Tours",
-              "localized_name": "Segway Tours"
-            },
-            {
-              "name": "Sightseeing Tours",
-              "localized_name": "Sightseeing Tours"
-            }
-          ]
-        }
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621622",
-          "name": "Gros-Caillou"
-        },
-        {
-          "location_id": "15621574",
-          "name": "Ecole-Militaire"
-        },
-        {
-          "location_id": "7236767",
-          "name": "Tour Eiffel / Invalides"
-        },
-        {
-          "location_id": "15621644",
-          "name": "7th Arr. - Palais-Bourbon"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "8"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "16"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "0"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "24"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "26"
-        }
-      ],
-      "awards": [],
-      "id": 10
     }
   ]
 }

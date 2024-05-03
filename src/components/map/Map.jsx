@@ -11,9 +11,10 @@ import { maxBy, minBy } from 'lodash'
 import { TripSelector } from './TripSelector.jsx';
 import plus_button from '../../assets/plus_button_box_round-512.png'
 import './Map.css'
+import { getTripsWithPlaces } from '../../services/tripService.js';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-export const Map = ({trips, currentUser, setUpdateTrips}) => {
+export const Map = ({trips, setTrips, currentUser, setUpdateTrips}) => {
 
 
  const mapRef = useRef();
@@ -119,14 +120,15 @@ export const Map = ({trips, currentUser, setUpdateTrips}) => {
   return [southWest, northEast];
  };
 
- const addPlaceToTrip = (selectedTripId, selectedPlace) => {
+ const addPlaceToTrip = async (selectedTripId, selectedPlace) => {
   if (selectedTripId === 0) {
     selectedPlace.categoryId = placeCategory;
     navigate('/trips/new',{state:{place:selectedPlace}});
   }
   else {
-    saveTripAdvisorPlaceToSelectedTrip(selectedTripId, selectedPlace, placeCategory);
-    debugger
+    await saveTripAdvisorPlaceToSelectedTrip(selectedTripId, selectedPlace, placeCategory);
+    const updatedTrips = await getTripsWithPlaces(currentUser.id)
+    const setTripsResponse = await setTrips(updatedTrips)
     setUpdateTrips(true);
   }
   
