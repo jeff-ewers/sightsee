@@ -26,7 +26,9 @@
     background-color: var(--offWhite);
     border: 2px solid var(--primary);
     margin: 0.5rem 0;
-    border-radius: 0.5rem;
+    border-radius: 1.1rem;
+    border-bottom-left-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
     padding: 0.5rem;
     height: 180px;
     position: relative;
@@ -44,4 +46,27 @@
     right: 20px;
     background-color: var(--offWhite);
     border: 1px outset var(--primary);
+  }
+
+  .trip {
+    position: relative;
+    padding-left: 220px; /* adjust for width of the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+  }
+  
+  .trip::before {
+    content: '';
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; /* padding-left of .trip */
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--random-image), linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)); /* random image URL variable */
+    
   }
