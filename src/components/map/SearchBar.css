@@ -1,0 +1,18 @@
+.search-bar {
+    position: 'absolute';
+    height: '43px';
+    top: '50px';
+    left: '245px';
+    background-color: 'rgb(59, 59, 59, 0.5)';
+    padding: '10px';
+    border-radius: '5px';
+    z-index: 1000;
+    color: 'var(--offWhite)';
+    font-family: "Nunito";
+
+}
+
+.search-bar-icon {
+    height: 30px;
+}
+

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapGL, { Marker, Popup } from 'react-map-gl';
-import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory } from "../../services/tripadvisorService.js";
+import { getLocationDetails, getNearbyPlaces, getNearbyPlacesByCategory, searchNearby } from "../../services/tripadvisorService.js";
 import { savePlaceDetails, saveTripAdvisorPlaceToSelectedTrip } from '../../services/saveService.js';
 import { deleteAllPlaceDetails } from '../../services/placeService.js';
 import poi_marker from '../../assets/poi-marker.png'
@@ -12,6 +12,7 @@ import { TripSelector } from './TripSelector.jsx';
 import plus_button from '../../assets/plus_button_box_round-512.png'
 import './Map.css'
 import { getTripsWithPlaces } from '../../services/tripService.js';
+import { SearchBar } from './SearchBar.jsx';
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 export const Map = ({trips, setTrips, currentUser, setUpdateTrips}) => {
@@ -40,7 +41,13 @@ export const Map = ({trips, setTrips, currentUser, setUpdateTrips}) => {
 
   if(markerSpan.length !== 0) {  
     const markerCenter = [((markerSpan[0][0]+markerSpan[1][0])/2), ((markerSpan[0][1] + markerSpan[1][1])/2)]
-      flyTo(markerCenter[1], markerCenter[0])
+    console.log(mapRef.current.cameraForBounds(markerSpan))
+      //explicit implementation
+      //flyTo(markerCenter[1], markerCenter[0])
+      //interpolative implementation V (accounts for zoom)
+      mapRef.current.flyTo(mapRef.current.cameraForBounds(markerSpan, {
+        padding: {top: 125, bottom: 125, left: 125, right: 125}
+    }))
 
   }
 }, [markerSpan]);
@@ -62,6 +69,29 @@ export const Map = ({trips, setTrips, currentUser, setUpdateTrips}) => {
     setTimeout(() => setUpdateViewport(true), 200); // reenable after flyTo animation 
   }
 };
+
+ const onSearch = useCallback(
+  async (searchQuery) => {
+      const deleteRes = await deleteAllPlaceDetails();
+      const currentPlaceCategory = placeCategoryRef.current;
+      const nearbyPlaces = await searchNearby(searchQuery, viewport, currentPlaceCategory);
+      debugger;
+      const fetchDetailsPromises = nearbyPlaces.data.map(nearbyPlace => 
+        getLocationDetails(nearbyPlace.location_id)
+           .then(details => {
+             if(details.location_id) {
+              savePlaceDetails(details);
+             }
+             return details;
+           })
+       );
+      const nearbyDetails = await Promise.all(fetchDetailsPromises);
+      const filteredNearbyDetails = nearbyDetails.filter(place => place.hasOwnProperty('location_id'))
+      setNearbyPlaceDetails(filteredNearbyDetails);
+      setMarkerSpan(getBounds(filteredNearbyDetails))
+  },
+    []
+ );
 
  const getMinOrMax = (markers, minOrMax, latOrLng) => {
   if (minOrMax === "max") {
@@ -198,6 +228,7 @@ export const Map = ({trips, setTrips, currentUser, setUpdateTrips}) => {
     </MapGL>
     <CategorySelect placeCategory={placeCategory} setPlaceCategory={setPlaceCategory} />
     <TripSelector selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} trips={trips} />
+    <SearchBar onSearch={onSearch}/>
 
     </>
  );

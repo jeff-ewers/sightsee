@@ -676,16 +676,15 @@
   ],
   "placeDetails": [
     {
-      "location_id": "188735",
-      "name": "Hotel Lancaster Paris Champs-elysees",
-      "description": "À deux pas des Champs-Élysées et de l’Arc de Triomphe, l’Hôtel Lancaster révèle l’art de vivre à la française. Cet établissement historique possède une vaste et précieuse collection d’œuvres d’art alliée subtilement à des éléments contemporains. Cette adresse, nichée dans le 8e arrondissement de Paris, offre à ses clients un confort et un raffinement inégalés. Le restaurant Monsieur Lancaster et le bar CopperBay Lancaster vous accueillent pour un déjeuner ou un dîner gastronomique mettant à l'honneur une cuisine française de saison sous la direction du chef Sébastien Giroud. Un agréable patio constitue un écrin de sérénité au cœur de la capitale. Laissez vous porter par le charme authentique et élégant de l'hôtel Lancaster Paris.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d188735-Reviews-Hotel_Lancaster_Paris_Champs_elysees-Paris_Ile_de_France.html?m=66827",
+      "location_id": "24109994",
+      "name": "Le Bonbon Royal",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d24109994-Reviews-Le_Bonbon_Royal-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "7 rue de Berri",
+        "street1": "33 rue de Chaillot",
         "city": "Paris",
         "country": "France",
-        "postalcode": "75008",
-        "address_string": "7 rue de Berri, 75008 Paris France"
+        "postalcode": "75116",
+        "address_string": "33 rue de Chaillot, 75116 Paris France"
       },
       "ancestors": [
         {
@@ -704,199 +703,208 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.872326",
-      "longitude": "2.303628",
+      "latitude": "48.867626",
+      "longitude": "2.297428",
       "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d188735-Hotel_Lancaster_Paris_Champs_elysees-Paris_Ile_de_France.html?m=66827",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d24109994-Le_Bonbon_Royal-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#341 of 1,896 hotels in Paris",
+        "ranking_string": "#526 of 1,162 Shopping in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "341"
+        "ranking_out_of": "1162",
+        "ranking": "526"
       },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "1057",
+      "rating": "5.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/5.0-66827-5.svg",
+      "num_reviews": "1",
       "review_rating_count": {
-        "1": "37",
-        "2": "40",
-        "3": "65",
-        "4": "190",
-        "5": "725"
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "0",
+        "5": "1"
       },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        }
-      },
-      "photo_count": "502",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d188735-m66827-Reviews-Hotel_Lancaster_Paris_Champs_elysees-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$$",
-      "amenities": [
-        "Internet",
-        "Free Internet",
-        "Wifi",
-        "Free Wifi",
-        "Room service",
-        "Fitness center",
-        "Suites",
-        "Restaurant",
-        "Bar/Lounge",
-        "Public Wifi",
-        "Dry Cleaning",
-        "Meeting rooms",
-        "Non-smoking rooms",
-        "Business center",
-        "Laundry Service",
-        "Concierge",
-        "Air conditioning",
-        "Multilingual Staff",
-        "Minibar",
-        "Non-smoking hotel",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Breakfast Available",
-        "Parking",
-        "Baggage Storage",
-        "Bathrobes",
-        "Breakfast in the Room",
-        "Doorperson",
-        "English",
-        "French",
-        "24-Hour Front Desk",
-        "Ironing Service",
-        "24-Hour Security",
-        "Shoeshine",
-        "Special Diet Menus",
-        "Taxi Service"
-      ],
+      "photo_count": "0",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d24109994-m66827-Reviews-Le_Bonbon_Royal-Paris_Ile_de_France.html#photos",
       "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
+        "name": "attraction",
+        "localized_name": "Attraction"
       },
       "subcategory": [
         {
-          "name": "hotel",
-          "localized_name": "Hotel"
+          "name": "shopping",
+          "localized_name": "Shopping"
         }
       ],
-      "styles": [
-        "Historic Hotel",
-        "Boutique"
+      "groups": [
+        {
+          "name": "Shopping",
+          "localized_name": "Shopping",
+          "categories": [
+            {
+              "name": "Gift & Specialty Shops",
+              "localized_name": "Gift & Specialty Shops"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "1"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 1
+    },
+    {
+      "location_id": "7792828",
+      "name": "Le Bonbon au Palais",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d7792828-Reviews-Le_Bonbon_au_Palais-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "19 Rue Monge",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75005",
+        "address_string": "19 Rue Monge, 75005 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.847626",
+      "longitude": "2.350739",
+      "timezone": "Europe/Paris",
+      "phone": "+33 1 78 56 15 72",
+      "website": "http://lebonbonaupalais.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d7792828-Le_Bonbon_au_Palais-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#109 of 1,162 Shopping in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1162",
+        "ranking": "109"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "48",
+      "review_rating_count": {
+        "1": "4",
+        "2": "1",
+        "3": "1",
+        "4": "2",
+        "5": "40"
+      },
+      "photo_count": "28",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d7792828-m66827-Reviews-Le_Bonbon_au_Palais-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "shopping",
+          "localized_name": "Shopping"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Shopping",
+          "localized_name": "Shopping",
+          "categories": [
+            {
+              "name": "Gift & Specialty Shops",
+              "localized_name": "Gift & Specialty Shops"
+            }
+          ]
+        }
       ],
       "neighborhood_info": [
         {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
+          "location_id": "13209508",
+          "name": "Saint Victor"
         },
         {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "15621623",
-          "name": "Faubourg-du-Roule"
+          "location_id": "7236765",
+          "name": "Quartier Latin"
         }
       ],
       "trip_types": [
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "118"
+          "value": "1"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "461"
+          "value": "12"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "61"
+          "value": "9"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "195"
+          "value": "15"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "61"
+          "value": "6"
         }
       ],
-      "awards": [
-        {
-          "award_type": "Travelers Choice",
-          "year": "2024",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        },
-        {
-          "award_type": "Travelers Choice",
-          "year": "2023",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        }
-      ],
-      "id": 1
+      "awards": [],
+      "id": 2
     },
     {
-      "location_id": "229534",
-      "name": "Chateau Des Fleurs",
-      "description": "Le Château des Fleurs est un boutique-hôtel situé tout à côté des Champs Elysées et du Triangle d'Or. Imaginé par Quintana Partners, il rend hommage à l'esprit parisien de la Belle Epoque et propose 37 chambres, certaines avec une vue sur les Champs Elysées, certaines communicantes, d'autres sur deux niveaux. Les salons ont été imaginés pour offrir un cadre intime à la décoration unique aux Parisiens comme aux voyageurs lointains qui souhaitent s'y détendre, prendre un verre au bar ou déjeuner et dîner en dégustant la cuisine coréenne authentique et généreuse de la Cheffe Ji-Hye Park, créatrice d'OMA. Côté détente, le spa by Omnisens, propose cabines de soins simples et double, fitness, bassin et sauna.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d229534-Reviews-Chateau_Des_Fleurs-Paris_Ile_de_France.html?m=66827",
+      "location_id": "26360710",
+      "name": "Bonbon Tours",
+      "description": "Our team of professional guides in Paris offers engaging and personalized Eiffel Tower and city tours. With a range of expertise in history, art, food, hidden gems, and romance, our guides provide informative and unforgettable experiences.",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d26360710-Reviews-Bonbon_Tours-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "19 Rue Vernet",
+        "street1": "115 avenue de Clichy",
         "city": "Paris",
         "country": "France",
-        "postalcode": "75008",
-        "address_string": "19 Rue Vernet, 75008 Paris France"
+        "postalcode": "75017",
+        "address_string": "115 avenue de Clichy, 75017 Paris France"
       },
       "ancestors": [
         {
@@ -915,149 +923,1092 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.871796",
-      "longitude": "2.298412",
+      "latitude": "48.88977",
+      "longitude": "2.32134",
       "timezone": "Europe/Paris",
-      "phone": "01133147204173",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d229534-Chateau_Des_Fleurs-Paris_Ile_de_France.html?m=66827",
+      "email": "toursbonbon@gmail.com",
+      "phone": "+33 6 31 14 28 41",
+      "website": "https://www.viator.com",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d26360710-Bonbon_Tours-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#1,184 of 1,896 hotels in Paris",
+        "ranking_string": "#170 of 1,952 Tours in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "1184"
+        "ranking_out_of": "1952",
+        "ranking": "170"
       },
       "rating": "4.5",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "24",
+      "num_reviews": "1406",
       "review_rating_count": {
-        "1": "0",
-        "2": "2",
-        "3": "0",
-        "4": "2",
-        "5": "20"
+        "1": "107",
+        "2": "41",
+        "3": "37",
+        "4": "76",
+        "5": "1145"
+      },
+      "photo_count": "118",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d26360710-m66827-Reviews-Bonbon_Tours-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "attractions",
+          "localized_name": "Attractions"
+        },
+        {
+          "name": "sightseeing_tours",
+          "localized_name": "Tours"
+        },
+        {
+          "name": "activities",
+          "localized_name": "Activities"
+        },
+        {
+          "name": "other",
+          "localized_name": "Other"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Tours",
+          "localized_name": "Tours",
+          "categories": [
+            {
+              "name": "Walking Tours",
+              "localized_name": "Walking Tours"
+            }
+          ]
+        },
+        {
+          "name": "Other",
+          "localized_name": "Other",
+          "categories": [
+            {
+              "name": "",
+              "localized_name": ""
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "9"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "289"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "34"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "592"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "108"
+        }
+      ],
+      "awards": [],
+      "id": 3
+    },
+    {
+      "location_id": "27365127",
+      "name": "Cafe Bonbon",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d27365127-Reviews-Cafe_Bonbon-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "194 Rue De La Croix-nivert",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75015",
+        "address_string": "194 Rue De La Croix-nivert, 75015 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.838654",
+      "longitude": "2.289465",
+      "timezone": "Europe/Paris",
+      "phone": "+33 1 45 57 49 72",
+      "website": "http://www.cafe-bonbon.com",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d27365127-Cafe_Bonbon-Paris_Ile_de_France.html?m=66827",
+      "num_reviews": "0",
+      "subratings": {},
+      "photo_count": "0",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d27365127-m66827-Reviews-Cafe_Bonbon-Paris_Ile_de_France.html#photos",
+      "features": [],
+      "cuisine": [],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "0"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "0"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "0"
+        }
+      ],
+      "awards": [],
+      "id": 4
+    },
+    {
+      "location_id": "9562867",
+      "name": "Au Bonbon Royal",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d9562867-Reviews-Au_Bonbon_Royal-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "56 rue Jouffroy D Abbans",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75017",
+        "address_string": "56 rue Jouffroy D Abbans, 75017 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.88487",
+      "longitude": "2.30642",
+      "timezone": "Europe/Paris",
+      "email": "aubonbonroyal@gmail.com",
+      "phone": "+33 1 42 27 80 98",
+      "website": "http://www.aubonbonroyal.com",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d9562867-Au_Bonbon_Royal-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#6,012 of 20,567 Places to Eat in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "20567",
+        "ranking": "6012"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "29",
+      "review_rating_count": {
+        "1": "2",
+        "2": "0",
+        "3": "1",
+        "4": "1",
+        "5": "25"
       },
       "subratings": {
         "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
+          "name": "rate_food",
+          "localized_name": "Food",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
         },
         "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss2.0.svg",
-          "value": "2.0"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "3": {
           "name": "rate_service",
           "localized_name": "Service",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
-        "4": {
+        "2": {
           "name": "rate_value",
           "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        }
+      },
+      "photo_count": "15",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d9562867-m66827-Reviews-Au_Bonbon_Royal-Paris_Ile_de_France.html#photos",
+      "price_level": "$$$$",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "0900"
+            },
+            "close": {
+              "day": 1,
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "0900"
+            },
+            "close": {
+              "day": 2,
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "0900"
+            },
+            "close": {
+              "day": 3,
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "0900"
+            },
+            "close": {
+              "day": 4,
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "0900"
+            },
+            "close": {
+              "day": 5,
+              "time": "1900"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "0900"
+            },
+            "close": {
+              "day": 6,
+              "time": "1900"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 09:00 - 19:00",
+          "Tuesday: 09:00 - 19:00",
+          "Wednesday: 09:00 - 19:00",
+          "Thursday: 09:00 - 19:00",
+          "Friday: 09:00 - 19:00",
+          "Saturday: 09:00 - 19:00",
+          "Sunday: Closed"
+        ]
+      },
+      "features": [
+        "Accepts Credit Cards",
+        "Takeout",
+        "Wheelchair Accessible"
+      ],
+      "cuisine": [
+        {
+          "name": "french",
+          "localized_name": "French"
+        }
+      ],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "name": "cafe",
+          "localized_name": "Café"
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621594",
+          "name": "Plaine de Monceaux"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "0"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "6"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "12"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "2"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "2"
+        }
+      ],
+      "awards": [],
+      "id": 5
+    },
+    {
+      "location_id": "3741323",
+      "name": "Chocolat Chapon",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3741323-Reviews-Chocolat_Chapon-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "69 rue du Bac",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75007",
+        "address_string": "69 rue du Bac, 75007 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.85517",
+      "longitude": "2.32482",
+      "timezone": "Europe/Paris",
+      "phone": "+33 1 42 22 95 98",
+      "website": "http://www.chocolat-chapon.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d3741323-Chocolat_Chapon-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#4,020 of 20,567 Places to Eat in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "20567",
+        "ranking": "4020"
+      },
+      "rating": "4.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
+      "num_reviews": "134",
+      "review_rating_count": {
+        "1": "9",
+        "2": "11",
+        "3": "7",
+        "4": "23",
+        "5": "84"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_food",
+          "localized_name": "Food",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
           "value": "4.5"
         },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
+        "1": {
+          "name": "rate_atmosphere",
+          "localized_name": "Atmosphere",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
+        },
+        "2": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
+        },
+        "3": {
+          "name": "rate_value",
+          "localized_name": "Value",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
           "value": "4.0"
         }
       },
-      "photo_count": "84",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d229534-m66827-Reviews-Chateau_Des_Fleurs-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$$",
-      "amenities": [
-        "Business center",
-        "Internet",
-        "Free Internet",
-        "Suites",
-        "Public Wifi",
-        "Non-smoking rooms",
-        "Concierge",
-        "Air conditioning",
-        "Multilingual Staff",
-        "Accessible rooms",
-        "Minibar",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Available",
-        "Baggage Storage",
-        "Room service",
-        "Bar/Lounge",
-        "Pets Allowed",
-        "Wifi",
-        "Free Wifi",
-        "Dry Cleaning",
-        "Laundry Service",
-        "Self-Serve Laundry",
-        "Babysitting",
-        "Non-smoking hotel",
-        "Parking",
-        "Arabic",
-        "Bathrobes",
-        "Blackout Curtains",
-        "Breakfast in the Room",
-        "24-Hour Check-in",
-        "Express Check-in / Check-out",
-        "Desk",
-        "English",
-        "Extra Long Beds",
-        "Complimentary Toiletries",
-        "French",
-        "24-Hour Front Desk",
-        "Hair Dryer",
-        "Ironing Service",
-        "Newspaper",
-        "Paid Public Parking Nearby",
-        "Russian",
-        "Soundproof Rooms",
-        "Spanish",
-        "Telephone",
-        "Valet Parking",
-        "Wake Up Service / Alarm Clock"
+      "photo_count": "54",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3741323-m66827-Reviews-Chocolat_Chapon-Paris_Ile_de_France.html#photos",
+      "price_level": "$$ - $$$",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "1400"
+            },
+            "close": {
+              "day": 1,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "0900"
+            },
+            "close": {
+              "day": 2,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "0900"
+            },
+            "close": {
+              "day": 3,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "0900"
+            },
+            "close": {
+              "day": 4,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "0900"
+            },
+            "close": {
+              "day": 5,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "0900"
+            },
+            "close": {
+              "day": 6,
+              "time": "2000"
+            }
+          },
+          {
+            "open": {
+              "day": 7,
+              "time": "0900"
+            },
+            "close": {
+              "day": 7,
+              "time": "1500"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 14:00 - 20:00",
+          "Tuesday: 09:00 - 20:00",
+          "Wednesday: 09:00 - 20:00",
+          "Thursday: 09:00 - 20:00",
+          "Friday: 09:00 - 20:00",
+          "Saturday: 09:00 - 20:00",
+          "Sunday: 09:00 - 15:00"
+        ]
+      },
+      "features": [
+        "Accepts Credit Cards",
+        "Takeout"
       ],
+      "cuisine": [],
       "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
+        "name": "restaurant",
+        "localized_name": "Restaurant"
       },
       "subcategory": [
         {
-          "name": "hotel",
-          "localized_name": "Hotel"
+          "name": "sit_down",
+          "localized_name": "Sit down"
         }
-      ],
-      "styles": [
-        "Quaint",
-        "Classic"
       ],
       "neighborhood_info": [
         {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
+          "location_id": "7236767",
+          "name": "Tour Eiffel / Invalides"
         },
         {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
+          "location_id": "15621671",
+          "name": "Faubourg Saint-Germain"
         },
         {
-          "location_id": "15621659",
-          "name": "Etoile"
+          "location_id": "15621644",
+          "name": "7th Arr. - Palais-Bourbon"
         },
         {
-          "location_id": "15621555",
-          "name": "Champs-Elysees Quartier"
+          "location_id": "15621563",
+          "name": "Saint-Thomas-d'Aquin"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "3"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "42"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "23"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "26"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "14"
+        }
+      ],
+      "awards": [],
+      "id": 6
+    },
+    {
+      "location_id": "1527470",
+      "name": "Le Bourbon",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d1527470-Reviews-Le_Bourbon-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "20 rue Xavier Privas",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75005",
+        "address_string": "20 rue Xavier Privas, 75005 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.852585",
+      "longitude": "2.345209",
+      "timezone": "Europe/Paris",
+      "phone": "+33 1 44 07 19 74",
+      "website": "http://www.facebook.com/Restaurant-le-bourbon-1856892364529411/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d1527470-Le_Bourbon-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#14,310 of 20,567 Places to Eat in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "20567",
+        "ranking": "14310"
+      },
+      "rating": "3.0",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-66827-5.svg",
+      "num_reviews": "270",
+      "review_rating_count": {
+        "1": "75",
+        "2": "33",
+        "3": "59",
+        "4": "65",
+        "5": "38"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_food",
+          "localized_name": "Food",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "1": {
+          "name": "rate_atmosphere",
+          "localized_name": "Atmosphere",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "2": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        },
+        "3": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
+        }
+      },
+      "photo_count": "91",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d1527470-m66827-Reviews-Le_Bourbon-Paris_Ile_de_France.html#photos",
+      "price_level": "$$ - $$$",
+      "features": [
+        "Outdoor Seating",
+        "Reservations",
+        "Seating",
+        "Serves Alcohol",
+        "Table Service"
+      ],
+      "cuisine": [
+        {
+          "name": "french",
+          "localized_name": "French"
+        }
+      ],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [
+        {
+          "name": "sit_down",
+          "localized_name": "Sit down"
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "7239109",
+          "name": "Odeon / Saint-Michel"
+        },
+        {
+          "location_id": "7236765",
+          "name": "Quartier Latin"
+        }
+      ],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "11"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "98"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "10"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "57"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "49"
+        }
+      ],
+      "awards": [],
+      "id": 7
+    },
+    {
+      "location_id": "16848307",
+      "name": "Bonbon Thai",
+      "description": "Le Bonbon Thaï, restauration sur place et à emporter d'inspiration Thaïlandaise fusionnée avec la cuisine Khmer (Cambodge). Des plats classiques revisités, et des originaux, faits maison et avec des produits frais !",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g790302-d16848307-Reviews-Bonbon_Thai-Vincennes_Val_de_Marne_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "26 rue Georges Huchon",
+        "city": "Vincennes",
+        "country": "France",
+        "postalcode": "94300",
+        "address_string": "26 rue Georges Huchon, 94300 Vincennes France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Vincennes",
+          "location_id": "790302"
+        },
+        {
+          "level": "Department",
+          "name": "Val-de-Marne",
+          "location_id": "2624158"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.84878",
+      "longitude": "2.419969",
+      "timezone": "Europe/Paris",
+      "email": "contact@bonbonthai.com",
+      "phone": "+33 7 62 05 60 24",
+      "website": "https://www.facebook.com/restaurantbonbonthai/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g790302-d16848307-Bonbon_Thai-Vincennes_Val_de_Marne_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "790302",
+        "ranking_string": "#53 of 170 Places to Eat in Vincennes",
+        "geo_location_name": "Vincennes",
+        "ranking_out_of": "170",
+        "ranking": "53"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "15",
+      "review_rating_count": {
+        "1": "0",
+        "2": "1",
+        "3": "1",
+        "4": "5",
+        "5": "8"
+      },
+      "subratings": {
+        "0": {
+          "name": "rate_food",
+          "localized_name": "Food",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
+          "value": "4.5"
+        },
+        "1": {
+          "name": "rate_service",
+          "localized_name": "Service",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
+          "value": "5.0"
+        },
+        "2": {
+          "name": "rate_value",
+          "localized_name": "Value",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
+        }
+      },
+      "photo_count": "12",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g790302-d16848307-m66827-Reviews-Bonbon_Thai-Vincennes_Val_de_Marne_Ile_de_France.html#photos",
+      "price_level": "$$ - $$$",
+      "hours": {
+        "periods": [
+          {
+            "open": {
+              "day": 1,
+              "time": "1145"
+            },
+            "close": {
+              "day": 1,
+              "time": "1445"
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "time": "1900"
+            },
+            "close": {
+              "day": 1,
+              "time": "2230"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "1145"
+            },
+            "close": {
+              "day": 2,
+              "time": "1445"
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "time": "1900"
+            },
+            "close": {
+              "day": 2,
+              "time": "2230"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "1145"
+            },
+            "close": {
+              "day": 3,
+              "time": "1445"
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "time": "1900"
+            },
+            "close": {
+              "day": 3,
+              "time": "2230"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "1145"
+            },
+            "close": {
+              "day": 4,
+              "time": "1445"
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "time": "1900"
+            },
+            "close": {
+              "day": 4,
+              "time": "2230"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "1145"
+            },
+            "close": {
+              "day": 5,
+              "time": "1445"
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "time": "1900"
+            },
+            "close": {
+              "day": 5,
+              "time": "2230"
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "time": "1900"
+            },
+            "close": {
+              "day": 6,
+              "time": "2230"
+            }
+          }
+        ],
+        "weekday_text": [
+          "Monday: 11:45 - 14:45,  19:00 - 22:30",
+          "Tuesday: 11:45 - 14:45,  19:00 - 22:30",
+          "Wednesday: 11:45 - 14:45,  19:00 - 22:30",
+          "Thursday: 11:45 - 14:45,  19:00 - 22:30",
+          "Friday: 11:45 - 14:45,  19:00 - 22:30",
+          "Saturday: 19:00 - 22:30",
+          "Sunday: Closed"
+        ]
+      },
+      "features": [
+        "Accepts Credit Cards",
+        "Reservations",
+        "Seating",
+        "Table Service"
+      ],
+      "cuisine": [
+        {
+          "name": "thai",
+          "localized_name": "Thai"
+        },
+        {
+          "name": "asian",
+          "localized_name": "Asian"
+        }
+      ],
+      "category": {
+        "name": "restaurant",
+        "localized_name": "Restaurant"
+      },
+      "subcategory": [],
+      "neighborhood_info": [],
+      "trip_types": [
+        {
+          "name": "business",
+          "localized_name": "Business",
+          "value": "1"
+        },
+        {
+          "name": "couples",
+          "localized_name": "Couples",
+          "value": "0"
+        },
+        {
+          "name": "solo",
+          "localized_name": "Solo travel",
+          "value": "0"
+        },
+        {
+          "name": "family",
+          "localized_name": "Family",
+          "value": "3"
+        },
+        {
+          "name": "friends",
+          "localized_name": "Friends getaway",
+          "value": "6"
+        }
+      ],
+      "awards": [],
+      "id": 8
+    },
+    {
+      "location_id": "7987800",
+      "name": "A la Mere de Famille",
+      "web_url": "https://www.tripadvisor.com/Attraction_Review-g187147-d7987800-Reviews-A_la_Mere_de_Famille-Paris_Ile_de_France.html?m=66827",
+      "address_obj": {
+        "street1": "39 rue du Cherche Midi",
+        "city": "Paris",
+        "country": "France",
+        "postalcode": "75006",
+        "address_string": "39 rue du Cherche Midi, 75006 Paris France"
+      },
+      "ancestors": [
+        {
+          "level": "City",
+          "name": "Paris",
+          "location_id": "187147"
+        },
+        {
+          "level": "Region",
+          "name": "Ile-de-France",
+          "location_id": "187144"
+        },
+        {
+          "level": "Country",
+          "name": "France",
+          "location_id": "187070"
+        }
+      ],
+      "latitude": "48.84941",
+      "longitude": "2.32635",
+      "timezone": "Europe/Paris",
+      "phone": "+33 1 42 22 49 99",
+      "website": "http://www.lameredefamille.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d7987800-A_la_Mere_de_Famille-Paris_Ile_de_France.html?m=66827",
+      "ranking_data": {
+        "geo_location_id": "187147",
+        "ranking_string": "#166 of 1,162 Shopping in Paris",
+        "geo_location_name": "Paris",
+        "ranking_out_of": "1162",
+        "ranking": "166"
+      },
+      "rating": "4.5",
+      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
+      "num_reviews": "25",
+      "review_rating_count": {
+        "1": "2",
+        "2": "1",
+        "3": "1",
+        "4": "4",
+        "5": "17"
+      },
+      "photo_count": "14",
+      "see_all_photos": "https://www.tripadvisor.com/Attraction_Review-g187147-d7987800-m66827-Reviews-A_la_Mere_de_Famille-Paris_Ile_de_France.html#photos",
+      "category": {
+        "name": "attraction",
+        "localized_name": "Attraction"
+      },
+      "subcategory": [
+        {
+          "name": "shopping",
+          "localized_name": "Shopping"
+        }
+      ],
+      "groups": [
+        {
+          "name": "Shopping",
+          "localized_name": "Shopping",
+          "categories": [
+            {
+              "name": "Gift & Specialty Shops",
+              "localized_name": "Gift & Specialty Shops"
+            }
+          ]
+        }
+      ],
+      "neighborhood_info": [
+        {
+          "location_id": "15621573",
+          "name": "Notre-Dame-des-Champs"
         }
       ],
       "trip_types": [
@@ -1069,39 +2020,37 @@
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "6"
+          "value": "7"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "4"
+          "value": "2"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "8"
+          "value": "4"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "4"
+          "value": "3"
         }
       ],
       "awards": [],
-      "id": 2
+      "id": 9
     },
     {
-      "location_id": "197535",
-      "name": "Fraser Suites Le Claridge Champs-Elysees",
-      "description": "Le Claridge Champs-Elysées, built in 1914 right on the Champs-Elysées Avenue, has been witness to a century of political and romantic history of France. Secrets kept forever behind the walls of this legendary palace which has welcomed so many stars. A century later, Le Claridge Champs Elysées and its facade became listed French historical monuments, entering into the world of the most beautiful hotel residences in the world. The renovation changed this historical establishment into a contemporary, elegant Parisian residence. Spacious and comfortable, the110 Suites and apartments offer an exceptional view of the Champs Elysées Avenue or the peaceful patio of the residence. The blend of black and beige in the wall-to-wall carpeting evoke the black and white checkered pattern of the Parisian townhouses and the play of blue bands painted on the walls creates a unique ambiance. Wild silk curtains, velvet chairs, wool rugs and leather bring back the luxury of Claridge’s past glory. This is a new era for the Claridge Champs Elysées which, in 2006, joined the prestigious Fraser Suites collection.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197535-Reviews-Fraser_Suites_Le_Claridge_Champs_Elysees-Paris_Ile_de_France.html?m=66827",
+      "location_id": "3897375",
+      "name": "L’Eclair de Genie",
+      "web_url": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3897375-Reviews-L_Eclair_de_Genie-Paris_Ile_de_France.html?m=66827",
       "address_obj": {
-        "street1": "74 Avenue des Champs Elysees",
-        "street2": "",
+        "street1": "14 rue Pavee",
         "city": "Paris",
         "country": "France",
-        "postalcode": "75008",
-        "address_string": "74 Avenue des Champs Elysees, 75008 Paris France"
+        "postalcode": "75004",
+        "address_string": "14 rue Pavee, 75004 Paris France"
       },
       "ancestors": [
         {
@@ -1120,1379 +2069,202 @@
           "location_id": "187070"
         }
       ],
-      "latitude": "48.871086",
-      "longitude": "2.304845",
+      "latitude": "48.856518",
+      "longitude": "2.360676",
       "timezone": "Europe/Paris",
-      "phone": "01133144133333",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d197535-Fraser_Suites_Le_Claridge_Champs_Elysees-Paris_Ile_de_France.html?m=66827",
+      "email": "contact@leclairdegenie.com",
+      "phone": "+33 1 42 77 85 11",
+      "website": "http://leclairdegenie.com/",
+      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d3897375-L_Eclair_de_Genie-Paris_Ile_de_France.html?m=66827",
       "ranking_data": {
         "geo_location_id": "187147",
-        "ranking_string": "#683 of 1,896 hotels in Paris",
+        "ranking_string": "#2,761 of 20,567 Places to Eat in Paris",
         "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "683"
+        "ranking_out_of": "20567",
+        "ranking": "2761"
       },
       "rating": "4.0",
       "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "801",
+      "num_reviews": "1023",
       "review_rating_count": {
-        "1": "65",
-        "2": "42",
-        "3": "67",
-        "4": "179",
-        "5": "448"
+        "1": "83",
+        "2": "117",
+        "3": "168",
+        "4": "249",
+        "5": "406"
       },
       "subratings": {
         "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
+          "name": "rate_food",
+          "localized_name": "Food",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
+          "value": "4.0"
         },
         "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
+          "name": "rate_atmosphere",
+          "localized_name": "Atmosphere",
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.5.svg",
+          "value": "3.5"
         },
         "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "3": {
           "name": "rate_service",
           "localized_name": "Service",
           "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
           "value": "4.0"
         },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        }
-      },
-      "photo_count": "577",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d197535-m66827-Reviews-Fraser_Suites_Le_Claridge_Champs_Elysees-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$$",
-      "amenities": [
-        "Internet",
-        "Free Internet",
-        "Wifi",
-        "Free Wifi",
-        "Business center",
-        "Fitness center",
-        "Wheelchair access",
-        "Kitchenette",
-        "Suites",
-        "Public Wifi",
-        "Dry Cleaning",
-        "Meeting rooms",
-        "Non-smoking rooms",
-        "Laundry Service",
-        "Concierge",
-        "Air conditioning",
-        "Family Rooms",
-        "Multilingual Staff",
-        "Self-Serve Laundry",
-        "Accessible rooms",
-        "Microwave",
-        "Refrigerator in room",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Private Balcony",
-        "Breakfast Available",
-        "Baggage Storage",
-        "Bath / Shower",
-        "24-Hour Check-in",
-        "Desk",
-        "English",
-        "Complimentary Toiletries",
-        "French",
-        "Ironing Service",
-        "Non-smoking hotel",
-        "Housekeeping",
-        "Arabic",
-        "Bathrobes",
-        "Blackout Curtains",
-        "Bottled Water",
-        "Chinese",
-        "Clothes Dryer",
-        "Dining Area",
-        "Electric Kettle",
-        "First Aid Kit",
-        "24-Hour Front Desk",
-        "Hair Dryer",
-        "Highchairs Available",
-        "Iron",
-        "Italian",
-        "Kitchenware",
-        "Landmark View",
-        "Laptop Safe",
-        "Newspaper",
-        "Outdoor Furniture",
-        "Private Bathrooms",
-        "Paid Public Parking Nearby",
-        "Seating Area",
-        "24-Hour Security",
-        "Separate Living Room",
-        "Sofa",
-        "Soundproof Rooms",
-        "Spanish",
-        "Stovetop",
-        "Taxi Service",
-        "Telephone",
-        "Wake Up Service / Alarm Clock",
-        "Wardrobe / Closet",
-        "Washing Machine"
-      ],
-      "parent_brand": "Frasers",
-      "brand": "Fraser Suites",
-      "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
-      },
-      "subcategory": [
-        {
-          "name": "hotel",
-          "localized_name": "Hotel"
-        }
-      ],
-      "styles": [
-        "Great View",
-        "City View"
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
-        },
-        {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "15621623",
-          "name": "Faubourg-du-Roule"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "72"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "171"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "20"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "338"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "71"
-        }
-      ],
-      "awards": [
-        {
-          "award_type": "Travelers Choice",
-          "year": "2024",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "location_id": "229527",
-      "name": "Warwick Paris",
-      "description": "Warwick Paris hotel is a city centre landmark of comfort, tranquillity and contemporary style, nestled at the cusp of downtown's \"Golden Triangle\" of fashion, culture and art.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d229527-Reviews-Warwick_Paris-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "5 Rue De Berri",
-        "street2": "",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75008",
-        "address_string": "5 Rue De Berri, 75008 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.8717",
-      "longitude": "2.3028",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d229527-Warwick_Paris-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#771 of 1,896 hotels in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "771"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "1110",
-      "review_rating_count": {
-        "1": "62",
-        "2": "70",
-        "3": "109",
-        "4": "322",
-        "5": "547"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
         "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "4": {
           "name": "rate_value",
           "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
+          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss3.0.svg",
+          "value": "3.0"
         }
       },
-      "photo_count": "363",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d229527-m66827-Reviews-Warwick_Paris-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$$",
+      "photo_count": "604",
+      "see_all_photos": "https://www.tripadvisor.com/Restaurant_Review-g187147-d3897375-m66827-Reviews-L_Eclair_de_Genie-Paris_Ile_de_France.html#photos",
+      "price_level": "$$ - $$$",
       "hours": {
         "periods": [
           {
             "open": {
               "day": 1,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 1,
-              "time": "0000"
+              "time": "1930"
             }
           },
           {
             "open": {
               "day": 2,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 2,
-              "time": "0000"
+              "time": "1930"
             }
           },
           {
             "open": {
               "day": 3,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 3,
-              "time": "0000"
+              "time": "1930"
             }
           },
           {
             "open": {
               "day": 4,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 4,
-              "time": "0000"
+              "time": "1930"
             }
           },
           {
             "open": {
               "day": 5,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 5,
-              "time": "0000"
+              "time": "1930"
             }
           },
           {
             "open": {
               "day": 6,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 6,
-              "time": "0000"
+              "time": "1930"
             }
           },
           {
             "open": {
               "day": 7,
-              "time": "0000"
+              "time": "1100"
             },
             "close": {
               "day": 7,
-              "time": "0000"
+              "time": "1930"
             }
           }
         ],
         "weekday_text": [
-          "Monday: 00:00 - 00:00",
-          "Tuesday: 00:00 - 00:00",
-          "Wednesday: 00:00 - 00:00",
-          "Thursday: 00:00 - 00:00",
-          "Friday: 00:00 - 00:00",
-          "Saturday: 00:00 - 00:00",
-          "Sunday: 00:00 - 00:00"
+          "Monday: 11:00 - 19:30",
+          "Tuesday: 11:00 - 19:30",
+          "Wednesday: 11:00 - 19:30",
+          "Thursday: 11:00 - 19:30",
+          "Friday: 11:00 - 19:30",
+          "Saturday: 11:00 - 19:30",
+          "Sunday: 11:00 - 19:30"
         ]
       },
-      "amenities": [
-        "Room service",
-        "Free Internet",
-        "Free Wifi",
-        "Meeting rooms",
-        "Dry Cleaning",
-        "Non-smoking rooms",
-        "Laundry Service",
-        "Concierge",
-        "Internet",
-        "Suites",
-        "Wheelchair access",
-        "Restaurant",
-        "Bar/Lounge",
-        "Wifi",
-        "Public Wifi",
-        "Business center",
-        "Multilingual Staff",
-        "Conference Facilities",
-        "Babysitting",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Parking",
-        "Facilities for Disabled Guests",
-        "Housekeeping",
-        "Bath / Shower",
-        "Bathrobes",
-        "Blackout Curtains",
-        "Breakfast in the Room",
-        "24-Hour Check-in",
-        "Desk",
-        "Doorperson",
-        "English",
-        "Complimentary Instant Cofffee",
-        "French",
-        "24-Hour Front Desk",
-        "Hair Dryer",
-        "Ironing Service",
-        "24-Hour Security",
-        "Taxi Service",
-        "Telephone",
-        "VIP Room Facilities",
-        "Wake Up Service / Alarm Clock",
-        "Banquet Room",
-        "Safe",
-        "Breakfast Available",
-        "Baggage Storage",
-        "Bidet",
-        "Bridal Suite",
-        "Cable / Satellite TV",
-        "Clothes Rack",
-        "Electric Kettle",
-        "Complimentary Toiletries",
-        "Interconnected room(s) available",
-        "Iron",
-        "Landmark View",
-        "Newspaper",
-        "Private Bathrooms",
-        "Paid Public Parking On-site",
-        "Seating Area",
-        "Separate Living Room",
-        "Sofa",
-        "Sofa Bed",
-        "Soundproof Rooms",
-        "Spanish",
-        "Street Parking",
-        "Valet Parking",
-        "Wardrobe / Closet"
+      "features": [
+        "Accepts Credit Cards",
+        "Table Service",
+        "Takeout"
       ],
-      "parent_brand": "Warwick International Hotels (WIH)",
-      "brand": "Warwick Hotels and Resorts",
+      "cuisine": [
+        {
+          "name": "french",
+          "localized_name": "French"
+        }
+      ],
       "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
+        "name": "restaurant",
+        "localized_name": "Restaurant"
       },
       "subcategory": [
         {
-          "name": "hotel",
-          "localized_name": "Hotel"
+          "name": "sit_down",
+          "localized_name": "Sit down"
         }
-      ],
-      "styles": [
-        "City View",
-        "Classic"
       ],
       "neighborhood_info": [
         {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
+          "location_id": "15621598",
+          "name": "Saint-Gervais"
         },
         {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "15621623",
-          "name": "Faubourg-du-Roule"
+          "location_id": "7236763",
+          "name": "Le Marais"
         }
       ],
       "trip_types": [
         {
           "name": "business",
           "localized_name": "Business",
-          "value": "240"
+          "value": "15"
         },
         {
           "name": "couples",
           "localized_name": "Couples",
-          "value": "398"
+          "value": "319"
         },
         {
           "name": "solo",
           "localized_name": "Solo travel",
-          "value": "61"
+          "value": "116"
         },
         {
           "name": "family",
           "localized_name": "Family",
-          "value": "224"
+          "value": "192"
         },
         {
           "name": "friends",
           "localized_name": "Friends getaway",
-          "value": "74"
+          "value": "227"
         }
       ],
       "awards": [],
-      "id": 4
-    },
-    {
-      "location_id": "197529",
-      "name": "Hotel California",
-      "description": "Built in 1925, this Haussmanian style building has been the favourite luxury hotel of the American press and Hollywood Stars. More than just a hotel, this is an authentic art gallery for all art lovers with its private collection of over 3000 oils and lithographs. With its fine sense of luxury, this 4 star hotel has been turned into a fine family mansion just a step away from the Champs Elysees and belongs to Les Hotels du Roy group.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d197529-Reviews-Hotel_California-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "16 rue de Berri",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75008",
-        "address_string": "16 rue de Berri, 75008 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.872765",
-      "longitude": "2.304882",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d197529-Hotel_California-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#724 of 1,896 hotels in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "724"
-      },
-      "rating": "4.0",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-66827-5.svg",
-      "num_reviews": "1027",
-      "review_rating_count": {
-        "1": "39",
-        "2": "42",
-        "3": "140",
-        "4": "435",
-        "5": "371"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        }
-      },
-      "photo_count": "278",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d197529-m66827-Reviews-Hotel_California-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$",
-      "amenities": [
-        "Restaurant",
-        "Room service",
-        "Business center",
-        "Suites",
-        "Fitness center",
-        "Bar/Lounge",
-        "Internet",
-        "Free Internet",
-        "Wheelchair access",
-        "Airport transportation",
-        "Wifi",
-        "Free Wifi",
-        "Dry Cleaning",
-        "Meeting rooms",
-        "Non-smoking rooms",
-        "Laundry Service",
-        "Concierge",
-        "Banquet Room",
-        "Air conditioning",
-        "Family Rooms",
-        "Multilingual Staff",
-        "Minibar",
-        "Conference Facilities",
-        "Non-smoking hotel",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Breakfast Available",
-        "Facilities for Disabled Guests",
-        "Housekeeping",
-        "Baggage Storage",
-        "English",
-        "Ironing Service",
-        "Taxi Service",
-        "Arabic",
-        "Express Check-in / Check-out",
-        "Coffee Shop",
-        "Coffee / Tea Maker",
-        "Currency Exchange",
-        "Desk",
-        "French",
-        "24-Hour Front Desk",
-        "Hair Dryer",
-        "iPod Docking Station",
-        "Iron",
-        "Italian",
-        "Salon",
-        "Shops",
-        "Soundproof Rooms",
-        "Spanish",
-        "Telephone",
-        "Valet Parking",
-        "Wake Up Service / Alarm Clock"
-      ],
-      "parent_brand": "Preferred Hotel Group",
-      "brand": "Preferred Hotels & Resorts",
-      "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
-      },
-      "subcategory": [
-        {
-          "name": "hotel",
-          "localized_name": "Hotel"
-        }
-      ],
-      "styles": [
-        "Green",
-        "Classic"
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
-        },
-        {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "15621623",
-          "name": "Faubourg-du-Roule"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "283"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "286"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "44"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "218"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "88"
-        }
-      ],
-      "awards": [],
-      "id": 5
-    },
-    {
-      "location_id": "1470781",
-      "name": "Cristal Champs Elysees",
-      "description": "Just a stone’s throw from one of the most beautiful streets in the world and yet in a calm setting you will find the Champs-Elysées Cristal Hotel.An undisturbed location, like a secret treasure, located on Rue Washington, 50meters from the Champs Elysees and which is a new-found area for luxury shopping in a prestigious district. The hotel is ideally located for professional or tourist activities.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d1470781-Reviews-Cristal_Champs_Elysees-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "9 rue Washington",
-        "street2": "",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75008",
-        "address_string": "9 rue Washington, 75008 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.872643",
-      "longitude": "2.302172",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d1470781-Cristal_Champs_Elysees-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#709 of 1,896 hotels in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "709"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "438",
-      "review_rating_count": {
-        "1": "8",
-        "2": "16",
-        "3": "41",
-        "4": "130",
-        "5": "243"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.0.svg",
-          "value": "4.0"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        }
-      },
-      "photo_count": "155",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d1470781-m66827-Reviews-Cristal_Champs_Elysees-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$",
-      "amenities": [
-        "Internet",
-        "Free Internet",
-        "Wifi",
-        "Free Wifi",
-        "Non-smoking rooms",
-        "Concierge",
-        "Air conditioning",
-        "Multilingual Staff",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Housekeeping",
-        "English",
-        "Complimentary Instant Cofffee",
-        "Suites",
-        "Room service",
-        "Wheelchair access",
-        "Dry Cleaning",
-        "Business center",
-        "Laundry Service",
-        "Minibar",
-        "Non-smoking hotel",
-        "Electric vehicle charging station",
-        "Arabic",
-        "ATM On Site",
-        "Baggage Storage",
-        "Bottled Water",
-        "Breakfast in the Room",
-        "Express Check-in / Check-out",
-        "Coffee Shop",
-        "French",
-        "24-Hour Front Desk",
-        "Ironing Service",
-        "Italian",
-        "Newspaper",
-        "Portuguese",
-        "Paid Public Parking Nearby",
-        "Russian",
-        "Spanish",
-        "Street Parking",
-        "Wine / Champagne"
-      ],
-      "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
-      },
-      "subcategory": [
-        {
-          "name": "hotel",
-          "localized_name": "Hotel"
-        }
-      ],
-      "styles": [
-        "Quirky Hotels",
-        "Modern"
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
-        },
-        {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "15621623",
-          "name": "Faubourg-du-Roule"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "90"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "218"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "37"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "57"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "30"
-        }
-      ],
-      "awards": [],
-      "id": 6
-    },
-    {
-      "location_id": "23338812",
-      "name": "citizenM Paris Champs-Elysees",
-      "description": "Picasso, Hemingway, Fitzgerald – there's a reason artists have always flocked to Paris. It's the city of love, of lights, and now another citizenM. Our fourth Parisian hotel stands on the world's most luxurious street – Champs-Élysées. ​Unlike the usual high prices and la-di-da hospitality you find on the avenue, citizenM gives you affordable luxury in a prime location. When you arrive at our can't-miss hotel, there's no long queue at reception. Self-check-in takes only a minute at our kiosks – or use our app to check-in before you arrive. The second-floor living room is packed with art, books and oh-so-comfy Vitra furniture. Feeling peckish? Slide over to canteenM – it's open 24/7 and expands onto an amazing outdoor terrace with bistro-style furniture and chic loungers. There's an intimate, awning-covered courtyard for all-weather dining. The 8th-floor cloudM bar serves shaken and stirred cocktails with a side of Eiffel Tower views. At the front is a terrace overlooking the iconic Champs-Élysées. At the back, an expansive hideout and lusciously green inner courtyard. Is this a place to dine, date or party? We think so! Our hot & cold breakfast buffet comes with unique local treats, familiar favorites, and healthy options for everyone — including vegans and vegetarians. Pile your plate with warm pastries, scrambled eggs, fresh fruit, and more.",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d23338812-Reviews-CitizenM_Paris_Champs_Elysees-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "128 rue la Boetie",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75008",
-        "address_string": "128 rue la Boetie, 75008 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.870937",
-      "longitude": "2.305799",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d23338812-CitizenM_Paris_Champs_Elysees-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#351 of 1,896 hotels in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "351"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "295",
-      "review_rating_count": {
-        "1": "9",
-        "2": "11",
-        "3": "18",
-        "4": "38",
-        "5": "219"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        }
-      },
-      "photo_count": "181",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d23338812-m66827-Reviews-CitizenM_Paris_Champs_Elysees-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$",
-      "amenities": [
-        "Bar/Lounge",
-        "Free Wifi",
-        "Air conditioning",
-        "Multilingual Staff",
-        "Outdoor Furniture",
-        "Free Internet",
-        "Wheelchair access",
-        "Restaurant",
-        "Wifi",
-        "Public Wifi",
-        "Non-smoking rooms",
-        "Business center",
-        "Laundry Service",
-        "Non-smoking hotel",
-        "Safe",
-        "Rooftop Bar",
-        "Flatscreen TV",
-        "Breakfast Buffet",
-        "Breakfast Available",
-        "Facilities for Disabled Guests",
-        "Housekeeping",
-        "Kids Stay Free",
-        "Allergy-free Room",
-        "Baggage Storage",
-        "Bath / Shower",
-        "Blackout Curtains",
-        "Cable / Satellite TV",
-        "Express Check-in / Check-out",
-        "Coffee Shop",
-        "Desk",
-        "English",
-        "Extra Long Beds",
-        "Complimentary Toiletries",
-        "Free Wifi in the Business Center",
-        "French",
-        "24-Hour Front Desk",
-        "Hair Dryer",
-        "iPod Docking Station",
-        "Iron",
-        "Ironing Service",
-        "Laptop Safe",
-        "Private Bathrooms",
-        "Private Check-in / Check-out",
-        "Radio",
-        "Shared Lounge / TV Area",
-        "Shared Bathroom",
-        "Special Diet Menus",
-        "Telephone",
-        "Photo Copier / Fax In Business Center"
-      ],
-      "parent_brand": "citizenM Hotels",
-      "brand": "citizenM",
-      "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
-      },
-      "subcategory": [
-        {
-          "name": "hotel",
-          "localized_name": "Hotel"
-        }
-      ],
-      "styles": [
-        "Modern",
-        "Centrally Located"
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
-        },
-        {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "15621623",
-          "name": "Faubourg-du-Roule"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "47"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "34"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "13"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "22"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "10"
-        }
-      ],
-      "awards": [
-        {
-          "award_type": "Travelers Choice",
-          "year": "2024",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        },
-        {
-          "award_type": "Travelers Choice",
-          "year": "2023",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        }
-      ],
-      "id": 7
-    },
-    {
-      "location_id": "194306",
-      "name": "Hotel Vernet",
-      "description": "Welcome to Hotel Vernet, your Paris “home away from home.” Hotel Vernet aims to make your visit as relaxing and enjoyable as possible, which is why so many guests continue to come back year after year.\nClose to some of Paris' most popular landmarks, such as Louvre Museum (1.9 mi) and Montmartre (2.1 mi), Hotel Vernet is a great destination for tourists.\nAs your “home away from home,” the hotel rooms offer a flat screen TV, air conditioning, and a minibar, and getting online is easy, with free wifi available.\nGuests have access to room service and a concierge while staying at Hotel Vernet. In addition, Hotel Vernet offers breakfast, which will help make your Paris trip additionally gratifying.\nIf you like seafood restaurants, Hotel Vernet is conveniently located near Le Jules Verne, Pedra Alta, and Le Grand Colbert.\nIf you’re looking for something to do, Eiffel Tower (1.0 mi), Arc de Triomphe (0.2 mi), and Champs-Elysees (0.5 mi) are a nice way to spend some time, and they are all within walking distance of Hotel Vernet.\nHotel Vernet puts the best of Paris at your fingertips, making your stay both relaxing and enjoyable.\n",
-      "web_url": "https://www.tripadvisor.com/Hotel_Review-g187147-d194306-Reviews-Hotel_Vernet-Paris_Ile_de_France.html?m=66827",
-      "address_obj": {
-        "street1": "25 rue Vernet",
-        "city": "Paris",
-        "country": "France",
-        "postalcode": "75008",
-        "address_string": "25 rue Vernet, 75008 Paris France"
-      },
-      "ancestors": [
-        {
-          "level": "City",
-          "name": "Paris",
-          "location_id": "187147"
-        },
-        {
-          "level": "Region",
-          "name": "Ile-de-France",
-          "location_id": "187144"
-        },
-        {
-          "level": "Country",
-          "name": "France",
-          "location_id": "187070"
-        }
-      ],
-      "latitude": "48.872025",
-      "longitude": "2.297828",
-      "timezone": "Europe/Paris",
-      "write_review": "https://www.tripadvisor.com/UserReview-g187147-d194306-Hotel_Vernet-Paris_Ile_de_France.html?m=66827",
-      "ranking_data": {
-        "geo_location_id": "187147",
-        "ranking_string": "#20 of 1,896 hotels in Paris",
-        "geo_location_name": "Paris",
-        "ranking_out_of": "1896",
-        "ranking": "20"
-      },
-      "rating": "4.5",
-      "rating_image_url": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-66827-5.svg",
-      "num_reviews": "825",
-      "review_rating_count": {
-        "1": "13",
-        "2": "15",
-        "3": "36",
-        "4": "110",
-        "5": "651"
-      },
-      "subratings": {
-        "0": {
-          "name": "rate_location",
-          "localized_name": "Location",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        },
-        "1": {
-          "name": "rate_sleep",
-          "localized_name": "Sleep Quality",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "2": {
-          "name": "rate_room",
-          "localized_name": "Rooms",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "3": {
-          "name": "rate_service",
-          "localized_name": "Service",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "4": {
-          "name": "rate_value",
-          "localized_name": "Value",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss4.5.svg",
-          "value": "4.5"
-        },
-        "5": {
-          "name": "rate_cleanliness",
-          "localized_name": "Cleanliness",
-          "rating_image_url": "https://static.tacdn.com/img2/ratings/traveler/ss5.0.svg",
-          "value": "5.0"
-        }
-      },
-      "photo_count": "417",
-      "see_all_photos": "https://www.tripadvisor.com/Hotel_Review-g187147-d194306-m66827-Reviews-Hotel_Vernet-Paris_Ile_de_France.html#photos",
-      "price_level": "$$$$",
-      "amenities": [
-        "Internet",
-        "Free Internet",
-        "Free Wifi",
-        "Suites",
-        "Room service",
-        "Wheelchair access",
-        "Restaurant",
-        "Bar/Lounge",
-        "Wifi",
-        "Public Wifi",
-        "Dry Cleaning",
-        "Meeting rooms",
-        "Non-smoking rooms",
-        "Business center",
-        "Laundry Service",
-        "Concierge",
-        "Banquet Room",
-        "Air conditioning",
-        "Family Rooms",
-        "Multilingual Staff",
-        "Accessible rooms",
-        "Minibar",
-        "Babysitting",
-        "Non-smoking hotel",
-        "Safe",
-        "Flatscreen TV",
-        "Breakfast Available",
-        "Facilities for Disabled Guests",
-        "Allergy-free Room",
-        "Arabic",
-        "Baggage Storage",
-        "Blackout Curtains",
-        "Breakfast in the Room",
-        "Bridal Suite",
-        "24-Hour Check-in",
-        "English",
-        "Complimentary Instant Cofffee",
-        "French",
-        "24-Hour Front Desk",
-        "Ironing Service",
-        "24-Hour Security",
-        "Soundproof Rooms",
-        "Spanish",
-        "Special Diet Menus",
-        "Taxi Service"
-      ],
-      "parent_brand": "B Signature Group",
-      "brand": "B Signature Hotels & Resorts",
-      "category": {
-        "name": "hotel",
-        "localized_name": "Hotel"
-      },
-      "subcategory": [
-        {
-          "name": "hotel",
-          "localized_name": "Hotel"
-        }
-      ],
-      "styles": [
-        "Luxury",
-        "Romantic"
-      ],
-      "neighborhood_info": [
-        {
-          "location_id": "15621630",
-          "name": "8th Arr. - Elysee"
-        },
-        {
-          "location_id": "7236770",
-          "name": "Champs-Elysees"
-        },
-        {
-          "location_id": "15621659",
-          "name": "Etoile"
-        },
-        {
-          "location_id": "15621555",
-          "name": "Champs-Elysees Quartier"
-        }
-      ],
-      "trip_types": [
-        {
-          "name": "business",
-          "localized_name": "Business",
-          "value": "153"
-        },
-        {
-          "name": "couples",
-          "localized_name": "Couples",
-          "value": "279"
-        },
-        {
-          "name": "solo",
-          "localized_name": "Solo travel",
-          "value": "26"
-        },
-        {
-          "name": "family",
-          "localized_name": "Family",
-          "value": "187"
-        },
-        {
-          "name": "friends",
-          "localized_name": "Friends getaway",
-          "value": "56"
-        }
-      ],
-      "awards": [
-        {
-          "award_type": "Travelers Choice Best of the Best",
-          "year": "2024",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2024_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2024_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_bob_2024_L.png"
-          },
-          "categories": [
-            "Luxury",
-            "Top"
-          ],
-          "display_name": "Travelers Choice Best of the Best"
-        },
-        {
-          "award_type": "Travelers Choice",
-          "year": "2024",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2024_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        },
-        {
-          "award_type": "Travelers Choice",
-          "year": "2023",
-          "images": {
-            "tiny": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
-            "small": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png",
-            "large": "https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2023_L.png"
-          },
-          "categories": [],
-          "display_name": "Travelers Choice"
-        }
-      ],
-      "id": 8
+      "id": 10
     }
   ]
 }
