@@ -2,6 +2,7 @@
 
 Sightsee is an interactive web application for trip planning, featuring a 3D mapping interface and full CRUD functionality for exploring and collecting points of interest (POIs).
 
+
 <img width="1504" alt="Screenshot 2024-07-17 at 10 11 15 AM" src="https://github.com/user-attachments/assets/6d373c0d-f3fb-4d98-bf49-57bda7d55ad7">
 
 
