@@ -1,3 +1,6 @@
+![sightsee-logo-flat](https://github.com/user-attachments/assets/24f35600-d23e-4b10-9e75-e42fd4434cc1)
+
+
 # Welcome to sightsee!
 
 Sightsee is an interactive web application for trip planning, featuring a 3D mapping interface and full CRUD functionality for exploring and collecting points of interest (POIs).
