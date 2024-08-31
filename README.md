@@ -51,6 +51,13 @@ VITE_MAPBOX_API_KEY=your_mapbox_api_key
 VITE_TRIPADVISOR_API_KEY=your_tripadvisor_api_key
 ```
 
+A Mapbox API access token can be secured with the following instructions:  
+https://docs.mapbox.com/help/getting-started/access-tokens/  
+
+A TripAdvisor Content API key can be secured with the following instructions:  
+https://tripadvisor-content-api.readme.io/reference/faq  
+
+
 4. Start the development server:
 
 ```
